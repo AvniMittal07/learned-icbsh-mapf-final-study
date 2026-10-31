@@ -1,0 +1,2 @@
+# Optional figure generation only; not imported by solver workers.
+matplotlib==3.11.2

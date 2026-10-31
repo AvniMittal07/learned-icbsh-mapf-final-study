@@ -1,0 +1,12 @@
+{
+  "status": "APPROVED_STUDY_AND_REPORT_COMPLETED",
+  "primary_speed_claim_supported": false,
+  "verdict": "Model B did not establish a speed improvement over residual selection in the frozen final test.",
+  "final_runs": 648,
+  "independent_families": 18,
+  "final_test_consumed": true,
+  "phase_reserved_cpu_hours": 2.848611111111111,
+  "total_reserved_cpu_hours": 6.081944444444445,
+  "remote_published": false,
+  "protocol_sha256": "7d89046a22eb4d628440a7900dc5dd375b9cb00444a0ac2221294025b15cbd00"
+}

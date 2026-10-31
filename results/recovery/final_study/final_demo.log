@@ -1,0 +1,10 @@
+{
+  "status": "SOLVED",
+  "cost": 415,
+  "nodes_expanded": 9,
+  "end_to_end_wall_seconds": 0.9321156000369228,
+  "peak_rss_bytes": 35508224
+}
+Saved results\recovery\final_study\demo_model_b.json
+Worker CPU seconds (excluding subprocesses): 0.0938; affinity=[0]
+{"exit_code": 0, "wall_seconds": 1.2825741000124253, "phase_reserved_cpu_hours": 2.8402777777777777, "total_reserved_cpu_hours": 6.073611111111111}

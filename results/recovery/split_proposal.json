@@ -1,0 +1,395 @@
+{
+  "status": "UNAPPROVED_REQUIRES_SCENARIO_HASHES",
+  "groups": [
+    {
+      "map_name": "Paris_1_256",
+      "scenario_id": 1,
+      "group": "Paris_1_256/scenario-1",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "Paris_1_256",
+      "scenario_id": 2,
+      "group": "Paris_1_256/scenario-2",
+      "proposed_partition": "validation"
+    },
+    {
+      "map_name": "Paris_1_256",
+      "scenario_id": 3,
+      "group": "Paris_1_256/scenario-3",
+      "proposed_partition": "test"
+    },
+    {
+      "map_name": "Paris_1_256",
+      "scenario_id": 4,
+      "group": "Paris_1_256/scenario-4",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "Paris_1_256",
+      "scenario_id": 5,
+      "group": "Paris_1_256/scenario-5",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "Paris_1_256",
+      "scenario_id": 6,
+      "group": "Paris_1_256/scenario-6",
+      "proposed_partition": "test"
+    },
+    {
+      "map_name": "Paris_1_256",
+      "scenario_id": 7,
+      "group": "Paris_1_256/scenario-7",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "Paris_1_256",
+      "scenario_id": 8,
+      "group": "Paris_1_256/scenario-8",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "Paris_1_256",
+      "scenario_id": 9,
+      "group": "Paris_1_256/scenario-9",
+      "proposed_partition": "validation"
+    },
+    {
+      "map_name": "Paris_1_256",
+      "scenario_id": 10,
+      "group": "Paris_1_256/scenario-10",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "random-32-32-20",
+      "scenario_id": 1,
+      "group": "random-32-32-20/scenario-1",
+      "proposed_partition": "validation"
+    },
+    {
+      "map_name": "random-32-32-20",
+      "scenario_id": 2,
+      "group": "random-32-32-20/scenario-2",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "random-32-32-20",
+      "scenario_id": 3,
+      "group": "random-32-32-20/scenario-3",
+      "proposed_partition": "validation"
+    },
+    {
+      "map_name": "random-32-32-20",
+      "scenario_id": 4,
+      "group": "random-32-32-20/scenario-4",
+      "proposed_partition": "validation"
+    },
+    {
+      "map_name": "random-32-32-20",
+      "scenario_id": 5,
+      "group": "random-32-32-20/scenario-5",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "random-32-32-20",
+      "scenario_id": 6,
+      "group": "random-32-32-20/scenario-6",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "random-32-32-20",
+      "scenario_id": 7,
+      "group": "random-32-32-20/scenario-7",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "random-32-32-20",
+      "scenario_id": 8,
+      "group": "random-32-32-20/scenario-8",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "random-32-32-20",
+      "scenario_id": 9,
+      "group": "random-32-32-20/scenario-9",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "random-32-32-20",
+      "scenario_id": 10,
+      "group": "random-32-32-20/scenario-10",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "random-32-32-20",
+      "scenario_id": 11,
+      "group": "random-32-32-20/scenario-11",
+      "proposed_partition": "test"
+    },
+    {
+      "map_name": "random-32-32-20",
+      "scenario_id": 12,
+      "group": "random-32-32-20/scenario-12",
+      "proposed_partition": "test"
+    },
+    {
+      "map_name": "random-32-32-20",
+      "scenario_id": 13,
+      "group": "random-32-32-20/scenario-13",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "random-32-32-20",
+      "scenario_id": 14,
+      "group": "random-32-32-20/scenario-14",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "random-32-32-20",
+      "scenario_id": 15,
+      "group": "random-32-32-20/scenario-15",
+      "proposed_partition": "validation"
+    },
+    {
+      "map_name": "random-32-32-20",
+      "scenario_id": 16,
+      "group": "random-32-32-20/scenario-16",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "random-32-32-20",
+      "scenario_id": 17,
+      "group": "random-32-32-20/scenario-17",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "random-32-32-20",
+      "scenario_id": 18,
+      "group": "random-32-32-20/scenario-18",
+      "proposed_partition": "test"
+    },
+    {
+      "map_name": "random-32-32-20",
+      "scenario_id": 19,
+      "group": "random-32-32-20/scenario-19",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "random-32-32-20",
+      "scenario_id": 20,
+      "group": "random-32-32-20/scenario-20",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "room-32-32-4",
+      "scenario_id": 1,
+      "group": "room-32-32-4/scenario-1",
+      "proposed_partition": "validation"
+    },
+    {
+      "map_name": "room-32-32-4",
+      "scenario_id": 2,
+      "group": "room-32-32-4/scenario-2",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "room-32-32-4",
+      "scenario_id": 3,
+      "group": "room-32-32-4/scenario-3",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "room-32-32-4",
+      "scenario_id": 4,
+      "group": "room-32-32-4/scenario-4",
+      "proposed_partition": "validation"
+    },
+    {
+      "map_name": "room-32-32-4",
+      "scenario_id": 5,
+      "group": "room-32-32-4/scenario-5",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "room-32-32-4",
+      "scenario_id": 6,
+      "group": "room-32-32-4/scenario-6",
+      "proposed_partition": "validation"
+    },
+    {
+      "map_name": "room-32-32-4",
+      "scenario_id": 7,
+      "group": "room-32-32-4/scenario-7",
+      "proposed_partition": "test"
+    },
+    {
+      "map_name": "room-32-32-4",
+      "scenario_id": 8,
+      "group": "room-32-32-4/scenario-8",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "room-32-32-4",
+      "scenario_id": 9,
+      "group": "room-32-32-4/scenario-9",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "room-32-32-4",
+      "scenario_id": 10,
+      "group": "room-32-32-4/scenario-10",
+      "proposed_partition": "validation"
+    },
+    {
+      "map_name": "room-32-32-4",
+      "scenario_id": 11,
+      "group": "room-32-32-4/scenario-11",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "room-32-32-4",
+      "scenario_id": 12,
+      "group": "room-32-32-4/scenario-12",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "room-32-32-4",
+      "scenario_id": 13,
+      "group": "room-32-32-4/scenario-13",
+      "proposed_partition": "validation"
+    },
+    {
+      "map_name": "room-32-32-4",
+      "scenario_id": 14,
+      "group": "room-32-32-4/scenario-14",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "room-32-32-4",
+      "scenario_id": 15,
+      "group": "room-32-32-4/scenario-15",
+      "proposed_partition": "test"
+    },
+    {
+      "map_name": "room-32-32-4",
+      "scenario_id": 16,
+      "group": "room-32-32-4/scenario-16",
+      "proposed_partition": "test"
+    },
+    {
+      "map_name": "room-32-32-4",
+      "scenario_id": 17,
+      "group": "room-32-32-4/scenario-17",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "room-32-32-4",
+      "scenario_id": 18,
+      "group": "room-32-32-4/scenario-18",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "room-32-32-4",
+      "scenario_id": 19,
+      "group": "room-32-32-4/scenario-19",
+      "proposed_partition": "validation"
+    },
+    {
+      "map_name": "room-32-32-4",
+      "scenario_id": 20,
+      "group": "room-32-32-4/scenario-20",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "warehouse-32-32-aisles",
+      "scenario_id": 1,
+      "group": "warehouse-32-32-aisles/scenario-1",
+      "proposed_partition": "validation"
+    },
+    {
+      "map_name": "warehouse-32-32-aisles",
+      "scenario_id": 2,
+      "group": "warehouse-32-32-aisles/scenario-2",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "warehouse-32-32-aisles",
+      "scenario_id": 3,
+      "group": "warehouse-32-32-aisles/scenario-3",
+      "proposed_partition": "validation"
+    },
+    {
+      "map_name": "warehouse-32-32-aisles",
+      "scenario_id": 4,
+      "group": "warehouse-32-32-aisles/scenario-4",
+      "proposed_partition": "test"
+    },
+    {
+      "map_name": "warehouse-32-32-aisles",
+      "scenario_id": 5,
+      "group": "warehouse-32-32-aisles/scenario-5",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "warehouse-32-32-aisles",
+      "scenario_id": 6,
+      "group": "warehouse-32-32-aisles/scenario-6",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "warehouse-32-32-aisles",
+      "scenario_id": 7,
+      "group": "warehouse-32-32-aisles/scenario-7",
+      "proposed_partition": "test"
+    },
+    {
+      "map_name": "warehouse-32-32-aisles",
+      "scenario_id": 8,
+      "group": "warehouse-32-32-aisles/scenario-8",
+      "proposed_partition": "validation"
+    },
+    {
+      "map_name": "warehouse-32-32-aisles",
+      "scenario_id": 9,
+      "group": "warehouse-32-32-aisles/scenario-9",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "warehouse-32-32-aisles",
+      "scenario_id": 10,
+      "group": "warehouse-32-32-aisles/scenario-10",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "warehouse-32-32-aisles",
+      "scenario_id": 11,
+      "group": "warehouse-32-32-aisles/scenario-11",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "warehouse-32-32-aisles",
+      "scenario_id": 12,
+      "group": "warehouse-32-32-aisles/scenario-12",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "warehouse-32-32-aisles",
+      "scenario_id": 13,
+      "group": "warehouse-32-32-aisles/scenario-13",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "warehouse-32-32-aisles",
+      "scenario_id": 14,
+      "group": "warehouse-32-32-aisles/scenario-14",
+      "proposed_partition": "train"
+    },
+    {
+      "map_name": "warehouse-32-32-aisles",
+      "scenario_id": 15,
+      "group": "warehouse-32-32-aisles/scenario-15",
+      "proposed_partition": "test"
+    }
+  ]
+}

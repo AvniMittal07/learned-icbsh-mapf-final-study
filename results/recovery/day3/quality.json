@@ -1,0 +1,448 @@
+{
+  "protocol_sha256": "0258fd32d45d4ba98b3077bd11f323a443bcfbae41f4578985a5f3124cd51988",
+  "integrity": {
+    "splits": {
+      "families": 90,
+      "instances": 270,
+      "families_by_split": {
+        "train": 60,
+        "validation": 12,
+        "test": 18
+      },
+      "instances_by_split": {
+        "train": 180,
+        "validation": 36,
+        "test": 54
+      },
+      "cross_split_instance_overlap": 0
+    },
+    "replayed_queries": 35,
+    "replay_mismatches": 0,
+    "archived_source_sha256": "23be6a912228e75fe0f8e1d5f986ab8a7952375d3f2a3036a7c2c4305f945250",
+    "source_archive_verified": true,
+    "guard_diagnostic": {
+      "certified_pairs_within_actual_guard_shortlist": 13,
+      "queries_with_such_pairs": 8,
+      "sampled_candidates_within_shortlist": 56,
+      "all_eligible_candidates": 298,
+      "caveat": "Diagnostic computed after labels; frozen quality gate uses all sampled tier-eligible pairs"
+    }
+  },
+  "consistency": {
+    "comparisons": {
+      "low_to_medium": {
+        "comparable_solved_candidates": 13,
+        "deterministic_mismatches": 0,
+        "lost_solved_candidates": 0,
+        "comparable_certified_pairs": 5,
+        "reversed_preferences": 0
+      },
+      "medium_to_high": {
+        "comparable_solved_candidates": 21,
+        "deterministic_mismatches": 0,
+        "lost_solved_candidates": 0,
+        "comparable_certified_pairs": 15,
+        "reversed_preferences": 0
+      },
+      "low_to_high": {
+        "comparable_solved_candidates": 13,
+        "deterministic_mismatches": 0,
+        "lost_solved_candidates": 0,
+        "comparable_certified_pairs": 5,
+        "reversed_preferences": 0
+      }
+    },
+    "conflicting_solution_cost_queries": [],
+    "interpretation": "Deterministic consistency check only; does not validate global-search oracle accuracy"
+  },
+  "queries": 35,
+  "candidate_count": 116,
+  "sampled_candidate_pairs": 147,
+  "budgets": {
+    "low": {
+      "statuses": {
+        "EXPANSION_CAP": 103,
+        "SOLVED": 13
+      },
+      "candidate_rollouts": 116,
+      "certified_pairs": 5,
+      "pair_types": {
+        "fully_solved": 5
+      },
+      "informative_queries": 4,
+      "fully_solved_queries": 6,
+      "rollout_cpu_seconds": {
+        "mean": 0.11274245689655173,
+        "median": 0.109375,
+        "p95": 0.171875,
+        "total": 13.078125
+      },
+      "rollout_wall_seconds": {
+        "mean": 0.11746189568782875,
+        "median": 0.11201354999502655,
+        "p95": 0.1658803750106017,
+        "total": 13.625579899788136
+      },
+      "by_split": {
+        "train": {
+          "queries": 23,
+          "informative_queries": 2,
+          "informative_families": 2,
+          "certified_pairs": 2
+        },
+        "validation": {
+          "queries": 12,
+          "informative_queries": 2,
+          "informative_families": 2,
+          "certified_pairs": 3
+        }
+      },
+      "by_map": {
+        "random-32-32-20": {
+          "queries": 12,
+          "informative_queries": 2,
+          "informative_families": 2,
+          "certified_pairs": 2
+        },
+        "room-32-32-4": {
+          "queries": 12,
+          "informative_queries": 0,
+          "informative_families": 0,
+          "certified_pairs": 0
+        },
+        "warehouse-32-32-aisles": {
+          "queries": 11,
+          "informative_queries": 2,
+          "informative_families": 2,
+          "certified_pairs": 3
+        }
+      }
+    },
+    "medium": {
+      "statuses": {
+        "SOLVED": 21,
+        "EXPANSION_CAP": 95
+      },
+      "candidate_rollouts": 116,
+      "certified_pairs": 15,
+      "pair_types": {
+        "fully_solved": 12,
+        "solved_vs_censored": 3
+      },
+      "informative_queries": 7,
+      "fully_solved_queries": 8,
+      "rollout_cpu_seconds": {
+        "mean": 0.4469288793103448,
+        "median": 0.4453125,
+        "p95": 0.6875,
+        "total": 51.84375
+      },
+      "rollout_wall_seconds": {
+        "mean": 0.4794229818972185,
+        "median": 0.4663672499882523,
+        "p95": 0.731772050006839,
+        "total": 55.613065900077345
+      },
+      "by_split": {
+        "train": {
+          "queries": 23,
+          "informative_queries": 5,
+          "informative_families": 4,
+          "certified_pairs": 12
+        },
+        "validation": {
+          "queries": 12,
+          "informative_queries": 2,
+          "informative_families": 2,
+          "certified_pairs": 3
+        }
+      },
+      "by_map": {
+        "random-32-32-20": {
+          "queries": 12,
+          "informative_queries": 4,
+          "informative_families": 3,
+          "certified_pairs": 11
+        },
+        "room-32-32-4": {
+          "queries": 12,
+          "informative_queries": 0,
+          "informative_families": 0,
+          "certified_pairs": 0
+        },
+        "warehouse-32-32-aisles": {
+          "queries": 11,
+          "informative_queries": 3,
+          "informative_families": 3,
+          "certified_pairs": 4
+        }
+      }
+    },
+    "high": {
+      "statuses": {
+        "SOLVED": 28,
+        "EXPANSION_CAP": 88
+      },
+      "candidate_rollouts": 116,
+      "certified_pairs": 22,
+      "pair_types": {
+        "fully_solved": 22
+      },
+      "informative_queries": 9,
+      "fully_solved_queries": 11,
+      "rollout_cpu_seconds": {
+        "mean": 2.1457435344827585,
+        "median": 2.265625,
+        "p95": 3.70703125,
+        "total": 248.90625
+      },
+      "rollout_wall_seconds": {
+        "mean": 2.25495705430989,
+        "median": 2.356945049992646,
+        "p95": 3.8529080500011332,
+        "total": 261.57501829994726
+      },
+      "by_split": {
+        "train": {
+          "queries": 23,
+          "informative_queries": 6,
+          "informative_families": 4,
+          "certified_pairs": 13
+        },
+        "validation": {
+          "queries": 12,
+          "informative_queries": 3,
+          "informative_families": 2,
+          "certified_pairs": 9
+        }
+      },
+      "by_map": {
+        "random-32-32-20": {
+          "queries": 12,
+          "informative_queries": 5,
+          "informative_families": 3,
+          "certified_pairs": 17
+        },
+        "room-32-32-4": {
+          "queries": 12,
+          "informative_queries": 0,
+          "informative_families": 0,
+          "certified_pairs": 0
+        },
+        "warehouse-32-32-aisles": {
+          "queries": 11,
+          "informative_queries": 4,
+          "informative_families": 3,
+          "certified_pairs": 5
+        }
+      }
+    }
+  },
+  "quality_gate": {
+    "passed": false,
+    "metrics": {
+      "train_informative_queries": 6,
+      "train_families": 4,
+      "validation_informative_queries": 3,
+      "validation_families": 2,
+      "maps_with_informative_queries": 2,
+      "informative_fraction": 0.2571428571428571,
+      "replay_mismatches": 0
+    },
+    "failed_checks": [
+      {
+        "metric": "train_informative_queries",
+        "observed": 6,
+        "required_minimum": 12
+      },
+      {
+        "metric": "train_families",
+        "observed": 4,
+        "required_minimum": 6
+      },
+      {
+        "metric": "validation_informative_queries",
+        "observed": 3,
+        "required_minimum": 6
+      },
+      {
+        "metric": "validation_families",
+        "observed": 2,
+        "required_minimum": 3
+      },
+      {
+        "metric": "informative_fraction",
+        "observed": 0.2571428571428571,
+        "required_minimum": 0.4
+      }
+    ],
+    "thresholds": {
+      "min_train_informative_queries": 12,
+      "min_train_families": 6,
+      "min_validation_informative_queries": 6,
+      "min_validation_families": 3,
+      "min_maps_with_informative_queries": 2,
+      "min_informative_fraction": 0.4,
+      "replay_mismatches_allowed": 0
+    }
+  },
+  "test_evaluated": false,
+  "analytical_offline_diagnostics": {
+    "train": {
+      "residual": {
+        "queries": 6,
+        "families": 4,
+        "certified_pairs": 13,
+        "query_macro_accuracy": 0.8333333333333334,
+        "family_macro_accuracy": 0.7916666666666666,
+        "per_query": [
+          {
+            "query_id": "random-32-32-20/family-00/k24/q0",
+            "family_id": "random-32-32-20/family-00",
+            "certified_pairs": 6,
+            "pair_accuracy": 0.3333333333333333
+          },
+          {
+            "query_id": "random-32-32-20/family-03/k32/q0",
+            "family_id": "random-32-32-20/family-03",
+            "certified_pairs": 3,
+            "pair_accuracy": 0.6666666666666666
+          },
+          {
+            "query_id": "random-32-32-20/family-03/k32/q4",
+            "family_id": "random-32-32-20/family-03",
+            "certified_pairs": 1,
+            "pair_accuracy": 1.0
+          },
+          {
+            "query_id": "warehouse-32-32-aisles/family-00/k24/q0",
+            "family_id": "warehouse-32-32-aisles/family-00",
+            "certified_pairs": 1,
+            "pair_accuracy": 1.0
+          },
+          {
+            "query_id": "warehouse-32-32-aisles/family-00/k24/q7",
+            "family_id": "warehouse-32-32-aisles/family-00",
+            "certified_pairs": 1,
+            "pair_accuracy": 1.0
+          },
+          {
+            "query_id": "warehouse-32-32-aisles/family-02/k24/q0",
+            "family_id": "warehouse-32-32-aisles/family-02",
+            "certified_pairs": 1,
+            "pair_accuracy": 1.0
+          }
+        ],
+        "caveat": "Only observable sampled pairs; censored selection bias remains; ties receive half credit"
+      },
+      "earliest": {
+        "queries": 6,
+        "families": 4,
+        "certified_pairs": 13,
+        "query_macro_accuracy": 0.3888888888888889,
+        "family_macro_accuracy": 0.3333333333333333,
+        "per_query": [
+          {
+            "query_id": "random-32-32-20/family-00/k24/q0",
+            "family_id": "random-32-32-20/family-00",
+            "certified_pairs": 6,
+            "pair_accuracy": 0.3333333333333333
+          },
+          {
+            "query_id": "random-32-32-20/family-03/k32/q0",
+            "family_id": "random-32-32-20/family-03",
+            "certified_pairs": 3,
+            "pair_accuracy": 0.0
+          },
+          {
+            "query_id": "random-32-32-20/family-03/k32/q4",
+            "family_id": "random-32-32-20/family-03",
+            "certified_pairs": 1,
+            "pair_accuracy": 0.0
+          },
+          {
+            "query_id": "warehouse-32-32-aisles/family-00/k24/q0",
+            "family_id": "warehouse-32-32-aisles/family-00",
+            "certified_pairs": 1,
+            "pair_accuracy": 1.0
+          },
+          {
+            "query_id": "warehouse-32-32-aisles/family-00/k24/q7",
+            "family_id": "warehouse-32-32-aisles/family-00",
+            "certified_pairs": 1,
+            "pair_accuracy": 1.0
+          },
+          {
+            "query_id": "warehouse-32-32-aisles/family-02/k24/q0",
+            "family_id": "warehouse-32-32-aisles/family-02",
+            "certified_pairs": 1,
+            "pair_accuracy": 0.0
+          }
+        ],
+        "caveat": "Only observable sampled pairs; censored selection bias remains; ties receive half credit"
+      }
+    },
+    "validation": {
+      "residual": {
+        "queries": 3,
+        "families": 2,
+        "certified_pairs": 9,
+        "query_macro_accuracy": 0.8333333333333334,
+        "family_macro_accuracy": 0.875,
+        "per_query": [
+          {
+            "query_id": "random-32-32-20/family-20/k24/q0",
+            "family_id": "random-32-32-20/family-20",
+            "certified_pairs": 6,
+            "pair_accuracy": 0.5
+          },
+          {
+            "query_id": "random-32-32-20/family-20/k24/q6",
+            "family_id": "random-32-32-20/family-20",
+            "certified_pairs": 1,
+            "pair_accuracy": 1.0
+          },
+          {
+            "query_id": "warehouse-32-32-aisles/family-20/k24/q0",
+            "family_id": "warehouse-32-32-aisles/family-20",
+            "certified_pairs": 2,
+            "pair_accuracy": 1.0
+          }
+        ],
+        "caveat": "Only observable sampled pairs; censored selection bias remains; ties receive half credit"
+      },
+      "earliest": {
+        "queries": 3,
+        "families": 2,
+        "certified_pairs": 9,
+        "query_macro_accuracy": 0.5,
+        "family_macro_accuracy": 0.375,
+        "per_query": [
+          {
+            "query_id": "random-32-32-20/family-20/k24/q0",
+            "family_id": "random-32-32-20/family-20",
+            "certified_pairs": 6,
+            "pair_accuracy": 0.5
+          },
+          {
+            "query_id": "random-32-32-20/family-20/k24/q6",
+            "family_id": "random-32-32-20/family-20",
+            "certified_pairs": 1,
+            "pair_accuracy": 1.0
+          },
+          {
+            "query_id": "warehouse-32-32-aisles/family-20/k24/q0",
+            "family_id": "warehouse-32-32-aisles/family-20",
+            "certified_pairs": 2,
+            "pair_accuracy": 0.0
+          }
+        ],
+        "caveat": "Only observable sampled pairs; censored selection bias remains; ties receive half credit"
+      }
+    }
+  },
+  "linear_baseline": {
+    "trained": false,
+    "reason": "Frozen label-quality gate failed; no model fit or model selection performed"
+  }
+}

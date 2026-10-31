@@ -1,0 +1,96 @@
+{
+  "states": 237,
+  "candidate_labels": 1064,
+  "independently_recomputed_child_MVC_values": 2128,
+  "child_path_costs_match_parent_optimal_replans": true,
+  "max_child_MVC": 10,
+  "feature_pool_and_path_checks_passed": true,
+  "source_archive_verified": true,
+  "family_split_overlap": 0,
+  "training_scalers_verified": true,
+  "all_48_families_attempted": true,
+  "zero_query_families": [
+    "warehouse-32-32-aisles/family-09/k16",
+    "warehouse-32-32-aisles/family-10/k24",
+    "warehouse-32-32-aisles/family-12/k16",
+    "random-32-32-20/family-14/k16",
+    "warehouse-32-32-aisles/family-15/k16",
+    "random-32-32-20/family-17/k16",
+    "random-32-32-20/family-23/k16"
+  ],
+  "test_evaluated": false,
+  "offline_diagnostics": {
+    "train": {
+      "continuation": {
+        "analytical_within_old_pool": {
+          "family_macro_pair_accuracy": 0.5185185185185185,
+          "informative_families": 6,
+          "teacher_choice_counts": {},
+          "choices_differing_from_residual": 0
+        },
+        "model_a": {
+          "family_macro_pair_accuracy": 0.8194444444444444,
+          "informative_families": 6,
+          "teacher_choice_counts": {},
+          "choices_differing_from_residual": 0
+        }
+      },
+      "teacher": {
+        "residual": {
+          "family_macro_pair_accuracy": 0.7492297316804706,
+          "informative_families": 29,
+          "teacher_choice_counts": {
+            "queries": 199,
+            "chosen_teacher_maximum": 135
+          },
+          "choices_differing_from_residual": 0
+        },
+        "model_b": {
+          "family_macro_pair_accuracy": 0.795426561328655,
+          "informative_families": 29,
+          "teacher_choice_counts": {
+            "queries": 199,
+            "chosen_teacher_maximum": 137
+          },
+          "choices_differing_from_residual": 70
+        }
+      }
+    },
+    "validation": {
+      "continuation": {
+        "analytical_within_old_pool": {
+          "family_macro_pair_accuracy": 0.8055555555555556,
+          "informative_families": 4,
+          "teacher_choice_counts": {},
+          "choices_differing_from_residual": 0
+        },
+        "model_a": {
+          "family_macro_pair_accuracy": 0.611111111111111,
+          "informative_families": 4,
+          "teacher_choice_counts": {},
+          "choices_differing_from_residual": 0
+        }
+      },
+      "teacher": {
+        "residual": {
+          "family_macro_pair_accuracy": 0.8751984126984127,
+          "informative_families": 10,
+          "teacher_choice_counts": {
+            "queries": 38,
+            "chosen_teacher_maximum": 32
+          },
+          "choices_differing_from_residual": 0
+        },
+        "model_b": {
+          "family_macro_pair_accuracy": 0.8526404151404151,
+          "informative_families": 10,
+          "teacher_choice_counts": {
+            "queries": 38,
+            "chosen_teacher_maximum": 30
+          },
+          "choices_differing_from_residual": 8
+        }
+      }
+    }
+  }
+}

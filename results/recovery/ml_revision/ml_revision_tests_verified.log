@@ -1,0 +1,13 @@
+test_model_inference_has_no_child_teacher (mapf.test_ml_revision.RevisionTests.test_model_inference_has_no_child_teacher) ... ok
+test_pool_always_contains_residual_winner_and_is_deterministic (mapf.test_ml_revision.RevisionTests.test_pool_always_contains_residual_winner_and_is_deterministic) ... ok
+test_revised_policies_preserve_tiny_independent_optima (mapf.test_ml_revision.RevisionTests.test_revised_policies_preserve_tiny_independent_optima) ... ok
+test_teacher_matches_actual_root_children (mapf.test_ml_revision.RevisionTests.test_teacher_matches_actual_root_children) ... ok
+test_three_agent_choices_match_independent_optima (mapf.test_ml_revision.RevisionTests.test_three_agent_choices_match_independent_optima) ... ok
+test_unknown_and_infeasibility_are_not_finite_penalties (mapf.test_ml_revision.RevisionTests.test_unknown_and_infeasibility_are_not_finite_penalties) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.463s
+
+OK
+Worker CPU seconds (excluding subprocesses): 0.5781; affinity=[0]
+{"exit_code": 0, "wall_seconds": 0.7925391000171658, "total_reserved_cpu_hours": 2.3208333333333333}

@@ -1,0 +1,609 @@
+{
+  "protocol_sha256": "5127e81046ac4361644524f6939daeb60d2922a571b784a0bad6dabac66f9fca",
+  "queries": 53,
+  "families": 18,
+  "candidate_count": 144,
+  "sampled_candidate_pairs": 129,
+  "integrity": {
+    "queries_replayed": 53,
+    "guard_replay_mismatches": 0,
+    "feature_replay_mismatches": 0,
+    "solution_paths_independently_revalidated": 182,
+    "source_archive_verified": true,
+    "source_sha256": "391d72f8dd77d8bdff09bc8e3f08f592c1fc8e2636f47e494059f5b05c70dc4e",
+    "fresh_family_selection": true,
+    "quality_thresholds_unchanged": true,
+    "cbs_same_state_comparisons": [
+      {
+        "query_id": "random-32-32-20/family-04/k24/guard-q0",
+        "icbs_status": "SOLVED",
+        "cbs_status": "EXPANSION_CAP",
+        "icbs_expanded": 12,
+        "cbs_expanded": 1000,
+        "icbs_cpu": 0.140625,
+        "cbs_cpu": 2.703125
+      },
+      {
+        "query_id": "random-32-32-20/family-04/k24/guard-q0",
+        "icbs_status": "SOLVED",
+        "cbs_status": "EXPANSION_CAP",
+        "icbs_expanded": 12,
+        "cbs_expanded": 1000,
+        "icbs_cpu": 0.234375,
+        "cbs_cpu": 3.65625
+      },
+      {
+        "query_id": "room-32-32-4/family-04/k24/guard-q0",
+        "icbs_status": "TIME_CAP",
+        "cbs_status": "EXPANSION_CAP",
+        "icbs_expanded": 189,
+        "cbs_expanded": 1000,
+        "icbs_cpu": 4.890625,
+        "cbs_cpu": 3.265625
+      },
+      {
+        "query_id": "room-32-32-4/family-04/k24/guard-q0",
+        "icbs_status": "TIME_CAP",
+        "cbs_status": "EXPANSION_CAP",
+        "icbs_expanded": 186,
+        "cbs_expanded": 1000,
+        "icbs_cpu": 5.359375,
+        "cbs_cpu": 3.296875
+      },
+      {
+        "query_id": "room-32-32-4/family-04/k24/guard-q0",
+        "icbs_status": "TIME_CAP",
+        "cbs_status": "EXPANSION_CAP",
+        "icbs_expanded": 222,
+        "cbs_expanded": 1000,
+        "icbs_cpu": 5.859375,
+        "cbs_cpu": 3.28125
+      },
+      {
+        "query_id": "warehouse-32-32-aisles/family-04/k24/guard-q0",
+        "icbs_status": "SOLVED",
+        "cbs_status": "EXPANSION_CAP",
+        "icbs_expanded": 26,
+        "cbs_expanded": 1000,
+        "icbs_cpu": 0.359375,
+        "cbs_cpu": 4.75
+      },
+      {
+        "query_id": "warehouse-32-32-aisles/family-04/k24/guard-q0",
+        "icbs_status": "SOLVED",
+        "cbs_status": "EXPANSION_CAP",
+        "icbs_expanded": 26,
+        "cbs_expanded": 1000,
+        "icbs_cpu": 0.375,
+        "cbs_cpu": 4.671875
+      },
+      {
+        "query_id": "warehouse-32-32-aisles/family-04/k24/guard-q0",
+        "icbs_status": "SOLVED",
+        "cbs_status": "EXPANSION_CAP",
+        "icbs_expanded": 26,
+        "cbs_expanded": 1000,
+        "icbs_cpu": 0.328125,
+        "cbs_cpu": 4.6875
+      }
+    ],
+    "test_evaluated": false
+  },
+  "consistency": {
+    "comparisons": {
+      "low_to_medium": {
+        "comparable_solved_candidates": 36,
+        "deterministic_mismatches": 0,
+        "lost_solved_candidates": 0,
+        "comparable_certified_pairs": 10,
+        "reversed_preferences": 0
+      },
+      "medium_to_high": {
+        "comparable_solved_candidates": 60,
+        "deterministic_mismatches": 0,
+        "lost_solved_candidates": 0,
+        "comparable_certified_pairs": 26,
+        "reversed_preferences": 0
+      },
+      "low_to_high": {
+        "comparable_solved_candidates": 36,
+        "deterministic_mismatches": 0,
+        "lost_solved_candidates": 0,
+        "comparable_certified_pairs": 10,
+        "reversed_preferences": 0
+      }
+    },
+    "conflicting_solution_cost_queries": [],
+    "interpretation": "Deterministic consistency check only; does not validate global-search oracle accuracy"
+  },
+  "budgets": {
+    "low": {
+      "statuses": {
+        "SOLVED": 36,
+        "TIME_CAP": 108
+      },
+      "candidate_rollouts": 144,
+      "certified_pairs": 10,
+      "pair_types": {
+        "fully_solved": 9,
+        "solved_vs_censored": 1
+      },
+      "informative_queries": 5,
+      "fully_solved_queries": 14,
+      "rollout_cpu_seconds": {
+        "mean": 0.3940972222222222,
+        "median": 0.4375,
+        "p95": 0.515625,
+        "total": 56.75
+      },
+      "rollout_wall_seconds": {
+        "mean": 0.4332848312502999,
+        "median": 0.5024773000041023,
+        "p95": 0.5171285500109661,
+        "total": 62.39301570004318
+      },
+      "by_split": {
+        "train": {
+          "queries": 35,
+          "informative_queries": 2,
+          "informative_families": 1,
+          "certified_pairs": 5
+        },
+        "validation": {
+          "queries": 18,
+          "informative_queries": 3,
+          "informative_families": 2,
+          "certified_pairs": 5
+        }
+      },
+      "by_map": {
+        "random-32-32-20": {
+          "queries": 18,
+          "informative_queries": 4,
+          "informative_families": 2,
+          "certified_pairs": 8
+        },
+        "room-32-32-4": {
+          "queries": 18,
+          "informative_queries": 0,
+          "informative_families": 0,
+          "certified_pairs": 0
+        },
+        "warehouse-32-32-aisles": {
+          "queries": 17,
+          "informative_queries": 1,
+          "informative_families": 1,
+          "certified_pairs": 2
+        }
+      }
+    },
+    "medium": {
+      "statuses": {
+        "SOLVED": 60,
+        "TIME_CAP": 84
+      },
+      "candidate_rollouts": 144,
+      "certified_pairs": 26,
+      "pair_types": {
+        "fully_solved": 23,
+        "solved_vs_censored": 3
+      },
+      "informative_queries": 11,
+      "fully_solved_queries": 22,
+      "rollout_cpu_seconds": {
+        "mean": 1.2637803819444444,
+        "median": 1.6953125,
+        "p95": 1.96640625,
+        "total": 181.984375
+      },
+      "rollout_wall_seconds": {
+        "mean": 1.3993614645832066,
+        "median": 2.0013836000143783,
+        "p95": 2.027110130005167,
+        "total": 201.50805089998175
+      },
+      "by_split": {
+        "train": {
+          "queries": 35,
+          "informative_queries": 5,
+          "informative_families": 3,
+          "certified_pairs": 14
+        },
+        "validation": {
+          "queries": 18,
+          "informative_queries": 6,
+          "informative_families": 3,
+          "certified_pairs": 12
+        }
+      },
+      "by_map": {
+        "random-32-32-20": {
+          "queries": 18,
+          "informative_queries": 9,
+          "informative_families": 4,
+          "certified_pairs": 22
+        },
+        "room-32-32-4": {
+          "queries": 18,
+          "informative_queries": 0,
+          "informative_families": 0,
+          "certified_pairs": 0
+        },
+        "warehouse-32-32-aisles": {
+          "queries": 17,
+          "informative_queries": 2,
+          "informative_families": 2,
+          "certified_pairs": 4
+        }
+      }
+    },
+    "high": {
+      "statuses": {
+        "SOLVED": 86,
+        "TIME_CAP": 58
+      },
+      "candidate_rollouts": 144,
+      "certified_pairs": 48,
+      "pair_types": {
+        "fully_solved": 47,
+        "solved_vs_censored": 1
+      },
+      "informative_queries": 19,
+      "fully_solved_queries": 31,
+      "rollout_cpu_seconds": {
+        "mean": 2.9117838541666665,
+        "median": 2.59375,
+        "p95": 5.76328125,
+        "total": 419.296875
+      },
+      "rollout_wall_seconds": {
+        "mean": 3.2438446604153595,
+        "median": 2.887897749998956,
+        "p95": 6.019243370009645,
+        "total": 467.11363109981176
+      },
+      "by_split": {
+        "train": {
+          "queries": 35,
+          "informative_queries": 10,
+          "informative_families": 6,
+          "certified_pairs": 27
+        },
+        "validation": {
+          "queries": 18,
+          "informative_queries": 9,
+          "informative_families": 4,
+          "certified_pairs": 21
+        }
+      },
+      "by_map": {
+        "random-32-32-20": {
+          "queries": 18,
+          "informative_queries": 13,
+          "informative_families": 5,
+          "certified_pairs": 33
+        },
+        "room-32-32-4": {
+          "queries": 18,
+          "informative_queries": 2,
+          "informative_families": 2,
+          "certified_pairs": 5
+        },
+        "warehouse-32-32-aisles": {
+          "queries": 17,
+          "informative_queries": 4,
+          "informative_families": 3,
+          "certified_pairs": 10
+        }
+      }
+    }
+  },
+  "quality_gate": {
+    "passed": false,
+    "metrics": {
+      "train_informative_queries": 10,
+      "train_families": 6,
+      "validation_informative_queries": 9,
+      "validation_families": 4,
+      "maps_with_informative_queries": 3,
+      "informative_fraction": 0.3584905660377358,
+      "replay_mismatches": 0
+    },
+    "failed_checks": [
+      {
+        "metric": "train_informative_queries",
+        "observed": 10,
+        "required_minimum": 12
+      },
+      {
+        "metric": "informative_fraction",
+        "observed": 0.3584905660377358,
+        "required_minimum": 0.4
+      }
+    ],
+    "thresholds": {
+      "min_train_informative_queries": 12,
+      "min_train_families": 6,
+      "min_validation_informative_queries": 6,
+      "min_validation_families": 3,
+      "min_maps_with_informative_queries": 2,
+      "min_informative_fraction": 0.4,
+      "replay_mismatches_allowed": 0
+    }
+  },
+  "test_evaluated": false,
+  "analytical_offline_diagnostics": {
+    "train": {
+      "residual": {
+        "queries": 10,
+        "families": 6,
+        "certified_pairs": 27,
+        "query_macro_accuracy": 0.5166666666666666,
+        "family_macro_accuracy": 0.5185185185185185,
+        "per_query": [
+          {
+            "query_id": "random-32-32-20/family-05/k32/guard-q0",
+            "family_id": "random-32-32-20/family-05",
+            "certified_pairs": 2,
+            "pair_accuracy": 1.0
+          },
+          {
+            "query_id": "random-32-32-20/family-05/k32/guard-q6",
+            "family_id": "random-32-32-20/family-05",
+            "certified_pairs": 2,
+            "pair_accuracy": 0.0
+          },
+          {
+            "query_id": "random-32-32-20/family-06/k24/guard-q0",
+            "family_id": "random-32-32-20/family-06",
+            "certified_pairs": 3,
+            "pair_accuracy": 0.6666666666666666
+          },
+          {
+            "query_id": "random-32-32-20/family-06/k24/guard-q6",
+            "family_id": "random-32-32-20/family-06",
+            "certified_pairs": 3,
+            "pair_accuracy": 0.6666666666666666
+          },
+          {
+            "query_id": "random-32-32-20/family-06/k24/guard-q11",
+            "family_id": "random-32-32-20/family-06",
+            "certified_pairs": 3,
+            "pair_accuracy": 1.0
+          },
+          {
+            "query_id": "random-32-32-20/family-07/k32/guard-q6",
+            "family_id": "random-32-32-20/family-07",
+            "certified_pairs": 3,
+            "pair_accuracy": 0.0
+          },
+          {
+            "query_id": "random-32-32-20/family-07/k32/guard-q11",
+            "family_id": "random-32-32-20/family-07",
+            "certified_pairs": 3,
+            "pair_accuracy": 0.0
+          },
+          {
+            "query_id": "room-32-32-4/family-04/k24/guard-q11",
+            "family_id": "room-32-32-4/family-04",
+            "certified_pairs": 2,
+            "pair_accuracy": 0.5
+          },
+          {
+            "query_id": "room-32-32-4/family-06/k24/guard-q11",
+            "family_id": "room-32-32-4/family-06",
+            "certified_pairs": 3,
+            "pair_accuracy": 0.3333333333333333
+          },
+          {
+            "query_id": "warehouse-32-32-aisles/family-05/k32/guard-q0",
+            "family_id": "warehouse-32-32-aisles/family-05",
+            "certified_pairs": 3,
+            "pair_accuracy": 1.0
+          }
+        ],
+        "caveat": "Only observable sampled pairs; censored selection bias remains; ties receive half credit"
+      },
+      "earliest": {
+        "queries": 10,
+        "families": 6,
+        "certified_pairs": 27,
+        "query_macro_accuracy": 0.3833333333333333,
+        "family_macro_accuracy": 0.41203703703703703,
+        "per_query": [
+          {
+            "query_id": "random-32-32-20/family-05/k32/guard-q0",
+            "family_id": "random-32-32-20/family-05",
+            "certified_pairs": 2,
+            "pair_accuracy": 0.5
+          },
+          {
+            "query_id": "random-32-32-20/family-05/k32/guard-q6",
+            "family_id": "random-32-32-20/family-05",
+            "certified_pairs": 2,
+            "pair_accuracy": 0.0
+          },
+          {
+            "query_id": "random-32-32-20/family-06/k24/guard-q0",
+            "family_id": "random-32-32-20/family-06",
+            "certified_pairs": 3,
+            "pair_accuracy": 0.6666666666666666
+          },
+          {
+            "query_id": "random-32-32-20/family-06/k24/guard-q6",
+            "family_id": "random-32-32-20/family-06",
+            "certified_pairs": 3,
+            "pair_accuracy": 0.0
+          },
+          {
+            "query_id": "random-32-32-20/family-06/k24/guard-q11",
+            "family_id": "random-32-32-20/family-06",
+            "certified_pairs": 3,
+            "pair_accuracy": 1.0
+          },
+          {
+            "query_id": "random-32-32-20/family-07/k32/guard-q6",
+            "family_id": "random-32-32-20/family-07",
+            "certified_pairs": 3,
+            "pair_accuracy": 0.0
+          },
+          {
+            "query_id": "random-32-32-20/family-07/k32/guard-q11",
+            "family_id": "random-32-32-20/family-07",
+            "certified_pairs": 3,
+            "pair_accuracy": 0.0
+          },
+          {
+            "query_id": "room-32-32-4/family-04/k24/guard-q11",
+            "family_id": "room-32-32-4/family-04",
+            "certified_pairs": 2,
+            "pair_accuracy": 1.0
+          },
+          {
+            "query_id": "room-32-32-4/family-06/k24/guard-q11",
+            "family_id": "room-32-32-4/family-06",
+            "certified_pairs": 3,
+            "pair_accuracy": 0.3333333333333333
+          },
+          {
+            "query_id": "warehouse-32-32-aisles/family-05/k32/guard-q0",
+            "family_id": "warehouse-32-32-aisles/family-05",
+            "certified_pairs": 3,
+            "pair_accuracy": 0.3333333333333333
+          }
+        ],
+        "caveat": "Only observable sampled pairs; censored selection bias remains; ties receive half credit"
+      }
+    },
+    "validation": {
+      "residual": {
+        "queries": 9,
+        "families": 4,
+        "certified_pairs": 21,
+        "query_macro_accuracy": 0.7407407407407407,
+        "family_macro_accuracy": 0.8055555555555556,
+        "per_query": [
+          {
+            "query_id": "random-32-32-20/family-22/k24/guard-q0",
+            "family_id": "random-32-32-20/family-22",
+            "certified_pairs": 3,
+            "pair_accuracy": 1.0
+          },
+          {
+            "query_id": "random-32-32-20/family-22/k24/guard-q3",
+            "family_id": "random-32-32-20/family-22",
+            "certified_pairs": 2,
+            "pair_accuracy": 0.5
+          },
+          {
+            "query_id": "random-32-32-20/family-22/k24/guard-q6",
+            "family_id": "random-32-32-20/family-22",
+            "certified_pairs": 1,
+            "pair_accuracy": 1.0
+          },
+          {
+            "query_id": "random-32-32-20/family-23/k32/guard-q0",
+            "family_id": "random-32-32-20/family-23",
+            "certified_pairs": 3,
+            "pair_accuracy": 0.3333333333333333
+          },
+          {
+            "query_id": "random-32-32-20/family-23/k32/guard-q6",
+            "family_id": "random-32-32-20/family-23",
+            "certified_pairs": 2,
+            "pair_accuracy": 0.5
+          },
+          {
+            "query_id": "random-32-32-20/family-23/k32/guard-q11",
+            "family_id": "random-32-32-20/family-23",
+            "certified_pairs": 3,
+            "pair_accuracy": 0.3333333333333333
+          },
+          {
+            "query_id": "warehouse-32-32-aisles/family-22/k24/guard-q0",
+            "family_id": "warehouse-32-32-aisles/family-22",
+            "certified_pairs": 2,
+            "pair_accuracy": 1.0
+          },
+          {
+            "query_id": "warehouse-32-32-aisles/family-23/k32/guard-q6",
+            "family_id": "warehouse-32-32-aisles/family-23",
+            "certified_pairs": 3,
+            "pair_accuracy": 1.0
+          },
+          {
+            "query_id": "warehouse-32-32-aisles/family-23/k32/guard-q11",
+            "family_id": "warehouse-32-32-aisles/family-23",
+            "certified_pairs": 2,
+            "pair_accuracy": 1.0
+          }
+        ],
+        "caveat": "Only observable sampled pairs; censored selection bias remains; ties receive half credit"
+      },
+      "earliest": {
+        "queries": 9,
+        "families": 4,
+        "certified_pairs": 21,
+        "query_macro_accuracy": 0.4074074074074074,
+        "family_macro_accuracy": 0.4027777777777778,
+        "per_query": [
+          {
+            "query_id": "random-32-32-20/family-22/k24/guard-q0",
+            "family_id": "random-32-32-20/family-22",
+            "certified_pairs": 3,
+            "pair_accuracy": 0.3333333333333333
+          },
+          {
+            "query_id": "random-32-32-20/family-22/k24/guard-q3",
+            "family_id": "random-32-32-20/family-22",
+            "certified_pairs": 2,
+            "pair_accuracy": 0.0
+          },
+          {
+            "query_id": "random-32-32-20/family-22/k24/guard-q6",
+            "family_id": "random-32-32-20/family-22",
+            "certified_pairs": 1,
+            "pair_accuracy": 1.0
+          },
+          {
+            "query_id": "random-32-32-20/family-23/k32/guard-q0",
+            "family_id": "random-32-32-20/family-23",
+            "certified_pairs": 3,
+            "pair_accuracy": 0.3333333333333333
+          },
+          {
+            "query_id": "random-32-32-20/family-23/k32/guard-q6",
+            "family_id": "random-32-32-20/family-23",
+            "certified_pairs": 2,
+            "pair_accuracy": 0.5
+          },
+          {
+            "query_id": "random-32-32-20/family-23/k32/guard-q11",
+            "family_id": "random-32-32-20/family-23",
+            "certified_pairs": 3,
+            "pair_accuracy": 0.6666666666666666
+          },
+          {
+            "query_id": "warehouse-32-32-aisles/family-22/k24/guard-q0",
+            "family_id": "warehouse-32-32-aisles/family-22",
+            "certified_pairs": 2,
+            "pair_accuracy": 0.5
+          },
+          {
+            "query_id": "warehouse-32-32-aisles/family-23/k32/guard-q6",
+            "family_id": "warehouse-32-32-aisles/family-23",
+            "certified_pairs": 3,
+            "pair_accuracy": 0.3333333333333333
+          },
+          {
+            "query_id": "warehouse-32-32-aisles/family-23/k32/guard-q11",
+            "family_id": "warehouse-32-32-aisles/family-23",
+            "certified_pairs": 2,
+            "pair_accuracy": 0.0
+          }
+        ],
+        "caveat": "Only observable sampled pairs; censored selection bias remains; ties receive half credit"
+      }
+    }
+  }
+}

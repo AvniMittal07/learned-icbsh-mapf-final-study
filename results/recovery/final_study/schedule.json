@@ -1,0 +1,6482 @@
+[
+  {
+    "instance_id": "room-32-32-4/family-24/k32",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0000",
+    "schedule_index": 0
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k24",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0001",
+    "schedule_index": 1
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k32",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0002",
+    "schedule_index": 2
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k32",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0003",
+    "schedule_index": 3
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k16",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0004",
+    "schedule_index": 4
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k16",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0005",
+    "schedule_index": 5
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k24",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0006",
+    "schedule_index": 6
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k32",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0007",
+    "schedule_index": 7
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k24",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0008",
+    "schedule_index": 8
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k16",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0009",
+    "schedule_index": 9
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k16",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0010",
+    "schedule_index": 10
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k32",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0011",
+    "schedule_index": 11
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k16",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0012",
+    "schedule_index": 12
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k32",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0013",
+    "schedule_index": 13
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k16",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0014",
+    "schedule_index": 14
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k24",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0015",
+    "schedule_index": 15
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k24",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0016",
+    "schedule_index": 16
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k24",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0017",
+    "schedule_index": 17
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k16",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0018",
+    "schedule_index": 18
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k16",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0019",
+    "schedule_index": 19
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k16",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0020",
+    "schedule_index": 20
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k32",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0021",
+    "schedule_index": 21
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k16",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0022",
+    "schedule_index": 22
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k24",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0023",
+    "schedule_index": 23
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k24",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0024",
+    "schedule_index": 24
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k24",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0025",
+    "schedule_index": 25
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k32",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0026",
+    "schedule_index": 26
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k24",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0027",
+    "schedule_index": 27
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k32",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0028",
+    "schedule_index": 28
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k16",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0029",
+    "schedule_index": 29
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k32",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0030",
+    "schedule_index": 30
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k32",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0031",
+    "schedule_index": 31
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k16",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0032",
+    "schedule_index": 32
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k16",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0033",
+    "schedule_index": 33
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k24",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0034",
+    "schedule_index": 34
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k16",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0035",
+    "schedule_index": 35
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k24",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0036",
+    "schedule_index": 36
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k24",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0037",
+    "schedule_index": 37
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k16",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0038",
+    "schedule_index": 38
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k16",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0039",
+    "schedule_index": 39
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k24",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0040",
+    "schedule_index": 40
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k16",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0041",
+    "schedule_index": 41
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k24",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0042",
+    "schedule_index": 42
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k16",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0043",
+    "schedule_index": 43
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k16",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0044",
+    "schedule_index": 44
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k24",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0045",
+    "schedule_index": 45
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k32",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0046",
+    "schedule_index": 46
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k16",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0047",
+    "schedule_index": 47
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k24",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0048",
+    "schedule_index": 48
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k24",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0049",
+    "schedule_index": 49
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k32",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0050",
+    "schedule_index": 50
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k32",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0051",
+    "schedule_index": 51
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k16",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0052",
+    "schedule_index": 52
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k24",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0053",
+    "schedule_index": 53
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k24",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0054",
+    "schedule_index": 54
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k24",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0055",
+    "schedule_index": 55
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k24",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0056",
+    "schedule_index": 56
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k24",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0057",
+    "schedule_index": 57
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k32",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0058",
+    "schedule_index": 58
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k16",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0059",
+    "schedule_index": 59
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k32",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0060",
+    "schedule_index": 60
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k32",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0061",
+    "schedule_index": 61
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k24",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0062",
+    "schedule_index": 62
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k16",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0063",
+    "schedule_index": 63
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k24",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0064",
+    "schedule_index": 64
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k16",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0065",
+    "schedule_index": 65
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k32",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0066",
+    "schedule_index": 66
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k32",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0067",
+    "schedule_index": 67
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k16",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0068",
+    "schedule_index": 68
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k24",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0069",
+    "schedule_index": 69
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k24",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0070",
+    "schedule_index": 70
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k16",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0071",
+    "schedule_index": 71
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k24",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0072",
+    "schedule_index": 72
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k32",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0073",
+    "schedule_index": 73
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k32",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0074",
+    "schedule_index": 74
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k32",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0075",
+    "schedule_index": 75
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k32",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0076",
+    "schedule_index": 76
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k32",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0077",
+    "schedule_index": 77
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k32",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0078",
+    "schedule_index": 78
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k24",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0079",
+    "schedule_index": 79
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k16",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0080",
+    "schedule_index": 80
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k32",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0081",
+    "schedule_index": 81
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k24",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0082",
+    "schedule_index": 82
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k16",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0083",
+    "schedule_index": 83
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k32",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0084",
+    "schedule_index": 84
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k24",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0085",
+    "schedule_index": 85
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k16",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0086",
+    "schedule_index": 86
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k16",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0087",
+    "schedule_index": 87
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k32",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0088",
+    "schedule_index": 88
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k32",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0089",
+    "schedule_index": 89
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k24",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0090",
+    "schedule_index": 90
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k16",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0091",
+    "schedule_index": 91
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k32",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0092",
+    "schedule_index": 92
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k24",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0093",
+    "schedule_index": 93
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k16",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0094",
+    "schedule_index": 94
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k16",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0095",
+    "schedule_index": 95
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k24",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0096",
+    "schedule_index": 96
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k16",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0097",
+    "schedule_index": 97
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k24",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0098",
+    "schedule_index": 98
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k24",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0099",
+    "schedule_index": 99
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k32",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0100",
+    "schedule_index": 100
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k32",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0101",
+    "schedule_index": 101
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k24",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0102",
+    "schedule_index": 102
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k16",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0103",
+    "schedule_index": 103
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k32",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0104",
+    "schedule_index": 104
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k16",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0105",
+    "schedule_index": 105
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k16",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0106",
+    "schedule_index": 106
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k24",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0107",
+    "schedule_index": 107
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k32",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0108",
+    "schedule_index": 108
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k24",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0109",
+    "schedule_index": 109
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k24",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0110",
+    "schedule_index": 110
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k24",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0111",
+    "schedule_index": 111
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k16",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0112",
+    "schedule_index": 112
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k32",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0113",
+    "schedule_index": 113
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k24",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0114",
+    "schedule_index": 114
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k32",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0115",
+    "schedule_index": 115
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k32",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0116",
+    "schedule_index": 116
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k24",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0117",
+    "schedule_index": 117
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k16",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0118",
+    "schedule_index": 118
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k24",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0119",
+    "schedule_index": 119
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k32",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0120",
+    "schedule_index": 120
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k32",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0121",
+    "schedule_index": 121
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k32",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0122",
+    "schedule_index": 122
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k16",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0123",
+    "schedule_index": 123
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k24",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0124",
+    "schedule_index": 124
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k32",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0125",
+    "schedule_index": 125
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k24",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0126",
+    "schedule_index": 126
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k32",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0127",
+    "schedule_index": 127
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k16",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0128",
+    "schedule_index": 128
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k32",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0129",
+    "schedule_index": 129
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k32",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0130",
+    "schedule_index": 130
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k16",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0131",
+    "schedule_index": 131
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k24",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0132",
+    "schedule_index": 132
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k16",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0133",
+    "schedule_index": 133
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k32",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0134",
+    "schedule_index": 134
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k16",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0135",
+    "schedule_index": 135
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k32",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0136",
+    "schedule_index": 136
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k24",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0137",
+    "schedule_index": 137
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k32",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0138",
+    "schedule_index": 138
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k32",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0139",
+    "schedule_index": 139
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k16",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0140",
+    "schedule_index": 140
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k16",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0141",
+    "schedule_index": 141
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k16",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0142",
+    "schedule_index": 142
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k16",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0143",
+    "schedule_index": 143
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k32",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0144",
+    "schedule_index": 144
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k24",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0145",
+    "schedule_index": 145
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k16",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0146",
+    "schedule_index": 146
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k16",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0147",
+    "schedule_index": 147
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k24",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0148",
+    "schedule_index": 148
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k16",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0149",
+    "schedule_index": 149
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k24",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0150",
+    "schedule_index": 150
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k32",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0151",
+    "schedule_index": 151
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k32",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0152",
+    "schedule_index": 152
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k24",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0153",
+    "schedule_index": 153
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k24",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0154",
+    "schedule_index": 154
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k32",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0155",
+    "schedule_index": 155
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k32",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0156",
+    "schedule_index": 156
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k24",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0157",
+    "schedule_index": 157
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k32",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0158",
+    "schedule_index": 158
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k32",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0159",
+    "schedule_index": 159
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k16",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0160",
+    "schedule_index": 160
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k32",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0161",
+    "schedule_index": 161
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k24",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0162",
+    "schedule_index": 162
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k24",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0163",
+    "schedule_index": 163
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k16",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0164",
+    "schedule_index": 164
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k16",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0165",
+    "schedule_index": 165
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k24",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0166",
+    "schedule_index": 166
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k32",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0167",
+    "schedule_index": 167
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k32",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0168",
+    "schedule_index": 168
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k32",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0169",
+    "schedule_index": 169
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k16",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0170",
+    "schedule_index": 170
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k16",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0171",
+    "schedule_index": 171
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k32",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0172",
+    "schedule_index": 172
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k16",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0173",
+    "schedule_index": 173
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k16",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0174",
+    "schedule_index": 174
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k32",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0175",
+    "schedule_index": 175
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k24",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0176",
+    "schedule_index": 176
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k32",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0177",
+    "schedule_index": 177
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k16",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0178",
+    "schedule_index": 178
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k32",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0179",
+    "schedule_index": 179
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k32",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0180",
+    "schedule_index": 180
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k32",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0181",
+    "schedule_index": 181
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k32",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0182",
+    "schedule_index": 182
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k24",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0183",
+    "schedule_index": 183
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k32",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0184",
+    "schedule_index": 184
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k32",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0185",
+    "schedule_index": 185
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k32",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0186",
+    "schedule_index": 186
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k24",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0187",
+    "schedule_index": 187
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k24",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0188",
+    "schedule_index": 188
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k16",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0189",
+    "schedule_index": 189
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k24",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0190",
+    "schedule_index": 190
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k32",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0191",
+    "schedule_index": 191
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k32",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0192",
+    "schedule_index": 192
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k24",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0193",
+    "schedule_index": 193
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k16",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0194",
+    "schedule_index": 194
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k16",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0195",
+    "schedule_index": 195
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k16",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0196",
+    "schedule_index": 196
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k24",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0197",
+    "schedule_index": 197
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k24",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0198",
+    "schedule_index": 198
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k16",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0199",
+    "schedule_index": 199
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k16",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0200",
+    "schedule_index": 200
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k16",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0201",
+    "schedule_index": 201
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k24",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0202",
+    "schedule_index": 202
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k16",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0203",
+    "schedule_index": 203
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k32",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0204",
+    "schedule_index": 204
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k24",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0205",
+    "schedule_index": 205
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k32",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0206",
+    "schedule_index": 206
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k32",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0207",
+    "schedule_index": 207
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k16",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0208",
+    "schedule_index": 208
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k32",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0209",
+    "schedule_index": 209
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k32",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0210",
+    "schedule_index": 210
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k24",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0211",
+    "schedule_index": 211
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k24",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0212",
+    "schedule_index": 212
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k16",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0213",
+    "schedule_index": 213
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k32",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0214",
+    "schedule_index": 214
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k16",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0215",
+    "schedule_index": 215
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k24",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0216",
+    "schedule_index": 216
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k32",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0217",
+    "schedule_index": 217
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k24",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0218",
+    "schedule_index": 218
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k24",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0219",
+    "schedule_index": 219
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k32",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0220",
+    "schedule_index": 220
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k32",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0221",
+    "schedule_index": 221
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k24",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0222",
+    "schedule_index": 222
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k24",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0223",
+    "schedule_index": 223
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k24",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0224",
+    "schedule_index": 224
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k24",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0225",
+    "schedule_index": 225
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k16",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0226",
+    "schedule_index": 226
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k16",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0227",
+    "schedule_index": 227
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k24",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0228",
+    "schedule_index": 228
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k24",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0229",
+    "schedule_index": 229
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k24",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0230",
+    "schedule_index": 230
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k24",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0231",
+    "schedule_index": 231
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k24",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0232",
+    "schedule_index": 232
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k16",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0233",
+    "schedule_index": 233
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k32",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0234",
+    "schedule_index": 234
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k32",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0235",
+    "schedule_index": 235
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k24",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0236",
+    "schedule_index": 236
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k32",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0237",
+    "schedule_index": 237
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k24",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0238",
+    "schedule_index": 238
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k16",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0239",
+    "schedule_index": 239
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k16",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0240",
+    "schedule_index": 240
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k32",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0241",
+    "schedule_index": 241
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k24",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0242",
+    "schedule_index": 242
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k16",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0243",
+    "schedule_index": 243
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k32",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0244",
+    "schedule_index": 244
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k32",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0245",
+    "schedule_index": 245
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k24",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0246",
+    "schedule_index": 246
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k16",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0247",
+    "schedule_index": 247
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k16",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0248",
+    "schedule_index": 248
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k16",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0249",
+    "schedule_index": 249
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k24",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0250",
+    "schedule_index": 250
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k16",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0251",
+    "schedule_index": 251
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k16",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0252",
+    "schedule_index": 252
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k32",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0253",
+    "schedule_index": 253
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k24",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0254",
+    "schedule_index": 254
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k16",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0255",
+    "schedule_index": 255
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k24",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0256",
+    "schedule_index": 256
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k32",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0257",
+    "schedule_index": 257
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k32",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0258",
+    "schedule_index": 258
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k24",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0259",
+    "schedule_index": 259
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k32",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0260",
+    "schedule_index": 260
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k16",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0261",
+    "schedule_index": 261
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k32",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0262",
+    "schedule_index": 262
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k16",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0263",
+    "schedule_index": 263
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k32",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0264",
+    "schedule_index": 264
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k16",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0265",
+    "schedule_index": 265
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k32",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0266",
+    "schedule_index": 266
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k32",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0267",
+    "schedule_index": 267
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k16",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0268",
+    "schedule_index": 268
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k24",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0269",
+    "schedule_index": 269
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k16",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0270",
+    "schedule_index": 270
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k32",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0271",
+    "schedule_index": 271
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k32",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0272",
+    "schedule_index": 272
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k24",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0273",
+    "schedule_index": 273
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k32",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0274",
+    "schedule_index": 274
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k32",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0275",
+    "schedule_index": 275
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k32",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0276",
+    "schedule_index": 276
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k16",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0277",
+    "schedule_index": 277
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k16",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0278",
+    "schedule_index": 278
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k32",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0279",
+    "schedule_index": 279
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k32",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0280",
+    "schedule_index": 280
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k32",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0281",
+    "schedule_index": 281
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k16",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0282",
+    "schedule_index": 282
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k16",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0283",
+    "schedule_index": 283
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k32",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0284",
+    "schedule_index": 284
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k16",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0285",
+    "schedule_index": 285
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k24",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0286",
+    "schedule_index": 286
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k16",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0287",
+    "schedule_index": 287
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k24",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0288",
+    "schedule_index": 288
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k16",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0289",
+    "schedule_index": 289
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k24",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0290",
+    "schedule_index": 290
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k24",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0291",
+    "schedule_index": 291
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k16",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0292",
+    "schedule_index": 292
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k32",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0293",
+    "schedule_index": 293
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k32",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0294",
+    "schedule_index": 294
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k24",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0295",
+    "schedule_index": 295
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k32",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0296",
+    "schedule_index": 296
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k24",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0297",
+    "schedule_index": 297
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k16",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0298",
+    "schedule_index": 298
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k24",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0299",
+    "schedule_index": 299
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k24",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0300",
+    "schedule_index": 300
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k16",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0301",
+    "schedule_index": 301
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k32",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0302",
+    "schedule_index": 302
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k16",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0303",
+    "schedule_index": 303
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k16",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0304",
+    "schedule_index": 304
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k16",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0305",
+    "schedule_index": 305
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k32",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0306",
+    "schedule_index": 306
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k24",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0307",
+    "schedule_index": 307
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k16",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0308",
+    "schedule_index": 308
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k32",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0309",
+    "schedule_index": 309
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k32",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0310",
+    "schedule_index": 310
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k24",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0311",
+    "schedule_index": 311
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k24",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0312",
+    "schedule_index": 312
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k16",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0313",
+    "schedule_index": 313
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k16",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0314",
+    "schedule_index": 314
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k32",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0315",
+    "schedule_index": 315
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k24",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0316",
+    "schedule_index": 316
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k24",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0317",
+    "schedule_index": 317
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k32",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0318",
+    "schedule_index": 318
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k16",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0319",
+    "schedule_index": 319
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k16",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0320",
+    "schedule_index": 320
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k24",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0321",
+    "schedule_index": 321
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k32",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0322",
+    "schedule_index": 322
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k24",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0323",
+    "schedule_index": 323
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k32",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0324",
+    "schedule_index": 324
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k16",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0325",
+    "schedule_index": 325
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k16",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0326",
+    "schedule_index": 326
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k24",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0327",
+    "schedule_index": 327
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k16",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0328",
+    "schedule_index": 328
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k24",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0329",
+    "schedule_index": 329
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k32",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0330",
+    "schedule_index": 330
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k24",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0331",
+    "schedule_index": 331
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k32",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0332",
+    "schedule_index": 332
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k16",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0333",
+    "schedule_index": 333
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k16",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0334",
+    "schedule_index": 334
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k24",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0335",
+    "schedule_index": 335
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k24",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0336",
+    "schedule_index": 336
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k16",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0337",
+    "schedule_index": 337
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k32",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0338",
+    "schedule_index": 338
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k16",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0339",
+    "schedule_index": 339
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k16",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0340",
+    "schedule_index": 340
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k24",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0341",
+    "schedule_index": 341
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k24",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0342",
+    "schedule_index": 342
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k24",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0343",
+    "schedule_index": 343
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k16",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0344",
+    "schedule_index": 344
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k24",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0345",
+    "schedule_index": 345
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k32",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0346",
+    "schedule_index": 346
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k16",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0347",
+    "schedule_index": 347
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k32",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0348",
+    "schedule_index": 348
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k24",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0349",
+    "schedule_index": 349
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k32",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0350",
+    "schedule_index": 350
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k16",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0351",
+    "schedule_index": 351
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k32",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0352",
+    "schedule_index": 352
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k32",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0353",
+    "schedule_index": 353
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k24",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0354",
+    "schedule_index": 354
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k24",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0355",
+    "schedule_index": 355
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k24",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0356",
+    "schedule_index": 356
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k32",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0357",
+    "schedule_index": 357
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k16",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0358",
+    "schedule_index": 358
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k16",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0359",
+    "schedule_index": 359
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k32",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0360",
+    "schedule_index": 360
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k24",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0361",
+    "schedule_index": 361
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k16",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0362",
+    "schedule_index": 362
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k32",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0363",
+    "schedule_index": 363
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k16",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0364",
+    "schedule_index": 364
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k24",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0365",
+    "schedule_index": 365
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k32",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0366",
+    "schedule_index": 366
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k32",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0367",
+    "schedule_index": 367
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k16",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0368",
+    "schedule_index": 368
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k16",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0369",
+    "schedule_index": 369
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k32",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0370",
+    "schedule_index": 370
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k16",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0371",
+    "schedule_index": 371
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k24",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0372",
+    "schedule_index": 372
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k16",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0373",
+    "schedule_index": 373
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k32",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0374",
+    "schedule_index": 374
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k24",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0375",
+    "schedule_index": 375
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k16",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0376",
+    "schedule_index": 376
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k32",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0377",
+    "schedule_index": 377
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k24",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0378",
+    "schedule_index": 378
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k24",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0379",
+    "schedule_index": 379
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k32",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0380",
+    "schedule_index": 380
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k16",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0381",
+    "schedule_index": 381
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k16",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0382",
+    "schedule_index": 382
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k16",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0383",
+    "schedule_index": 383
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k24",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0384",
+    "schedule_index": 384
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k24",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0385",
+    "schedule_index": 385
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k24",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0386",
+    "schedule_index": 386
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k32",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0387",
+    "schedule_index": 387
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k32",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0388",
+    "schedule_index": 388
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k16",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0389",
+    "schedule_index": 389
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k24",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0390",
+    "schedule_index": 390
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k32",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0391",
+    "schedule_index": 391
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k16",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0392",
+    "schedule_index": 392
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k16",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0393",
+    "schedule_index": 393
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k16",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0394",
+    "schedule_index": 394
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k24",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0395",
+    "schedule_index": 395
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k24",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0396",
+    "schedule_index": 396
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k32",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0397",
+    "schedule_index": 397
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k24",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0398",
+    "schedule_index": 398
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k16",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0399",
+    "schedule_index": 399
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k24",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0400",
+    "schedule_index": 400
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k16",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0401",
+    "schedule_index": 401
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k24",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0402",
+    "schedule_index": 402
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k24",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0403",
+    "schedule_index": 403
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k24",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0404",
+    "schedule_index": 404
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k24",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0405",
+    "schedule_index": 405
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k16",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0406",
+    "schedule_index": 406
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k32",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0407",
+    "schedule_index": 407
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k32",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0408",
+    "schedule_index": 408
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k16",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0409",
+    "schedule_index": 409
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k32",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0410",
+    "schedule_index": 410
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k16",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0411",
+    "schedule_index": 411
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k32",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0412",
+    "schedule_index": 412
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k16",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0413",
+    "schedule_index": 413
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k32",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0414",
+    "schedule_index": 414
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k24",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0415",
+    "schedule_index": 415
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k24",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0416",
+    "schedule_index": 416
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k16",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0417",
+    "schedule_index": 417
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k16",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0418",
+    "schedule_index": 418
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k16",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0419",
+    "schedule_index": 419
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k24",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0420",
+    "schedule_index": 420
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k32",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0421",
+    "schedule_index": 421
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k16",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0422",
+    "schedule_index": 422
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k16",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0423",
+    "schedule_index": 423
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k32",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0424",
+    "schedule_index": 424
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k32",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0425",
+    "schedule_index": 425
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k16",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0426",
+    "schedule_index": 426
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k32",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0427",
+    "schedule_index": 427
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k24",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0428",
+    "schedule_index": 428
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k32",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0429",
+    "schedule_index": 429
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k32",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0430",
+    "schedule_index": 430
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k32",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0431",
+    "schedule_index": 431
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k16",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0432",
+    "schedule_index": 432
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k32",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0433",
+    "schedule_index": 433
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k32",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0434",
+    "schedule_index": 434
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k32",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0435",
+    "schedule_index": 435
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k24",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0436",
+    "schedule_index": 436
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k24",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0437",
+    "schedule_index": 437
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k16",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0438",
+    "schedule_index": 438
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k32",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0439",
+    "schedule_index": 439
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k24",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0440",
+    "schedule_index": 440
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k16",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0441",
+    "schedule_index": 441
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k32",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0442",
+    "schedule_index": 442
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k24",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0443",
+    "schedule_index": 443
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k32",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0444",
+    "schedule_index": 444
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k32",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0445",
+    "schedule_index": 445
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k16",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0446",
+    "schedule_index": 446
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k16",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0447",
+    "schedule_index": 447
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k32",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0448",
+    "schedule_index": 448
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k32",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0449",
+    "schedule_index": 449
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k16",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0450",
+    "schedule_index": 450
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k32",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0451",
+    "schedule_index": 451
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k32",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0452",
+    "schedule_index": 452
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k24",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0453",
+    "schedule_index": 453
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k16",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0454",
+    "schedule_index": 454
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k24",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0455",
+    "schedule_index": 455
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k32",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0456",
+    "schedule_index": 456
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k16",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0457",
+    "schedule_index": 457
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k24",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0458",
+    "schedule_index": 458
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k24",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0459",
+    "schedule_index": 459
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k24",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0460",
+    "schedule_index": 460
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k16",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0461",
+    "schedule_index": 461
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k32",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0462",
+    "schedule_index": 462
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k16",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0463",
+    "schedule_index": 463
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k24",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0464",
+    "schedule_index": 464
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k16",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0465",
+    "schedule_index": 465
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k32",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0466",
+    "schedule_index": 466
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k32",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0467",
+    "schedule_index": 467
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k16",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0468",
+    "schedule_index": 468
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k24",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0469",
+    "schedule_index": 469
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k24",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0470",
+    "schedule_index": 470
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k16",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0471",
+    "schedule_index": 471
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k24",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0472",
+    "schedule_index": 472
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k32",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0473",
+    "schedule_index": 473
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k16",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0474",
+    "schedule_index": 474
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k24",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0475",
+    "schedule_index": 475
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k24",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0476",
+    "schedule_index": 476
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k32",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0477",
+    "schedule_index": 477
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k24",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0478",
+    "schedule_index": 478
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k16",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0479",
+    "schedule_index": 479
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k24",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0480",
+    "schedule_index": 480
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k16",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0481",
+    "schedule_index": 481
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k32",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0482",
+    "schedule_index": 482
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k32",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0483",
+    "schedule_index": 483
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k24",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0484",
+    "schedule_index": 484
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k16",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0485",
+    "schedule_index": 485
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k16",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0486",
+    "schedule_index": 486
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k24",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0487",
+    "schedule_index": 487
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k32",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0488",
+    "schedule_index": 488
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k32",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0489",
+    "schedule_index": 489
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k32",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0490",
+    "schedule_index": 490
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k32",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0491",
+    "schedule_index": 491
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k16",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0492",
+    "schedule_index": 492
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k16",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0493",
+    "schedule_index": 493
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k16",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0494",
+    "schedule_index": 494
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k16",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0495",
+    "schedule_index": 495
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k24",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0496",
+    "schedule_index": 496
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k16",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0497",
+    "schedule_index": 497
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k24",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0498",
+    "schedule_index": 498
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k32",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0499",
+    "schedule_index": 499
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k24",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0500",
+    "schedule_index": 500
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k24",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0501",
+    "schedule_index": 501
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k32",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0502",
+    "schedule_index": 502
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k24",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0503",
+    "schedule_index": 503
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k16",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0504",
+    "schedule_index": 504
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k32",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0505",
+    "schedule_index": 505
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k32",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0506",
+    "schedule_index": 506
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k16",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0507",
+    "schedule_index": 507
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k16",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0508",
+    "schedule_index": 508
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k24",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0509",
+    "schedule_index": 509
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k24",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0510",
+    "schedule_index": 510
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k16",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0511",
+    "schedule_index": 511
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k24",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0512",
+    "schedule_index": 512
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k32",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0513",
+    "schedule_index": 513
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k16",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0514",
+    "schedule_index": 514
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k32",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0515",
+    "schedule_index": 515
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k32",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0516",
+    "schedule_index": 516
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k24",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0517",
+    "schedule_index": 517
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k32",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0518",
+    "schedule_index": 518
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k24",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0519",
+    "schedule_index": 519
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k24",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0520",
+    "schedule_index": 520
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k16",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0521",
+    "schedule_index": 521
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k16",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0522",
+    "schedule_index": 522
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k32",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0523",
+    "schedule_index": 523
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k24",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0524",
+    "schedule_index": 524
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k24",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0525",
+    "schedule_index": 525
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k16",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0526",
+    "schedule_index": 526
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k16",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0527",
+    "schedule_index": 527
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k32",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0528",
+    "schedule_index": 528
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k16",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0529",
+    "schedule_index": 529
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k32",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0530",
+    "schedule_index": 530
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k32",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0531",
+    "schedule_index": 531
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k24",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0532",
+    "schedule_index": 532
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k24",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0533",
+    "schedule_index": 533
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k16",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0534",
+    "schedule_index": 534
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k24",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0535",
+    "schedule_index": 535
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k24",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0536",
+    "schedule_index": 536
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k16",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0537",
+    "schedule_index": 537
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k24",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0538",
+    "schedule_index": 538
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k32",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0539",
+    "schedule_index": 539
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k16",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0540",
+    "schedule_index": 540
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k24",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0541",
+    "schedule_index": 541
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k24",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0542",
+    "schedule_index": 542
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k24",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0543",
+    "schedule_index": 543
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k32",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0544",
+    "schedule_index": 544
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k32",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0545",
+    "schedule_index": 545
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k16",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0546",
+    "schedule_index": 546
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k32",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0547",
+    "schedule_index": 547
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k32",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0548",
+    "schedule_index": 548
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k16",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0549",
+    "schedule_index": 549
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k32",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0550",
+    "schedule_index": 550
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k24",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0551",
+    "schedule_index": 551
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k24",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0552",
+    "schedule_index": 552
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k32",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0553",
+    "schedule_index": 553
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k16",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0554",
+    "schedule_index": 554
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k16",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0555",
+    "schedule_index": 555
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k16",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0556",
+    "schedule_index": 556
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k24",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0557",
+    "schedule_index": 557
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k24",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0558",
+    "schedule_index": 558
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k24",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0559",
+    "schedule_index": 559
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k16",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0560",
+    "schedule_index": 560
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k32",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0561",
+    "schedule_index": 561
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k16",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0562",
+    "schedule_index": 562
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k32",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0563",
+    "schedule_index": 563
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k24",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0564",
+    "schedule_index": 564
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k32",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0565",
+    "schedule_index": 565
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k32",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0566",
+    "schedule_index": 566
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k32",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0567",
+    "schedule_index": 567
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k16",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0568",
+    "schedule_index": 568
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k32",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0569",
+    "schedule_index": 569
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k24",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0570",
+    "schedule_index": 570
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k16",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0571",
+    "schedule_index": 571
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k32",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0572",
+    "schedule_index": 572
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k32",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0573",
+    "schedule_index": 573
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k24",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0574",
+    "schedule_index": 574
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k16",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0575",
+    "schedule_index": 575
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k16",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0576",
+    "schedule_index": 576
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k24",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0577",
+    "schedule_index": 577
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k24",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0578",
+    "schedule_index": 578
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k24",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0579",
+    "schedule_index": 579
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k24",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0580",
+    "schedule_index": 580
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k24",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0581",
+    "schedule_index": 581
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k32",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0582",
+    "schedule_index": 582
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k16",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0583",
+    "schedule_index": 583
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k24",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0584",
+    "schedule_index": 584
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k24",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0585",
+    "schedule_index": 585
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k16",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0586",
+    "schedule_index": 586
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k24",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0587",
+    "schedule_index": 587
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k24",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0588",
+    "schedule_index": 588
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k32",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0589",
+    "schedule_index": 589
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k24",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0590",
+    "schedule_index": 590
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k32",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0591",
+    "schedule_index": 591
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k24",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0592",
+    "schedule_index": 592
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k32",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0593",
+    "schedule_index": 593
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k32",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0594",
+    "schedule_index": 594
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k24",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0595",
+    "schedule_index": 595
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k24",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0596",
+    "schedule_index": 596
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k24",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0597",
+    "schedule_index": 597
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k32",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0598",
+    "schedule_index": 598
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k16",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0599",
+    "schedule_index": 599
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k32",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0600",
+    "schedule_index": 600
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k16",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0601",
+    "schedule_index": 601
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k16",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0602",
+    "schedule_index": 602
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k24",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0603",
+    "schedule_index": 603
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k16",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0604",
+    "schedule_index": 604
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k16",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0605",
+    "schedule_index": 605
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k16",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0606",
+    "schedule_index": 606
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k24",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0607",
+    "schedule_index": 607
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k16",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0608",
+    "schedule_index": 608
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k24",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0609",
+    "schedule_index": 609
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k16",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0610",
+    "schedule_index": 610
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k24",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0611",
+    "schedule_index": 611
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k16",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0612",
+    "schedule_index": 612
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k24",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0613",
+    "schedule_index": 613
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k32",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0614",
+    "schedule_index": 614
+  },
+  {
+    "instance_id": "room-32-32-4/family-27/k24",
+    "family_id": "room-32-32-4/family-27",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0615",
+    "schedule_index": 615
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-27/k16",
+    "family_id": "warehouse-32-32-aisles/family-27",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0616",
+    "schedule_index": 616
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k32",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0617",
+    "schedule_index": 617
+  },
+  {
+    "instance_id": "room-32-32-4/family-29/k32",
+    "family_id": "room-32-32-4/family-29",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_a",
+    "job_id": "job-0618",
+    "schedule_index": 618
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k24",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0619",
+    "schedule_index": 619
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-24/k16",
+    "family_id": "warehouse-32-32-aisles/family-24",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0620",
+    "schedule_index": 620
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k16",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0621",
+    "schedule_index": 621
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k16",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0622",
+    "schedule_index": 622
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k32",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0623",
+    "schedule_index": 623
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k16",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0624",
+    "schedule_index": 624
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k32",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "pool_random",
+    "job_id": "job-0625",
+    "schedule_index": 625
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k16",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0626",
+    "schedule_index": 626
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k24",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0627",
+    "schedule_index": 627
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k16",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0628",
+    "schedule_index": 628
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-29/k24",
+    "family_id": "warehouse-32-32-aisles/family-29",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0629",
+    "schedule_index": 629
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k16",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0630",
+    "schedule_index": 630
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k24",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 24,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0631",
+    "schedule_index": 631
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k32",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0632",
+    "schedule_index": 632
+  },
+  {
+    "instance_id": "random-32-32-20/family-24/k32",
+    "family_id": "random-32-32-20/family-24",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0633",
+    "schedule_index": 633
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k32",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 32,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0634",
+    "schedule_index": 634
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-28/k16",
+    "family_id": "warehouse-32-32-aisles/family-28",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_b",
+    "job_id": "job-0635",
+    "schedule_index": 635
+  },
+  {
+    "instance_id": "random-32-32-20/family-27/k16",
+    "family_id": "random-32-32-20/family-27",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0636",
+    "schedule_index": 636
+  },
+  {
+    "instance_id": "random-32-32-20/family-28/k24",
+    "family_id": "random-32-32-20/family-28",
+    "map_name": "random-32-32-20",
+    "k": 24,
+    "repeat": 1,
+    "policy": "cbs",
+    "job_id": "job-0637",
+    "schedule_index": 637
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k16",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 1,
+    "policy": "model_a",
+    "job_id": "job-0638",
+    "schedule_index": 638
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-25/k24",
+    "family_id": "warehouse-32-32-aisles/family-25",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0639",
+    "schedule_index": 639
+  },
+  {
+    "instance_id": "room-32-32-4/family-25/k16",
+    "family_id": "room-32-32-4/family-25",
+    "map_name": "room-32-32-4",
+    "k": 16,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0640",
+    "schedule_index": 640
+  },
+  {
+    "instance_id": "random-32-32-20/family-29/k32",
+    "family_id": "random-32-32-20/family-29",
+    "map_name": "random-32-32-20",
+    "k": 32,
+    "repeat": 1,
+    "policy": "pool_random",
+    "job_id": "job-0641",
+    "schedule_index": 641
+  },
+  {
+    "instance_id": "random-32-32-20/family-25/k16",
+    "family_id": "random-32-32-20/family-25",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "model_b",
+    "job_id": "job-0642",
+    "schedule_index": 642
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-26/k24",
+    "family_id": "warehouse-32-32-aisles/family-26",
+    "map_name": "warehouse-32-32-aisles",
+    "k": 24,
+    "repeat": 1,
+    "policy": "residual",
+    "job_id": "job-0643",
+    "schedule_index": 643
+  },
+  {
+    "instance_id": "random-32-32-20/family-26/k16",
+    "family_id": "random-32-32-20/family-26",
+    "map_name": "random-32-32-20",
+    "k": 16,
+    "repeat": 0,
+    "policy": "residual",
+    "job_id": "job-0644",
+    "schedule_index": 644
+  },
+  {
+    "instance_id": "room-32-32-4/family-28/k32",
+    "family_id": "room-32-32-4/family-28",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "cbs",
+    "job_id": "job-0645",
+    "schedule_index": 645
+  },
+  {
+    "instance_id": "room-32-32-4/family-24/k32",
+    "family_id": "room-32-32-4/family-24",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 1,
+    "policy": "plain",
+    "job_id": "job-0646",
+    "schedule_index": 646
+  },
+  {
+    "instance_id": "room-32-32-4/family-26/k32",
+    "family_id": "room-32-32-4/family-26",
+    "map_name": "room-32-32-4",
+    "k": 32,
+    "repeat": 0,
+    "policy": "plain",
+    "job_id": "job-0647",
+    "schedule_index": 647
+  }
+]

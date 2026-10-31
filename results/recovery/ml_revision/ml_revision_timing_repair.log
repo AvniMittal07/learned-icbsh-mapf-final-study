@@ -1,0 +1,26 @@
+timing block replacement ('warehouse-32-32-aisles/family-20/k32', 1, 'teacher') HARD_TIMEOUT 8.007
+timing block replacement ('warehouse-32-32-aisles/family-20/k32', 0, 'plain') HARD_TIMEOUT 8.011
+timing block replacement ('room-32-32-4/family-20/k24', 0, 'residual') HARD_TIMEOUT 8.014
+timing block replacement ('warehouse-32-32-aisles/family-20/k32', 1, 'pool_random') HARD_TIMEOUT 8.012
+timing block replacement ('room-32-32-4/family-20/k24', 0, 'plain') HARD_TIMEOUT 8.013
+timing block replacement ('room-32-32-4/family-20/k24', 0, 'teacher') HARD_TIMEOUT 8.011
+timing block replacement ('warehouse-32-32-aisles/family-20/k32', 0, 'teacher') HARD_TIMEOUT 8.007
+timing block replacement ('warehouse-32-32-aisles/family-20/k32', 0, 'model_a') HARD_TIMEOUT 8.008
+timing block replacement ('room-32-32-4/family-20/k24', 1, 'model_b') HARD_TIMEOUT 8.019
+timing block replacement ('warehouse-32-32-aisles/family-20/k32', 0, 'pool_random') HARD_TIMEOUT 8.012
+timing block replacement ('room-32-32-4/family-20/k24', 1, 'model_a') HARD_TIMEOUT 8.013
+timing block replacement ('room-32-32-4/family-20/k24', 1, 'residual') HARD_TIMEOUT 8.009
+timing block replacement ('room-32-32-4/family-20/k24', 1, 'teacher') HARD_TIMEOUT 8.007
+timing block replacement ('room-32-32-4/family-20/k24', 1, 'pool_random') HARD_TIMEOUT 8.006
+timing block replacement ('room-32-32-4/family-20/k24', 0, 'model_a') HARD_TIMEOUT 8.011
+timing block replacement ('room-32-32-4/family-20/k24', 1, 'plain') HARD_TIMEOUT 8.015
+timing block replacement ('room-32-32-4/family-20/k24', 0, 'pool_random') HARD_TIMEOUT 8.01
+timing block replacement ('warehouse-32-32-aisles/family-20/k32', 0, 'model_b') HARD_TIMEOUT 8.011
+timing block replacement ('warehouse-32-32-aisles/family-20/k32', 1, 'model_b') HARD_TIMEOUT 8.011
+timing block replacement ('warehouse-32-32-aisles/family-20/k32', 1, 'residual') HARD_TIMEOUT 8.012
+timing block replacement ('warehouse-32-32-aisles/family-20/k32', 0, 'residual') HARD_TIMEOUT 8.012
+timing block replacement ('room-32-32-4/family-20/k24', 0, 'model_b') HARD_TIMEOUT 8.008
+timing block replacement ('warehouse-32-32-aisles/family-20/k32', 1, 'model_a') HARD_TIMEOUT 8.015
+timing block replacement ('warehouse-32-32-aisles/family-20/k32', 1, 'plain') HARD_TIMEOUT 8.014
+Worker CPU seconds (excluding subprocesses): 1.4375; affinity=[0]
+{"exit_code": 0, "wall_seconds": 192.77777809998952, "total_reserved_cpu_hours": 3.1416666666666666}

@@ -1,0 +1,4210 @@
+{
+  "protocol_sha256": "7d89046a22eb4d628440a7900dc5dd375b9cb00444a0ac2221294025b15cbd00",
+  "analysis_utc": "2026-10-31T17:00:54.689054+00:00",
+  "matrix_complete": true,
+  "total_runs": 648,
+  "independent_families": 18,
+  "instances": 54,
+  "valid_for_inference": true,
+  "timing_integrity": {
+    "initial_faults": 0,
+    "affected_instance_ids": [],
+    "replacement_count": 0,
+    "complete_block_repair": true,
+    "timing_valid": true
+  },
+  "returned_solutions_revalidated": 366,
+  "validation_errors": [],
+  "solved_cost_disagreements": {},
+  "policies": {
+    "cbs": {
+      "runs": 108,
+      "families": 18,
+      "instances": 54,
+      "solved_runs": 36,
+      "solved_instances_both_repeats": 18,
+      "solved_instances_any_repeat": 18,
+      "status_counts": {
+        "HARD_TIMEOUT": 72,
+        "SOLVED": 36
+      },
+      "mean_capped_seconds": 10.744974712963556,
+      "arithmetic_capped_time_ratio": 1.7297243954237955,
+      "geometric_family_time_ratio": 2.3372897336454135,
+      "stratified_family_bootstrap_95_interval": [
+        1.8730481155190815,
+        2.930066253050543
+      ],
+      "family_time_wins": 1,
+      "family_time_losses": 17,
+      "family_time_ties": 0,
+      "no_fewer_solved": false,
+      "speed_claim_rule_passed": false,
+      "median_all_run_peak_memory_mib": 52.646484375,
+      "matched_memory_families": 13,
+      "matched_memory_instances": 18,
+      "median_matched_family_memory_ratio": 1.025264974118807,
+      "memory_family_rows": [
+        {
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "matched_instances": 2,
+          "memory_ratio": 1.025264974118807
+        },
+        {
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "matched_instances": 2,
+          "memory_ratio": 1.1383714741883981
+        },
+        {
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "matched_instances": 1,
+          "memory_ratio": 1.865428099981666
+        },
+        {
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "matched_instances": 1,
+          "memory_ratio": 1.0
+        },
+        {
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "matched_instances": 2,
+          "memory_ratio": 1.0896322306412862
+        },
+        {
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "matched_instances": 1,
+          "memory_ratio": 0.9996845624881711
+        },
+        {
+          "family_id": "room-32-32-4/family-24",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0169632038773038
+        },
+        {
+          "family_id": "room-32-32-4/family-29",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.1673195299384442
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 1,
+          "memory_ratio": 1.0010979075174373
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 1,
+          "memory_ratio": 1.0856744245037733
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 1.2206825683502522
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 1.0065679370993716
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 1,
+          "memory_ratio": 1.0038809008779743
+        }
+      ],
+      "matched_instance_rows": [
+        {
+          "instance_id": "random-32-32-20/family-24/k16",
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 32501760,
+          "baseline_peak_bytes": 32399360,
+          "memory_ratio": 1.0031605562579013,
+          "policy_expansions": 99,
+          "baseline_expansions": 15,
+          "policy_seconds": 0.41862645000219345,
+          "baseline_seconds": 0.44336704998568166
+        },
+        {
+          "instance_id": "random-32-32-20/family-24/k24",
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 35647488,
+          "baseline_peak_bytes": 34070528,
+          "memory_ratio": 1.0462851647030535,
+          "policy_expansions": 941,
+          "baseline_expansions": 20,
+          "policy_seconds": 1.0076601500040852,
+          "baseline_seconds": 0.5794580000074347
+        },
+        {
+          "instance_id": "random-32-32-20/family-25/k16",
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 32030720,
+          "baseline_peak_bytes": 32204800,
+          "memory_ratio": 0.9945945945945946,
+          "policy_expansions": 14,
+          "baseline_expansions": 5,
+          "policy_seconds": 0.5272911500069313,
+          "baseline_seconds": 0.40516604999720585
+        },
+        {
+          "instance_id": "random-32-32-20/family-25/k24",
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 42440704,
+          "baseline_peak_bytes": 33214464,
+          "memory_ratio": 1.2777777777777777,
+          "policy_expansions": 4927,
+          "baseline_expansions": 17,
+          "policy_seconds": 4.816958149996935,
+          "baseline_seconds": 0.5052280999807408
+        },
+        {
+          "instance_id": "random-32-32-20/family-26/k16",
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 62513152,
+          "baseline_peak_bytes": 33511424,
+          "memory_ratio": 1.865428099981666,
+          "policy_expansions": 10472,
+          "baseline_expansions": 46,
+          "policy_seconds": 10.686905149996164,
+          "baseline_seconds": 0.778601099998923
+        },
+        {
+          "instance_id": "random-32-32-20/family-27/k16",
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 32684032,
+          "baseline_peak_bytes": 32684032,
+          "memory_ratio": 1.0,
+          "policy_expansions": 7,
+          "baseline_expansions": 4,
+          "policy_seconds": 0.35870840001734905,
+          "baseline_seconds": 0.3822731499967631
+        },
+        {
+          "instance_id": "random-32-32-20/family-28/k16",
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 32202752,
+          "baseline_peak_bytes": 32139264,
+          "memory_ratio": 1.001975403045944,
+          "policy_expansions": 18,
+          "baseline_expansions": 5,
+          "policy_seconds": 0.395465650013648,
+          "baseline_seconds": 0.3702369499806082
+        },
+        {
+          "instance_id": "random-32-32-20/family-28/k24",
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 40247296,
+          "baseline_peak_bytes": 34351104,
+          "memory_ratio": 1.1716449055028915,
+          "policy_expansions": 3427,
+          "baseline_expansions": 22,
+          "policy_seconds": 4.140890449998551,
+          "baseline_seconds": 0.5919455999974161
+        },
+        {
+          "instance_id": "random-32-32-20/family-29/k16",
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 32452608,
+          "baseline_peak_bytes": 32462848,
+          "memory_ratio": 0.9996845624881711,
+          "policy_expansions": 13,
+          "baseline_expansions": 6,
+          "policy_seconds": 0.3941455999884056,
+          "baseline_seconds": 0.38616280000132974
+        },
+        {
+          "instance_id": "room-32-32-4/family-24/k16",
+          "family_id": "room-32-32-4/family-24",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 32659456,
+          "baseline_peak_bytes": 32114688,
+          "memory_ratio": 1.0169632038773038,
+          "policy_expansions": 195,
+          "baseline_expansions": 26,
+          "policy_seconds": 0.4509247500100173,
+          "baseline_seconds": 0.4842691000085324
+        },
+        {
+          "instance_id": "room-32-32-4/family-29/k16",
+          "family_id": "room-32-32-4/family-29",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 38449152,
+          "baseline_peak_bytes": 32937984,
+          "memory_ratio": 1.1673195299384442,
+          "policy_expansions": 3156,
+          "baseline_expansions": 43,
+          "policy_seconds": 2.3379960500024026,
+          "baseline_seconds": 0.6950272499962011
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-24/k16",
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 31746048,
+          "baseline_peak_bytes": 31711232,
+          "memory_ratio": 1.0010979075174373,
+          "policy_expansions": 8,
+          "baseline_expansions": 5,
+          "policy_seconds": 0.37372215000505093,
+          "baseline_seconds": 0.3949811000202317
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-25/k16",
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 35061760,
+          "baseline_peak_bytes": 32294912,
+          "memory_ratio": 1.0856744245037733,
+          "policy_expansions": 1262,
+          "baseline_expansions": 24,
+          "policy_seconds": 1.3706431500031613,
+          "baseline_seconds": 0.5295791999960784
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-26/k16",
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 32405504,
+          "baseline_peak_bytes": 32190464,
+          "memory_ratio": 1.0066802392161853,
+          "policy_expansions": 107,
+          "baseline_expansions": 8,
+          "policy_seconds": 0.44136865000473335,
+          "baseline_seconds": 0.4026974999869708
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-26/k24",
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 47878144,
+          "baseline_peak_bytes": 33579008,
+          "memory_ratio": 1.4258355696511344,
+          "policy_expansions": 6186,
+          "baseline_expansions": 45,
+          "policy_seconds": 11.126609549988643,
+          "baseline_seconds": 0.7115809499955503
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-27/k16",
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 31729664,
+          "baseline_peak_bytes": 31746048,
+          "memory_ratio": 0.999483904264241,
+          "policy_expansions": 18,
+          "baseline_expansions": 9,
+          "policy_seconds": 0.3696618999965722,
+          "baseline_seconds": 0.39555094999377616
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-27/k24",
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 33554432,
+          "baseline_peak_bytes": 33112064,
+          "memory_ratio": 1.0133597229094509,
+          "policy_expansions": 183,
+          "baseline_expansions": 25,
+          "policy_seconds": 0.56207984998764,
+          "baseline_seconds": 0.5344362999894656
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-29/k16",
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 32315392,
+          "baseline_peak_bytes": 32190464,
+          "memory_ratio": 1.0038809008779743,
+          "policy_expansions": 135,
+          "baseline_expansions": 14,
+          "policy_seconds": 0.4489773000095738,
+          "baseline_seconds": 0.44989910000003874
+        }
+      ],
+      "family_rows": [
+        {
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 5.47542886666876,
+          "baseline_mean_capped_seconds": 0.6485765333297119,
+          "time_ratio": 8.44222475728282,
+          "solved_runs": 4,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 6.7814164333346225,
+          "baseline_mean_capped_seconds": 1.9194301666575484,
+          "time_ratio": 3.533036289173065,
+          "solved_runs": 4,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 13.562301716665388,
+          "baseline_mean_capped_seconds": 3.6700302499957616,
+          "time_ratio": 3.695419599519936,
+          "solved_runs": 2,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 10.11956946667245,
+          "baseline_mean_capped_seconds": 1.0330832833375705,
+          "time_ratio": 9.795502095416037,
+          "solved_runs": 2,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 6.512118700004066,
+          "baseline_mean_capped_seconds": 0.7496289833215997,
+          "time_ratio": 8.687122356380785,
+          "solved_runs": 4,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 10.131381866662801,
+          "baseline_mean_capped_seconds": 5.947398616670398,
+          "time_ratio": 1.7034980366482937,
+          "solved_runs": 2,
+          "baseline_solved_runs": 4
+        },
+        {
+          "family_id": "room-32-32-4/family-24",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.15030825000334,
+          "baseline_mean_capped_seconds": 10.161423033336177,
+          "time_ratio": 0.9989061784657155,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-25",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 15,
+          "baseline_mean_capped_seconds": 10.945038516666196,
+          "time_ratio": 1.3704839847899342,
+          "solved_runs": 0,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-26",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 15,
+          "baseline_mean_capped_seconds": 10.41070368332536,
+          "time_ratio": 1.4408247949680129,
+          "solved_runs": 0,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-27",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 15,
+          "baseline_mean_capped_seconds": 10.304982666663514,
+          "time_ratio": 1.4556065240677023,
+          "solved_runs": 0,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-28",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 15,
+          "baseline_mean_capped_seconds": 10.213549066669657,
+          "time_ratio": 1.4686373857007442,
+          "solved_runs": 0,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-29",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.779332016667468,
+          "baseline_mean_capped_seconds": 10.231675749998734,
+          "time_ratio": 1.0535255690319154,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 10.124574050001684,
+          "baseline_mean_capped_seconds": 5.367958916676192,
+          "time_ratio": 1.8861124325203964,
+          "solved_runs": 2,
+          "baseline_solved_runs": 4
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 10.456881050001053,
+          "baseline_mean_capped_seconds": 5.586754166666651,
+          "time_ratio": 1.8717274356534241,
+          "solved_runs": 2,
+          "baseline_solved_runs": 4
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 8.855992733331126,
+          "baseline_mean_capped_seconds": 1.4190368166552314,
+          "time_ratio": 6.240847756300868,
+          "solved_runs": 4,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 5.310580583328071,
+          "baseline_mean_capped_seconds": 3.801836549998067,
+          "time_ratio": 1.3968461067403781,
+          "solved_runs": 4,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-28",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 15,
+          "baseline_mean_capped_seconds": 13.87170066666537,
+          "time_ratio": 1.0813382122673687,
+          "solved_runs": 0,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 10.149659100003191,
+          "baseline_mean_capped_seconds": 5.532430266665567,
+          "time_ratio": 1.834575152471006,
+          "solved_runs": 2,
+          "baseline_solved_runs": 4
+        }
+      ],
+      "subgroups": {
+        "map_name": {
+          "random-32-32-20": {
+            "runs": 36,
+            "solved_runs": 18,
+            "mean_capped_seconds": 8.763702841668014
+          },
+          "room-32-32-4": {
+            "runs": 36,
+            "solved_runs": 4,
+            "mean_capped_seconds": 13.488273377778468
+          },
+          "warehouse-32-32-aisles": {
+            "runs": 36,
+            "solved_runs": 14,
+            "mean_capped_seconds": 9.982947919444188
+          }
+        },
+        "k": {
+          "16": {
+            "runs": 36,
+            "solved_runs": 26,
+            "mean_capped_seconds": 5.198579797225345
+          },
+          "24": {
+            "runs": 36,
+            "solved_runs": 10,
+            "mean_capped_seconds": 12.036344341665325
+          },
+          "32": {
+            "runs": 36,
+            "solved_runs": 0,
+            "mean_capped_seconds": 15
+          }
+        }
+      },
+      "telemetry_runs": 0,
+      "selector_totals": {}
+    },
+    "plain": {
+      "runs": 108,
+      "families": 18,
+      "instances": 54,
+      "solved_runs": 60,
+      "solved_instances_both_repeats": 30,
+      "solved_instances_any_repeat": 30,
+      "status_counts": {
+        "HARD_TIMEOUT": 48,
+        "SOLVED": 60
+      },
+      "mean_capped_seconds": 7.2321774148146725,
+      "arithmetic_capped_time_ratio": 1.1642348205198954,
+      "geometric_family_time_ratio": 1.2009429786269348,
+      "stratified_family_bootstrap_95_interval": [
+        1.0581576175639429,
+        1.384001072492448
+      ],
+      "family_time_wins": 4,
+      "family_time_losses": 14,
+      "family_time_ties": 0,
+      "no_fewer_solved": false,
+      "speed_claim_rule_passed": false,
+      "median_all_run_peak_memory_mib": 33.73046875,
+      "matched_memory_families": 16,
+      "matched_memory_instances": 30,
+      "median_matched_family_memory_ratio": 1.0005693280432448,
+      "memory_family_rows": [
+        {
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "matched_instances": 3,
+          "memory_ratio": 1.0009485368314832
+        },
+        {
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "matched_instances": 2,
+          "memory_ratio": 0.998466017593839
+        },
+        {
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "matched_instances": 1,
+          "memory_ratio": 1.017784024934303
+        },
+        {
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "matched_instances": 3,
+          "memory_ratio": 1.0007807964123405
+        },
+        {
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "matched_instances": 3,
+          "memory_ratio": 1.0026167471819645
+        },
+        {
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "matched_instances": 2,
+          "memory_ratio": 0.9911899626332898
+        },
+        {
+          "family_id": "room-32-32-4/family-24",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.000510171545182
+        },
+        {
+          "family_id": "room-32-32-4/family-26",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 0.9969632011432654
+        },
+        {
+          "family_id": "room-32-32-4/family-27",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0255906719852717
+        },
+        {
+          "family_id": "room-32-32-4/family-28",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 0.9988229463511337
+        },
+        {
+          "family_id": "room-32-32-4/family-29",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 0.9926008829198533
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 1.0365822784810126
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 1.0033519896672611
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 3,
+          "memory_ratio": 1.0006284845413076
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 0.9985790520698475
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 0.996649040826365
+        }
+      ],
+      "matched_instance_rows": [
+        {
+          "instance_id": "random-32-32-20/family-24/k16",
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 32413696,
+          "baseline_peak_bytes": 32399360,
+          "memory_ratio": 1.0004424778761063,
+          "policy_expansions": 15,
+          "baseline_expansions": 15,
+          "policy_seconds": 0.4026382000010926,
+          "baseline_seconds": 0.44336704998568166
+        },
+        {
+          "instance_id": "random-32-32-20/family-24/k24",
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 34066432,
+          "baseline_peak_bytes": 34070528,
+          "memory_ratio": 0.9998797787929791,
+          "policy_expansions": 20,
+          "baseline_expansions": 20,
+          "policy_seconds": 0.5486298500036355,
+          "baseline_seconds": 0.5794580000074347
+        },
+        {
+          "instance_id": "random-32-32-20/family-24/k32",
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 35094528,
+          "baseline_peak_bytes": 35008512,
+          "memory_ratio": 1.0024570024570025,
+          "policy_expansions": 34,
+          "baseline_expansions": 32,
+          "policy_seconds": 0.9104347999964375,
+          "baseline_seconds": 0.9229045499960193
+        },
+        {
+          "instance_id": "random-32-32-20/family-25/k16",
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 32016384,
+          "baseline_peak_bytes": 32204800,
+          "memory_ratio": 0.9941494435612083,
+          "policy_expansions": 5,
+          "baseline_expansions": 5,
+          "policy_seconds": 0.37357389999669977,
+          "baseline_seconds": 0.40516604999720585
+        },
+        {
+          "instance_id": "random-32-32-20/family-25/k24",
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 33302528,
+          "baseline_peak_bytes": 33214464,
+          "memory_ratio": 1.002651375015415,
+          "policy_expansions": 17,
+          "baseline_expansions": 17,
+          "policy_seconds": 0.5307625499990536,
+          "baseline_seconds": 0.5052280999807408
+        },
+        {
+          "instance_id": "random-32-32-20/family-26/k16",
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 34107392,
+          "baseline_peak_bytes": 33511424,
+          "memory_ratio": 1.017784024934303,
+          "policy_expansions": 93,
+          "baseline_expansions": 46,
+          "policy_seconds": 1.0444510000088485,
+          "baseline_seconds": 0.778601099998923
+        },
+        {
+          "instance_id": "random-32-32-20/family-27/k16",
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 32684032,
+          "baseline_peak_bytes": 32684032,
+          "memory_ratio": 1.0,
+          "policy_expansions": 4,
+          "baseline_expansions": 4,
+          "policy_seconds": 0.38410949999524746,
+          "baseline_seconds": 0.3822731499967631
+        },
+        {
+          "instance_id": "random-32-32-20/family-27/k24",
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 34263040,
+          "baseline_peak_bytes": 34217984,
+          "memory_ratio": 1.001316734498444,
+          "policy_expansions": 66,
+          "baseline_expansions": 49,
+          "policy_seconds": 1.1494422499963548,
+          "baseline_seconds": 1.0957118500082288
+        },
+        {
+          "instance_id": "random-32-32-20/family-27/k32",
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 35428352,
+          "baseline_peak_bytes": 35393536,
+          "memory_ratio": 1.0009836824441616,
+          "policy_expansions": 77,
+          "baseline_expansions": 61,
+          "policy_seconds": 1.8187214999925345,
+          "baseline_seconds": 1.6212648500077194
+        },
+        {
+          "instance_id": "random-32-32-20/family-28/k16",
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 32153600,
+          "baseline_peak_bytes": 32139264,
+          "memory_ratio": 1.0004460587523099,
+          "policy_expansions": 5,
+          "baseline_expansions": 5,
+          "policy_seconds": 0.4080449999892153,
+          "baseline_seconds": 0.3702369499806082
+        },
+        {
+          "instance_id": "random-32-32-20/family-28/k24",
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 34322432,
+          "baseline_peak_bytes": 34351104,
+          "memory_ratio": 0.9991653252250641,
+          "policy_expansions": 22,
+          "baseline_expansions": 22,
+          "policy_seconds": 0.5869763999944553,
+          "baseline_seconds": 0.5919455999974161
+        },
+        {
+          "instance_id": "random-32-32-20/family-28/k32",
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 35534848,
+          "baseline_peak_bytes": 35254272,
+          "memory_ratio": 1.0079586383176484,
+          "policy_expansions": 56,
+          "baseline_expansions": 56,
+          "policy_seconds": 1.4169872500060592,
+          "baseline_seconds": 1.2867043999867747
+        },
+        {
+          "instance_id": "random-32-32-20/family-29/k16",
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 32458752,
+          "baseline_peak_bytes": 32462848,
+          "memory_ratio": 0.9998738249952684,
+          "policy_expansions": 6,
+          "baseline_expansions": 6,
+          "policy_seconds": 0.41523335000965744,
+          "baseline_seconds": 0.38616280000132974
+        },
+        {
+          "instance_id": "random-32-32-20/family-29/k24",
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 34361344,
+          "baseline_peak_bytes": 34951168,
+          "memory_ratio": 0.9831243407945622,
+          "policy_expansions": 102,
+          "baseline_expansions": 182,
+          "policy_seconds": 1.5223053499939851,
+          "baseline_seconds": 2.4560330500098644
+        },
+        {
+          "instance_id": "room-32-32-4/family-24/k16",
+          "family_id": "room-32-32-4/family-24",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 32131072,
+          "baseline_peak_bytes": 32114688,
+          "memory_ratio": 1.000510171545182,
+          "policy_expansions": 26,
+          "baseline_expansions": 26,
+          "policy_seconds": 0.498454300002777,
+          "baseline_seconds": 0.4842691000085324
+        },
+        {
+          "instance_id": "room-32-32-4/family-26/k16",
+          "family_id": "room-32-32-4/family-26",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 34289664,
+          "baseline_peak_bytes": 34394112,
+          "memory_ratio": 0.9969632011432654,
+          "policy_expansions": 265,
+          "baseline_expansions": 119,
+          "policy_seconds": 1.933834300012677,
+          "baseline_seconds": 1.2321110499760835
+        },
+        {
+          "instance_id": "room-32-32-4/family-27/k16",
+          "family_id": "room-32-32-4/family-27",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 34226176,
+          "baseline_peak_bytes": 33372160,
+          "memory_ratio": 1.0255906719852717,
+          "policy_expansions": 238,
+          "baseline_expansions": 79,
+          "policy_seconds": 1.7037030000064988,
+          "baseline_seconds": 0.9149479999905452
+        },
+        {
+          "instance_id": "room-32-32-4/family-28/k16",
+          "family_id": "room-32-32-4/family-28",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 33019904,
+          "baseline_peak_bytes": 33058816,
+          "memory_ratio": 0.9988229463511337,
+          "policy_expansions": 44,
+          "baseline_expansions": 27,
+          "policy_seconds": 0.7045366000093054,
+          "baseline_seconds": 0.6406472000089707
+        },
+        {
+          "instance_id": "room-32-32-4/family-29/k16",
+          "family_id": "room-32-32-4/family-29",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 32694272,
+          "baseline_peak_bytes": 32937984,
+          "memory_ratio": 0.9926008829198533,
+          "policy_expansions": 50,
+          "baseline_expansions": 43,
+          "policy_seconds": 0.6899986999924295,
+          "baseline_seconds": 0.6950272499962011
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-24/k16",
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 31776768,
+          "baseline_peak_bytes": 31711232,
+          "memory_ratio": 1.002066649444588,
+          "policy_expansions": 5,
+          "baseline_expansions": 5,
+          "policy_seconds": 0.3864082999934908,
+          "baseline_seconds": 0.3949811000202317
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-24/k24",
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 35307520,
+          "baseline_peak_bytes": 33005568,
+          "memory_ratio": 1.0697443534375775,
+          "policy_expansions": 397,
+          "baseline_expansions": 37,
+          "policy_seconds": 3.1665128999884473,
+          "baseline_seconds": 0.7088956500083441
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-25/k16",
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 32530432,
+          "baseline_peak_bytes": 32294912,
+          "memory_ratio": 1.0072927896505803,
+          "policy_expansions": 36,
+          "baseline_expansions": 24,
+          "policy_seconds": 0.5348938000097405,
+          "baseline_seconds": 0.5295791999960784
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-25/k24",
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 34289664,
+          "baseline_peak_bytes": 34301952,
+          "memory_ratio": 0.99964176965789,
+          "policy_expansions": 49,
+          "baseline_expansions": 61,
+          "policy_seconds": 1.1243925999879139,
+          "baseline_seconds": 1.230683300003875
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-26/k16",
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 32065536,
+          "baseline_peak_bytes": 32190464,
+          "memory_ratio": 0.9961190991220257,
+          "policy_expansions": 8,
+          "baseline_expansions": 8,
+          "policy_seconds": 0.38419004999741446,
+          "baseline_seconds": 0.4026974999869708
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-26/k24",
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 33562624,
+          "baseline_peak_bytes": 33579008,
+          "memory_ratio": 0.9995120761161259,
+          "policy_expansions": 50,
+          "baseline_expansions": 45,
+          "policy_seconds": 0.8326175499969395,
+          "baseline_seconds": 0.7115809499955503
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-26/k32",
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 35452928,
+          "baseline_peak_bytes": 35248128,
+          "memory_ratio": 1.0058102376387195,
+          "policy_expansions": 228,
+          "baseline_expansions": 204,
+          "policy_seconds": 4.33820719999494,
+          "baseline_seconds": 3.142831999983173
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-27/k16",
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 31653888,
+          "baseline_peak_bytes": 31746048,
+          "memory_ratio": 0.9970969614863557,
+          "policy_expansions": 9,
+          "baseline_expansions": 9,
+          "policy_seconds": 0.384380700008478,
+          "baseline_seconds": 0.39555094999377616
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-27/k24",
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 33112064,
+          "baseline_peak_bytes": 33112064,
+          "memory_ratio": 1.0,
+          "policy_expansions": 25,
+          "baseline_expansions": 25,
+          "policy_seconds": 0.5945167000027141,
+          "baseline_seconds": 0.5344362999894656
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-29/k16",
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 32311296,
+          "baseline_peak_bytes": 32190464,
+          "memory_ratio": 1.0037536582262374,
+          "policy_expansions": 14,
+          "baseline_expansions": 14,
+          "policy_seconds": 0.44951135000155773,
+          "baseline_seconds": 0.44989910000003874
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-29/k24",
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 34082816,
+          "baseline_peak_bytes": 34426880,
+          "memory_ratio": 0.9900059488399762,
+          "policy_expansions": 72,
+          "baseline_expansions": 71,
+          "policy_seconds": 1.2991114500036929,
+          "baseline_seconds": 1.1473916999966605
+        }
+      ],
+      "family_rows": [
+        {
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 0.6205676166670552,
+          "baseline_mean_capped_seconds": 0.6485765333297119,
+          "time_ratio": 0.9568147855753238,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 5.301445483331918,
+          "baseline_mean_capped_seconds": 1.9194301666575484,
+          "time_ratio": 2.761989248383927,
+          "solved_runs": 4,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 10.348150333336283,
+          "baseline_mean_capped_seconds": 3.6700302499957616,
+          "time_ratio": 2.8196362505045385,
+          "solved_runs": 2,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 1.117424416661379,
+          "baseline_mean_capped_seconds": 1.0330832833375705,
+          "time_ratio": 1.0816402072167197,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 0.8040028833299099,
+          "baseline_mean_capped_seconds": 0.7496289833215997,
+          "time_ratio": 1.0725344153148668,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 5.645846233334548,
+          "baseline_mean_capped_seconds": 5.947398616670398,
+          "time_ratio": 0.9492967593443952,
+          "solved_runs": 4,
+          "baseline_solved_runs": 4
+        },
+        {
+          "family_id": "room-32-32-4/family-24",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.166151433334258,
+          "baseline_mean_capped_seconds": 10.161423033336177,
+          "time_ratio": 1.000465328525598,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-25",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 15,
+          "baseline_mean_capped_seconds": 10.945038516666196,
+          "time_ratio": 1.3704839847899342,
+          "solved_runs": 0,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-26",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.644611433337559,
+          "baseline_mean_capped_seconds": 10.41070368332536,
+          "time_ratio": 1.0224680057301836,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-27",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.567901000002166,
+          "baseline_mean_capped_seconds": 10.304982666663514,
+          "time_ratio": 1.0255137094203166,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-28",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.234845533336435,
+          "baseline_mean_capped_seconds": 10.213549066669657,
+          "time_ratio": 1.0020851191420106,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-29",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.229999566664143,
+          "baseline_mean_capped_seconds": 10.231675749998734,
+          "time_ratio": 0.999836177047089,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 6.184307066660646,
+          "baseline_mean_capped_seconds": 5.367958916676192,
+          "time_ratio": 1.1520779429679266,
+          "solved_runs": 4,
+          "baseline_solved_runs": 4
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 5.5530954666658845,
+          "baseline_mean_capped_seconds": 5.586754166666651,
+          "time_ratio": 0.9939752673920054,
+          "solved_runs": 4,
+          "baseline_solved_runs": 4
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 1.8516715999964315,
+          "baseline_mean_capped_seconds": 1.4190368166552314,
+          "time_ratio": 1.3048791816134484,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 5.326299133337064,
+          "baseline_mean_capped_seconds": 3.801836549998067,
+          "time_ratio": 1.4009805690725374,
+          "solved_runs": 4,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-28",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 15,
+          "baseline_mean_capped_seconds": 13.87170066666537,
+          "time_ratio": 1.0813382122673687,
+          "solved_runs": 0,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 5.582874266668417,
+          "baseline_mean_capped_seconds": 5.532430266665567,
+          "time_ratio": 1.0091178736236024,
+          "solved_runs": 4,
+          "baseline_solved_runs": 4
+        }
+      ],
+      "subgroups": {
+        "map_name": {
+          "random-32-32-20": {
+            "runs": 36,
+            "solved_runs": 28,
+            "mean_capped_seconds": 3.972906161110182
+          },
+          "room-32-32-4": {
+            "runs": 36,
+            "solved_runs": 10,
+            "mean_capped_seconds": 11.140584827779094
+          },
+          "warehouse-32-32-aisles": {
+            "runs": 36,
+            "solved_runs": 22,
+            "mean_capped_seconds": 6.583041255554741
+          }
+        },
+        "k": {
+          "16": {
+            "runs": 36,
+            "solved_runs": 32,
+            "mean_capped_seconds": 2.260997891668618
+          },
+          "24": {
+            "runs": 36,
+            "solved_runs": 20,
+            "mean_capped_seconds": 7.297514866664844
+          },
+          "32": {
+            "runs": 36,
+            "solved_runs": 8,
+            "mean_capped_seconds": 12.138019486110554
+          }
+        }
+      },
+      "telemetry_runs": 0,
+      "selector_totals": {}
+    },
+    "residual": {
+      "runs": 108,
+      "families": 18,
+      "instances": 54,
+      "solved_runs": 72,
+      "solved_instances_both_repeats": 36,
+      "solved_instances_any_repeat": 36,
+      "status_counts": {
+        "HARD_TIMEOUT": 36,
+        "SOLVED": 72
+      },
+      "mean_capped_seconds": 6.211957662961073,
+      "arithmetic_capped_time_ratio": 1.0,
+      "geometric_family_time_ratio": 1.0,
+      "stratified_family_bootstrap_95_interval": [
+        1.0,
+        1.0
+      ],
+      "family_time_wins": 0,
+      "family_time_losses": 0,
+      "family_time_ties": 18,
+      "no_fewer_solved": true,
+      "speed_claim_rule_passed": false,
+      "median_all_run_peak_memory_mib": 33.365234375,
+      "matched_memory_families": 18,
+      "matched_memory_instances": 36,
+      "median_matched_family_memory_ratio": 1.0,
+      "memory_family_rows": [
+        {
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "matched_instances": 3,
+          "memory_ratio": 1.0
+        },
+        {
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "matched_instances": 3,
+          "memory_ratio": 1.0
+        },
+        {
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "matched_instances": 3,
+          "memory_ratio": 1.0
+        },
+        {
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "matched_instances": 3,
+          "memory_ratio": 1.0
+        },
+        {
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "matched_instances": 3,
+          "memory_ratio": 1.0
+        },
+        {
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "matched_instances": 2,
+          "memory_ratio": 1.0
+        },
+        {
+          "family_id": "room-32-32-4/family-24",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0
+        },
+        {
+          "family_id": "room-32-32-4/family-25",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0
+        },
+        {
+          "family_id": "room-32-32-4/family-26",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0
+        },
+        {
+          "family_id": "room-32-32-4/family-27",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0
+        },
+        {
+          "family_id": "room-32-32-4/family-28",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0
+        },
+        {
+          "family_id": "room-32-32-4/family-29",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 1.0
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 1.0
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 3,
+          "memory_ratio": 1.0
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 3,
+          "memory_ratio": 1.0
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-28",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 1,
+          "memory_ratio": 1.0
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 1.0
+        }
+      ],
+      "matched_instance_rows": [
+        {
+          "instance_id": "random-32-32-20/family-24/k16",
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 32399360,
+          "baseline_peak_bytes": 32399360,
+          "memory_ratio": 1.0,
+          "policy_expansions": 15,
+          "baseline_expansions": 15,
+          "policy_seconds": 0.44336704998568166,
+          "baseline_seconds": 0.44336704998568166
+        },
+        {
+          "instance_id": "random-32-32-20/family-24/k24",
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 34070528,
+          "baseline_peak_bytes": 34070528,
+          "memory_ratio": 1.0,
+          "policy_expansions": 20,
+          "baseline_expansions": 20,
+          "policy_seconds": 0.5794580000074347,
+          "baseline_seconds": 0.5794580000074347
+        },
+        {
+          "instance_id": "random-32-32-20/family-24/k32",
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 35008512,
+          "baseline_peak_bytes": 35008512,
+          "memory_ratio": 1.0,
+          "policy_expansions": 32,
+          "baseline_expansions": 32,
+          "policy_seconds": 0.9229045499960193,
+          "baseline_seconds": 0.9229045499960193
+        },
+        {
+          "instance_id": "random-32-32-20/family-25/k16",
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 32204800,
+          "baseline_peak_bytes": 32204800,
+          "memory_ratio": 1.0,
+          "policy_expansions": 5,
+          "baseline_expansions": 5,
+          "policy_seconds": 0.40516604999720585,
+          "baseline_seconds": 0.40516604999720585
+        },
+        {
+          "instance_id": "random-32-32-20/family-25/k24",
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 33214464,
+          "baseline_peak_bytes": 33214464,
+          "memory_ratio": 1.0,
+          "policy_expansions": 17,
+          "baseline_expansions": 17,
+          "policy_seconds": 0.5052280999807408,
+          "baseline_seconds": 0.5052280999807408
+        },
+        {
+          "instance_id": "random-32-32-20/family-25/k32",
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 38864896,
+          "baseline_peak_bytes": 38864896,
+          "memory_ratio": 1.0,
+          "policy_expansions": 70,
+          "baseline_expansions": 70,
+          "policy_seconds": 4.8478963499946985,
+          "baseline_seconds": 4.8478963499946985
+        },
+        {
+          "instance_id": "random-32-32-20/family-26/k16",
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 33511424,
+          "baseline_peak_bytes": 33511424,
+          "memory_ratio": 1.0,
+          "policy_expansions": 46,
+          "baseline_expansions": 46,
+          "policy_seconds": 0.778601099998923,
+          "baseline_seconds": 0.778601099998923
+        },
+        {
+          "instance_id": "random-32-32-20/family-26/k24",
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 34697216,
+          "baseline_peak_bytes": 34697216,
+          "memory_ratio": 1.0,
+          "policy_expansions": 188,
+          "baseline_expansions": 188,
+          "policy_seconds": 2.2909026499983156,
+          "baseline_seconds": 2.2909026499983156
+        },
+        {
+          "instance_id": "random-32-32-20/family-26/k32",
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 37726208,
+          "baseline_peak_bytes": 37726208,
+          "memory_ratio": 1.0,
+          "policy_expansions": 284,
+          "baseline_expansions": 284,
+          "policy_seconds": 7.940586999990046,
+          "baseline_seconds": 7.940586999990046
+        },
+        {
+          "instance_id": "random-32-32-20/family-27/k16",
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 32684032,
+          "baseline_peak_bytes": 32684032,
+          "memory_ratio": 1.0,
+          "policy_expansions": 4,
+          "baseline_expansions": 4,
+          "policy_seconds": 0.3822731499967631,
+          "baseline_seconds": 0.3822731499967631
+        },
+        {
+          "instance_id": "random-32-32-20/family-27/k24",
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 34217984,
+          "baseline_peak_bytes": 34217984,
+          "memory_ratio": 1.0,
+          "policy_expansions": 49,
+          "baseline_expansions": 49,
+          "policy_seconds": 1.0957118500082288,
+          "baseline_seconds": 1.0957118500082288
+        },
+        {
+          "instance_id": "random-32-32-20/family-27/k32",
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 35393536,
+          "baseline_peak_bytes": 35393536,
+          "memory_ratio": 1.0,
+          "policy_expansions": 61,
+          "baseline_expansions": 61,
+          "policy_seconds": 1.6212648500077194,
+          "baseline_seconds": 1.6212648500077194
+        },
+        {
+          "instance_id": "random-32-32-20/family-28/k16",
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 32139264,
+          "baseline_peak_bytes": 32139264,
+          "memory_ratio": 1.0,
+          "policy_expansions": 5,
+          "baseline_expansions": 5,
+          "policy_seconds": 0.3702369499806082,
+          "baseline_seconds": 0.3702369499806082
+        },
+        {
+          "instance_id": "random-32-32-20/family-28/k24",
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 34351104,
+          "baseline_peak_bytes": 34351104,
+          "memory_ratio": 1.0,
+          "policy_expansions": 22,
+          "baseline_expansions": 22,
+          "policy_seconds": 0.5919455999974161,
+          "baseline_seconds": 0.5919455999974161
+        },
+        {
+          "instance_id": "random-32-32-20/family-28/k32",
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 35254272,
+          "baseline_peak_bytes": 35254272,
+          "memory_ratio": 1.0,
+          "policy_expansions": 56,
+          "baseline_expansions": 56,
+          "policy_seconds": 1.2867043999867747,
+          "baseline_seconds": 1.2867043999867747
+        },
+        {
+          "instance_id": "random-32-32-20/family-29/k16",
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 32462848,
+          "baseline_peak_bytes": 32462848,
+          "memory_ratio": 1.0,
+          "policy_expansions": 6,
+          "baseline_expansions": 6,
+          "policy_seconds": 0.38616280000132974,
+          "baseline_seconds": 0.38616280000132974
+        },
+        {
+          "instance_id": "random-32-32-20/family-29/k24",
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 34951168,
+          "baseline_peak_bytes": 34951168,
+          "memory_ratio": 1.0,
+          "policy_expansions": 182,
+          "baseline_expansions": 182,
+          "policy_seconds": 2.4560330500098644,
+          "baseline_seconds": 2.4560330500098644
+        },
+        {
+          "instance_id": "room-32-32-4/family-24/k16",
+          "family_id": "room-32-32-4/family-24",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 32114688,
+          "baseline_peak_bytes": 32114688,
+          "memory_ratio": 1.0,
+          "policy_expansions": 26,
+          "baseline_expansions": 26,
+          "policy_seconds": 0.4842691000085324,
+          "baseline_seconds": 0.4842691000085324
+        },
+        {
+          "instance_id": "room-32-32-4/family-25/k16",
+          "family_id": "room-32-32-4/family-25",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 35753984,
+          "baseline_peak_bytes": 35753984,
+          "memory_ratio": 1.0,
+          "policy_expansions": 228,
+          "baseline_expansions": 228,
+          "policy_seconds": 2.8351155499985907,
+          "baseline_seconds": 2.8351155499985907
+        },
+        {
+          "instance_id": "room-32-32-4/family-26/k16",
+          "family_id": "room-32-32-4/family-26",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 34394112,
+          "baseline_peak_bytes": 34394112,
+          "memory_ratio": 1.0,
+          "policy_expansions": 119,
+          "baseline_expansions": 119,
+          "policy_seconds": 1.2321110499760835,
+          "baseline_seconds": 1.2321110499760835
+        },
+        {
+          "instance_id": "room-32-32-4/family-27/k16",
+          "family_id": "room-32-32-4/family-27",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 33372160,
+          "baseline_peak_bytes": 33372160,
+          "memory_ratio": 1.0,
+          "policy_expansions": 79,
+          "baseline_expansions": 79,
+          "policy_seconds": 0.9149479999905452,
+          "baseline_seconds": 0.9149479999905452
+        },
+        {
+          "instance_id": "room-32-32-4/family-28/k16",
+          "family_id": "room-32-32-4/family-28",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 33058816,
+          "baseline_peak_bytes": 33058816,
+          "memory_ratio": 1.0,
+          "policy_expansions": 27,
+          "baseline_expansions": 27,
+          "policy_seconds": 0.6406472000089707,
+          "baseline_seconds": 0.6406472000089707
+        },
+        {
+          "instance_id": "room-32-32-4/family-29/k16",
+          "family_id": "room-32-32-4/family-29",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 32937984,
+          "baseline_peak_bytes": 32937984,
+          "memory_ratio": 1.0,
+          "policy_expansions": 43,
+          "baseline_expansions": 43,
+          "policy_seconds": 0.6950272499962011,
+          "baseline_seconds": 0.6950272499962011
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-24/k16",
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 31711232,
+          "baseline_peak_bytes": 31711232,
+          "memory_ratio": 1.0,
+          "policy_expansions": 5,
+          "baseline_expansions": 5,
+          "policy_seconds": 0.3949811000202317,
+          "baseline_seconds": 0.3949811000202317
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-24/k24",
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 33005568,
+          "baseline_peak_bytes": 33005568,
+          "memory_ratio": 1.0,
+          "policy_expansions": 37,
+          "baseline_expansions": 37,
+          "policy_seconds": 0.7088956500083441,
+          "baseline_seconds": 0.7088956500083441
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-25/k16",
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 32294912,
+          "baseline_peak_bytes": 32294912,
+          "memory_ratio": 1.0,
+          "policy_expansions": 24,
+          "baseline_expansions": 24,
+          "policy_seconds": 0.5295791999960784,
+          "baseline_seconds": 0.5295791999960784
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-25/k24",
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 34301952,
+          "baseline_peak_bytes": 34301952,
+          "memory_ratio": 1.0,
+          "policy_expansions": 61,
+          "baseline_expansions": 61,
+          "policy_seconds": 1.230683300003875,
+          "baseline_seconds": 1.230683300003875
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-26/k16",
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 32190464,
+          "baseline_peak_bytes": 32190464,
+          "memory_ratio": 1.0,
+          "policy_expansions": 8,
+          "baseline_expansions": 8,
+          "policy_seconds": 0.4026974999869708,
+          "baseline_seconds": 0.4026974999869708
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-26/k24",
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 33579008,
+          "baseline_peak_bytes": 33579008,
+          "memory_ratio": 1.0,
+          "policy_expansions": 45,
+          "baseline_expansions": 45,
+          "policy_seconds": 0.7115809499955503,
+          "baseline_seconds": 0.7115809499955503
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-26/k32",
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 35248128,
+          "baseline_peak_bytes": 35248128,
+          "memory_ratio": 1.0,
+          "policy_expansions": 204,
+          "baseline_expansions": 204,
+          "policy_seconds": 3.142831999983173,
+          "baseline_seconds": 3.142831999983173
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-27/k16",
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 31746048,
+          "baseline_peak_bytes": 31746048,
+          "memory_ratio": 1.0,
+          "policy_expansions": 9,
+          "baseline_expansions": 9,
+          "policy_seconds": 0.39555094999377616,
+          "baseline_seconds": 0.39555094999377616
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-27/k24",
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 33112064,
+          "baseline_peak_bytes": 33112064,
+          "memory_ratio": 1.0,
+          "policy_expansions": 25,
+          "baseline_expansions": 25,
+          "policy_seconds": 0.5344362999894656,
+          "baseline_seconds": 0.5344362999894656
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-27/k32",
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 35244032,
+          "baseline_peak_bytes": 35244032,
+          "memory_ratio": 1.0,
+          "policy_expansions": 579,
+          "baseline_expansions": 579,
+          "policy_seconds": 10.47552240001096,
+          "baseline_seconds": 10.47552240001096
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-28/k16",
+          "family_id": "warehouse-32-32-aisles/family-28",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 68507648,
+          "baseline_peak_bytes": 68507648,
+          "memory_ratio": 1.0,
+          "policy_expansions": 1651,
+          "baseline_expansions": 1651,
+          "policy_seconds": 11.615101999996114,
+          "baseline_seconds": 11.615101999996114
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-29/k16",
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 32190464,
+          "baseline_peak_bytes": 32190464,
+          "memory_ratio": 1.0,
+          "policy_expansions": 14,
+          "baseline_expansions": 14,
+          "policy_seconds": 0.44989910000003874,
+          "baseline_seconds": 0.44989910000003874
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-29/k24",
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 34426880,
+          "baseline_peak_bytes": 34426880,
+          "memory_ratio": 1.0,
+          "policy_expansions": 71,
+          "baseline_expansions": 71,
+          "policy_seconds": 1.1473916999966605,
+          "baseline_seconds": 1.1473916999966605
+        }
+      ],
+      "family_rows": [
+        {
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 0.6485765333297119,
+          "baseline_mean_capped_seconds": 0.6485765333297119,
+          "time_ratio": 1.0,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 1.9194301666575484,
+          "baseline_mean_capped_seconds": 1.9194301666575484,
+          "time_ratio": 1.0,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 3.6700302499957616,
+          "baseline_mean_capped_seconds": 3.6700302499957616,
+          "time_ratio": 1.0,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 1.0330832833375705,
+          "baseline_mean_capped_seconds": 1.0330832833375705,
+          "time_ratio": 1.0,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 0.7496289833215997,
+          "baseline_mean_capped_seconds": 0.7496289833215997,
+          "time_ratio": 1.0,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 5.947398616670398,
+          "baseline_mean_capped_seconds": 5.947398616670398,
+          "time_ratio": 1.0,
+          "solved_runs": 4,
+          "baseline_solved_runs": 4
+        },
+        {
+          "family_id": "room-32-32-4/family-24",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.161423033336177,
+          "baseline_mean_capped_seconds": 10.161423033336177,
+          "time_ratio": 1.0,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-25",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.945038516666196,
+          "baseline_mean_capped_seconds": 10.945038516666196,
+          "time_ratio": 1.0,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-26",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.41070368332536,
+          "baseline_mean_capped_seconds": 10.41070368332536,
+          "time_ratio": 1.0,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-27",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.304982666663514,
+          "baseline_mean_capped_seconds": 10.304982666663514,
+          "time_ratio": 1.0,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-28",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.213549066669657,
+          "baseline_mean_capped_seconds": 10.213549066669657,
+          "time_ratio": 1.0,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-29",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.231675749998734,
+          "baseline_mean_capped_seconds": 10.231675749998734,
+          "time_ratio": 1.0,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 5.367958916676192,
+          "baseline_mean_capped_seconds": 5.367958916676192,
+          "time_ratio": 1.0,
+          "solved_runs": 4,
+          "baseline_solved_runs": 4
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 5.586754166666651,
+          "baseline_mean_capped_seconds": 5.586754166666651,
+          "time_ratio": 1.0,
+          "solved_runs": 4,
+          "baseline_solved_runs": 4
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 1.4190368166552314,
+          "baseline_mean_capped_seconds": 1.4190368166552314,
+          "time_ratio": 1.0,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 3.801836549998067,
+          "baseline_mean_capped_seconds": 3.801836549998067,
+          "time_ratio": 1.0,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-28",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 13.87170066666537,
+          "baseline_mean_capped_seconds": 13.87170066666537,
+          "time_ratio": 1.0,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 5.532430266665567,
+          "baseline_mean_capped_seconds": 5.532430266665567,
+          "time_ratio": 1.0,
+          "solved_runs": 4,
+          "baseline_solved_runs": 4
+        }
+      ],
+      "subgroups": {
+        "map_name": {
+          "random-32-32-20": {
+            "runs": 36,
+            "solved_runs": 34,
+            "mean_capped_seconds": 2.3280246388854318
+          },
+          "room-32-32-4": {
+            "runs": 36,
+            "solved_runs": 12,
+            "mean_capped_seconds": 10.377895452776606
+          },
+          "warehouse-32-32-aisles": {
+            "runs": 36,
+            "solved_runs": 26,
+            "mean_capped_seconds": 5.92995289722118
+          }
+        },
+        "k": {
+          "16": {
+            "runs": 36,
+            "solved_runs": 36,
+            "mean_capped_seconds": 1.2975408388851468
+          },
+          "24": {
+            "runs": 36,
+            "solved_runs": 22,
+            "mean_capped_seconds": 6.491792619444216
+          },
+          "32": {
+            "runs": 36,
+            "solved_runs": 14,
+            "mean_capped_seconds": 10.846539530553855
+          }
+        }
+      },
+      "telemetry_runs": 0,
+      "selector_totals": {}
+    },
+    "pool_random": {
+      "runs": 108,
+      "families": 18,
+      "instances": 54,
+      "solved_runs": 62,
+      "solved_instances_both_repeats": 31,
+      "solved_instances_any_repeat": 31,
+      "status_counts": {
+        "HARD_TIMEOUT": 46,
+        "SOLVED": 62
+      },
+      "mean_capped_seconds": 7.293961000925467,
+      "arithmetic_capped_time_ratio": 1.1741807328172666,
+      "geometric_family_time_ratio": 1.3042361371612248,
+      "stratified_family_bootstrap_95_interval": [
+        1.0218073165375785,
+        1.7169319716699234
+      ],
+      "family_time_wins": 5,
+      "family_time_losses": 13,
+      "family_time_ties": 0,
+      "no_fewer_solved": false,
+      "speed_claim_rule_passed": false,
+      "median_all_run_peak_memory_mib": 35.30078125,
+      "matched_memory_families": 16,
+      "matched_memory_instances": 30,
+      "median_matched_family_memory_ratio": 1.0541411777996932,
+      "memory_family_rows": [
+        {
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "matched_instances": 3,
+          "memory_ratio": 1.0503733602421796
+        },
+        {
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "matched_instances": 2,
+          "memory_ratio": 1.0522493190996463
+        },
+        {
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "matched_instances": 2,
+          "memory_ratio": 1.0960216183756193
+        },
+        {
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "matched_instances": 3,
+          "memory_ratio": 1.0589401189212997
+        },
+        {
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "matched_instances": 2,
+          "memory_ratio": 1.0511304133555104
+        },
+        {
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "matched_instances": 2,
+          "memory_ratio": 1.0404046541300846
+        },
+        {
+          "family_id": "room-32-32-4/family-24",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0615394426375868
+        },
+        {
+          "family_id": "room-32-32-4/family-26",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0724663570322734
+        },
+        {
+          "family_id": "room-32-32-4/family-27",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0535747161706044
+        },
+        {
+          "family_id": "room-32-32-4/family-28",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0481352992194275
+        },
+        {
+          "family_id": "room-32-32-4/family-29",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0623639868183796
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 1.0950632911392406
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 1.0548311704286857
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 1.0522202154823441
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 3,
+          "memory_ratio": 1.054707639428782
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 1.0442080668962126
+        }
+      ],
+      "matched_instance_rows": [
+        {
+          "instance_id": "random-32-32-20/family-24/k16",
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 34070528,
+          "baseline_peak_bytes": 32399360,
+          "memory_ratio": 1.0515802781289507,
+          "policy_expansions": 15,
+          "baseline_expansions": 15,
+          "policy_seconds": 0.4428877500031376,
+          "baseline_seconds": 0.44336704998568166
+        },
+        {
+          "instance_id": "random-32-32-20/family-24/k24",
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 35700736,
+          "baseline_peak_bytes": 34070528,
+          "memory_ratio": 1.0478480403943256,
+          "policy_expansions": 20,
+          "baseline_expansions": 20,
+          "policy_seconds": 0.5145962000096915,
+          "baseline_seconds": 0.5794580000074347
+        },
+        {
+          "instance_id": "random-32-32-20/family-24/k32",
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 36818944,
+          "baseline_peak_bytes": 35008512,
+          "memory_ratio": 1.0517140517140517,
+          "policy_expansions": 34,
+          "baseline_expansions": 32,
+          "policy_seconds": 0.9858958499971777,
+          "baseline_seconds": 0.9229045499960193
+        },
+        {
+          "instance_id": "random-32-32-20/family-25/k16",
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 33835008,
+          "baseline_peak_bytes": 32204800,
+          "memory_ratio": 1.0506200317965024,
+          "policy_expansions": 5,
+          "baseline_expansions": 5,
+          "policy_seconds": 0.37723514999379404,
+          "baseline_seconds": 0.40516604999720585
+        },
+        {
+          "instance_id": "random-32-32-20/family-25/k24",
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 35002368,
+          "baseline_peak_bytes": 33214464,
+          "memory_ratio": 1.0538290788013318,
+          "policy_expansions": 17,
+          "baseline_expansions": 17,
+          "policy_seconds": 0.5571239499986405,
+          "baseline_seconds": 0.5052280999807408
+        },
+        {
+          "instance_id": "random-32-32-20/family-26/k16",
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 35334144,
+          "baseline_peak_bytes": 33511424,
+          "memory_ratio": 1.0543910040946036,
+          "policy_expansions": 64,
+          "baseline_expansions": 46,
+          "policy_seconds": 0.9511248500057263,
+          "baseline_seconds": 0.778601099998923
+        },
+        {
+          "instance_id": "random-32-32-20/family-26/k24",
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 39424000,
+          "baseline_peak_bytes": 34697216,
+          "memory_ratio": 1.1362294888442923,
+          "policy_expansions": 785,
+          "baseline_expansions": 188,
+          "policy_seconds": 10.687074350003968,
+          "baseline_seconds": 2.2909026499983156
+        },
+        {
+          "instance_id": "random-32-32-20/family-27/k16",
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 34293760,
+          "baseline_peak_bytes": 32684032,
+          "memory_ratio": 1.0492512062159283,
+          "policy_expansions": 4,
+          "baseline_expansions": 4,
+          "policy_seconds": 0.4128254000097513,
+          "baseline_seconds": 0.3822731499967631
+        },
+        {
+          "instance_id": "random-32-32-20/family-27/k24",
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 36601856,
+          "baseline_peak_bytes": 34217984,
+          "memory_ratio": 1.0696672252813024,
+          "policy_expansions": 65,
+          "baseline_expansions": 49,
+          "policy_seconds": 1.425227800005814,
+          "baseline_seconds": 1.0957118500082288
+        },
+        {
+          "instance_id": "random-32-32-20/family-27/k32",
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 37429248,
+          "baseline_peak_bytes": 35393536,
+          "memory_ratio": 1.057516491146858,
+          "policy_expansions": 73,
+          "baseline_expansions": 61,
+          "policy_seconds": 1.9288908000016818,
+          "baseline_seconds": 1.6212648500077194
+        },
+        {
+          "instance_id": "random-32-32-20/family-28/k16",
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 33814528,
+          "baseline_peak_bytes": 32139264,
+          "memory_ratio": 1.0521251513413623,
+          "policy_expansions": 5,
+          "baseline_expansions": 5,
+          "policy_seconds": 0.38349084999936167,
+          "baseline_seconds": 0.3702369499806082
+        },
+        {
+          "instance_id": "random-32-32-20/family-28/k24",
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 36075520,
+          "baseline_peak_bytes": 34351104,
+          "memory_ratio": 1.0501997257497169,
+          "policy_expansions": 22,
+          "baseline_expansions": 22,
+          "policy_seconds": 0.5982838000054471,
+          "baseline_seconds": 0.5919455999974161
+        },
+        {
+          "instance_id": "random-32-32-20/family-29/k16",
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 34181120,
+          "baseline_peak_bytes": 32462848,
+          "memory_ratio": 1.0529304144848906,
+          "policy_expansions": 8,
+          "baseline_expansions": 6,
+          "policy_seconds": 0.40801774999999907,
+          "baseline_seconds": 0.38616280000132974
+        },
+        {
+          "instance_id": "random-32-32-20/family-29/k24",
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 35956736,
+          "baseline_peak_bytes": 34951168,
+          "memory_ratio": 1.028770655103715,
+          "policy_expansions": 112,
+          "baseline_expansions": 182,
+          "policy_seconds": 1.610943949999637,
+          "baseline_seconds": 2.4560330500098644
+        },
+        {
+          "instance_id": "room-32-32-4/family-24/k16",
+          "family_id": "room-32-32-4/family-24",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 34091008,
+          "baseline_peak_bytes": 32114688,
+          "memory_ratio": 1.0615394426375868,
+          "policy_expansions": 66,
+          "baseline_expansions": 26,
+          "policy_seconds": 0.7882651499967324,
+          "baseline_seconds": 0.4842691000085324
+        },
+        {
+          "instance_id": "room-32-32-4/family-26/k16",
+          "family_id": "room-32-32-4/family-26",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 36886528,
+          "baseline_peak_bytes": 34394112,
+          "memory_ratio": 1.0724663570322734,
+          "policy_expansions": 333,
+          "baseline_expansions": 119,
+          "policy_seconds": 2.774020199998631,
+          "baseline_seconds": 1.2321110499760835
+        },
+        {
+          "instance_id": "room-32-32-4/family-27/k16",
+          "family_id": "room-32-32-4/family-27",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 35160064,
+          "baseline_peak_bytes": 33372160,
+          "memory_ratio": 1.0535747161706044,
+          "policy_expansions": 102,
+          "baseline_expansions": 79,
+          "policy_seconds": 0.9979338999983156,
+          "baseline_seconds": 0.9149479999905452
+        },
+        {
+          "instance_id": "room-32-32-4/family-28/k16",
+          "family_id": "room-32-32-4/family-28",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 34650112,
+          "baseline_peak_bytes": 33058816,
+          "memory_ratio": 1.0481352992194275,
+          "policy_expansions": 23,
+          "baseline_expansions": 27,
+          "policy_seconds": 0.7368540499883238,
+          "baseline_seconds": 0.6406472000089707
+        },
+        {
+          "instance_id": "room-32-32-4/family-29/k16",
+          "family_id": "room-32-32-4/family-29",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 34992128,
+          "baseline_peak_bytes": 32937984,
+          "memory_ratio": 1.0623639868183796,
+          "policy_expansions": 64,
+          "baseline_expansions": 43,
+          "policy_seconds": 0.8346091999992495,
+          "baseline_seconds": 0.6950272499962011
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-24/k16",
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 33417216,
+          "baseline_peak_bytes": 31711232,
+          "memory_ratio": 1.0537974683544304,
+          "policy_expansions": 5,
+          "baseline_expansions": 5,
+          "policy_seconds": 0.3797997499787016,
+          "baseline_seconds": 0.3949811000202317
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-24/k24",
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 37451776,
+          "baseline_peak_bytes": 33005568,
+          "memory_ratio": 1.134710846363862,
+          "policy_expansions": 451,
+          "baseline_expansions": 37,
+          "policy_seconds": 3.711341749993153,
+          "baseline_seconds": 0.7088956500083441
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-25/k16",
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 34177024,
+          "baseline_peak_bytes": 32294912,
+          "memory_ratio": 1.058278901642463,
+          "policy_expansions": 21,
+          "baseline_expansions": 24,
+          "policy_seconds": 0.4347474499954842,
+          "baseline_seconds": 0.5295791999960784
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-25/k24",
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 36071424,
+          "baseline_peak_bytes": 34301952,
+          "memory_ratio": 1.0515851692638367,
+          "policy_expansions": 46,
+          "baseline_expansions": 61,
+          "policy_seconds": 1.0692414999939501,
+          "baseline_seconds": 1.230683300003875
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-26/k16",
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 33804288,
+          "baseline_peak_bytes": 32190464,
+          "memory_ratio": 1.0501336047843237,
+          "policy_expansions": 8,
+          "baseline_expansions": 8,
+          "policy_seconds": 0.41945494999527,
+          "baseline_seconds": 0.4026974999869708
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-26/k24",
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 35399680,
+          "baseline_peak_bytes": 33579008,
+          "memory_ratio": 1.054220541595511,
+          "policy_expansions": 43,
+          "baseline_expansions": 45,
+          "policy_seconds": 0.7647808000037912,
+          "baseline_seconds": 0.7115809499955503
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-27/k16",
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 33406976,
+          "baseline_peak_bytes": 31746048,
+          "memory_ratio": 1.052319205212567,
+          "policy_expansions": 9,
+          "baseline_expansions": 9,
+          "policy_seconds": 0.3735774499946274,
+          "baseline_seconds": 0.39555094999377616
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-27/k24",
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 35026944,
+          "baseline_peak_bytes": 33112064,
+          "memory_ratio": 1.0578302820385947,
+          "policy_expansions": 35,
+          "baseline_expansions": 25,
+          "policy_seconds": 0.6351796999952057,
+          "baseline_seconds": 0.5344362999894656
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-27/k32",
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 37144576,
+          "baseline_peak_bytes": 35244032,
+          "memory_ratio": 1.053925271660178,
+          "policy_expansions": 595,
+          "baseline_expansions": 579,
+          "policy_seconds": 10.139035300002433,
+          "baseline_seconds": 10.47552240001096
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-29/k16",
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 34177024,
+          "baseline_peak_bytes": 32190464,
+          "memory_ratio": 1.0617126860923782,
+          "policy_expansions": 14,
+          "baseline_expansions": 14,
+          "policy_seconds": 0.44780209999589715,
+          "baseline_seconds": 0.44989910000003874
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-29/k24",
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 35385344,
+          "baseline_peak_bytes": 34426880,
+          "memory_ratio": 1.0278405710886378,
+          "policy_expansions": 65,
+          "baseline_expansions": 71,
+          "policy_seconds": 1.1856466000026558,
+          "baseline_seconds": 1.1473916999966605
+        }
+      ],
+      "family_rows": [
+        {
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 0.6477932666700023,
+          "baseline_mean_capped_seconds": 0.6485765333297119,
+          "time_ratio": 0.9987923296335,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 5.311453033330811,
+          "baseline_mean_capped_seconds": 1.9194301666575484,
+          "time_ratio": 2.7672030614065286,
+          "solved_runs": 4,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 8.879399733336564,
+          "baseline_mean_capped_seconds": 3.6700302499957616,
+          "time_ratio": 2.419435026004709,
+          "solved_runs": 4,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 1.255648000005749,
+          "baseline_mean_capped_seconds": 1.0330832833375705,
+          "time_ratio": 1.2154373420399769,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 5.32725821666827,
+          "baseline_mean_capped_seconds": 0.7496289833215997,
+          "time_ratio": 7.106526475354826,
+          "solved_runs": 4,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 5.672987233333212,
+          "baseline_mean_capped_seconds": 5.947398616670398,
+          "time_ratio": 0.9538602671480573,
+          "solved_runs": 4,
+          "baseline_solved_runs": 4
+        },
+        {
+          "family_id": "room-32-32-4/family-24",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.26275504999891,
+          "baseline_mean_capped_seconds": 10.161423033336177,
+          "time_ratio": 1.0099722269538722,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-25",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 15,
+          "baseline_mean_capped_seconds": 10.945038516666196,
+          "time_ratio": 1.3704839847899342,
+          "solved_runs": 0,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-26",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.924673399999543,
+          "baseline_mean_capped_seconds": 10.41070368332536,
+          "time_ratio": 1.0493693541097897,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-27",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.332644633332771,
+          "baseline_mean_capped_seconds": 10.304982666663514,
+          "time_ratio": 1.0026843292768208,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-28",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.245618016662775,
+          "baseline_mean_capped_seconds": 10.213549066669657,
+          "time_ratio": 1.0031398439253374,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-29",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.278203066666416,
+          "baseline_mean_capped_seconds": 10.231675749998734,
+          "time_ratio": 1.0045473799018394,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 1.9963757499936037,
+          "baseline_mean_capped_seconds": 5.367958916676192,
+          "time_ratio": 0.3719059294197705,
+          "solved_runs": 6,
+          "baseline_solved_runs": 4
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 5.501329649996478,
+          "baseline_mean_capped_seconds": 5.586754166666651,
+          "time_ratio": 0.9847094548781369,
+          "solved_runs": 4,
+          "baseline_solved_runs": 4
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 5.394745249999687,
+          "baseline_mean_capped_seconds": 1.4190368166552314,
+          "time_ratio": 3.801695055886906,
+          "solved_runs": 4,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 3.715930816664089,
+          "baseline_mean_capped_seconds": 3.801836549998067,
+          "time_ratio": 0.9774041487043883,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-28",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 15,
+          "baseline_mean_capped_seconds": 13.87170066666537,
+          "time_ratio": 1.0813382122673687,
+          "solved_runs": 0,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 5.544482899999518,
+          "baseline_mean_capped_seconds": 5.532430266665567,
+          "time_ratio": 1.0021785422957017,
+          "solved_runs": 4,
+          "baseline_solved_runs": 4
+        }
+      ],
+      "subgroups": {
+        "map_name": {
+          "random-32-32-20": {
+            "runs": 36,
+            "solved_runs": 28,
+            "mean_capped_seconds": 4.515756580557435
+          },
+          "room-32-32-4": {
+            "runs": 36,
+            "solved_runs": 10,
+            "mean_capped_seconds": 11.17398236111007
+          },
+          "warehouse-32-32-aisles": {
+            "runs": 36,
+            "solved_runs": 24,
+            "mean_capped_seconds": 6.192144061108896
+          }
+        },
+        "k": {
+          "16": {
+            "runs": 36,
+            "solved_runs": 32,
+            "mean_capped_seconds": 2.286813663886278
+          },
+          "24": {
+            "runs": 36,
+            "solved_runs": 22,
+            "mean_capped_seconds": 7.097746688889553
+          },
+          "32": {
+            "runs": 36,
+            "solved_runs": 8,
+            "mean_capped_seconds": 12.49732265000057
+          }
+        }
+      },
+      "telemetry_runs": 62,
+      "selector_totals": {
+        "selector_calls": 1864,
+        "ml_calls": 0,
+        "teacher_calls": 0,
+        "candidates_scored": 0,
+        "pool_seconds": 0.19691659975796938,
+        "feature_seconds": 0.0,
+        "inference_seconds": 0.0,
+        "teacher_seconds": 0.0
+      }
+    },
+    "model_a": {
+      "runs": 108,
+      "families": 18,
+      "instances": 54,
+      "solved_runs": 62,
+      "solved_instances_both_repeats": 31,
+      "solved_instances_any_repeat": 31,
+      "status_counts": {
+        "SOLVED": 62,
+        "HARD_TIMEOUT": 46
+      },
+      "mean_capped_seconds": 6.982386288889824,
+      "arithmetic_capped_time_ratio": 1.124023483051478,
+      "geometric_family_time_ratio": 1.1848324294218948,
+      "stratified_family_bootstrap_95_interval": [
+        0.8763877171903434,
+        1.634537705562896
+      ],
+      "family_time_wins": 4,
+      "family_time_losses": 14,
+      "family_time_ties": 0,
+      "no_fewer_solved": false,
+      "speed_claim_rule_passed": false,
+      "median_all_run_peak_memory_mib": 36.89453125,
+      "matched_memory_families": 17,
+      "matched_memory_instances": 30,
+      "median_matched_family_memory_ratio": 1.0905711807706604,
+      "memory_family_rows": [
+        {
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "matched_instances": 3,
+          "memory_ratio": 1.0791321897073662
+        },
+        {
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "matched_instances": 3,
+          "memory_ratio": 1.1038491751767479
+        },
+        {
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "matched_instances": 1,
+          "memory_ratio": 1.103587361730734
+        },
+        {
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "matched_instances": 3,
+          "memory_ratio": 1.1052873931410039
+        },
+        {
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "matched_instances": 2,
+          "memory_ratio": 1.0890470030185424
+        },
+        {
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "matched_instances": 2,
+          "memory_ratio": 1.1031989549472916
+        },
+        {
+          "family_id": "room-32-32-4/family-24",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0890249346342709
+        },
+        {
+          "family_id": "room-32-32-4/family-25",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0838011226944668
+        },
+        {
+          "family_id": "room-32-32-4/family-26",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.103072525902108
+        },
+        {
+          "family_id": "room-32-32-4/family-27",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0884934028843203
+        },
+        {
+          "family_id": "room-32-32-4/family-28",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0905711807706604
+        },
+        {
+          "family_id": "room-32-32-4/family-29",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0964994093141827
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 1.081392405063291
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 1.0942554892674827
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 1.085352182848602
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 1.0727525340238089
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 1.09696261682243
+        }
+      ],
+      "matched_instance_rows": [
+        {
+          "instance_id": "random-32-32-20/family-24/k16",
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 34170880,
+          "baseline_peak_bytes": 32399360,
+          "memory_ratio": 1.0546776232616941,
+          "policy_expansions": 15,
+          "baseline_expansions": 15,
+          "policy_seconds": 0.4142640000063693,
+          "baseline_seconds": 0.44336704998568166
+        },
+        {
+          "instance_id": "random-32-32-20/family-24/k24",
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 35827712,
+          "baseline_peak_bytes": 34070528,
+          "memory_ratio": 1.051574897811974,
+          "policy_expansions": 20,
+          "baseline_expansions": 20,
+          "policy_seconds": 0.556922100004158,
+          "baseline_seconds": 0.5794580000074347
+        },
+        {
+          "instance_id": "random-32-32-20/family-24/k32",
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 39510016,
+          "baseline_peak_bytes": 35008512,
+          "memory_ratio": 1.1285831285831285,
+          "policy_expansions": 40,
+          "baseline_expansions": 32,
+          "policy_seconds": 1.0411671999900136,
+          "baseline_seconds": 0.9229045499960193
+        },
+        {
+          "instance_id": "random-32-32-20/family-25/k16",
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 33941504,
+          "baseline_peak_bytes": 32204800,
+          "memory_ratio": 1.053926868044515,
+          "policy_expansions": 5,
+          "baseline_expansions": 5,
+          "policy_seconds": 0.37810415000421926,
+          "baseline_seconds": 0.40516604999720585
+        },
+        {
+          "instance_id": "random-32-32-20/family-25/k24",
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 37298176,
+          "baseline_peak_bytes": 33214464,
+          "memory_ratio": 1.1229498088543592,
+          "policy_expansions": 17,
+          "baseline_expansions": 17,
+          "policy_seconds": 0.528966700003366,
+          "baseline_seconds": 0.5052280999807408
+        },
+        {
+          "instance_id": "random-32-32-20/family-25/k32",
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 43874304,
+          "baseline_peak_bytes": 38864896,
+          "memory_ratio": 1.1288928703166992,
+          "policy_expansions": 70,
+          "baseline_expansions": 70,
+          "policy_seconds": 4.40364080001018,
+          "baseline_seconds": 4.8478963499946985
+        },
+        {
+          "instance_id": "random-32-32-20/family-26/k16",
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 36982784,
+          "baseline_peak_bytes": 33511424,
+          "memory_ratio": 1.103587361730734,
+          "policy_expansions": 100,
+          "baseline_expansions": 46,
+          "policy_seconds": 1.0734296500158962,
+          "baseline_seconds": 0.778601099998923
+        },
+        {
+          "instance_id": "random-32-32-20/family-27/k16",
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 34471936,
+          "baseline_peak_bytes": 32684032,
+          "memory_ratio": 1.054702675606241,
+          "policy_expansions": 4,
+          "baseline_expansions": 4,
+          "policy_seconds": 0.38486614999419544,
+          "baseline_seconds": 0.3822731499967631
+        },
+        {
+          "instance_id": "random-32-32-20/family-27/k24",
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 38565888,
+          "baseline_peak_bytes": 34217984,
+          "memory_ratio": 1.1270648790998323,
+          "policy_expansions": 42,
+          "baseline_expansions": 49,
+          "policy_seconds": 1.0474803999968572,
+          "baseline_seconds": 1.0957118500082288
+        },
+        {
+          "instance_id": "random-32-32-20/family-27/k32",
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 40028160,
+          "baseline_peak_bytes": 35393536,
+          "memory_ratio": 1.1309454924198588,
+          "policy_expansions": 51,
+          "baseline_expansions": 61,
+          "policy_seconds": 1.5951415000017732,
+          "baseline_seconds": 1.6212648500077194
+        },
+        {
+          "instance_id": "random-32-32-20/family-28/k16",
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 33927168,
+          "baseline_peak_bytes": 32139264,
+          "memory_ratio": 1.0556298986809405,
+          "policy_expansions": 5,
+          "baseline_expansions": 5,
+          "policy_seconds": 0.3823957500135293,
+          "baseline_seconds": 0.3702369499806082
+        },
+        {
+          "instance_id": "random-32-32-20/family-28/k24",
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 38483968,
+          "baseline_peak_bytes": 34351104,
+          "memory_ratio": 1.120312406844333,
+          "policy_expansions": 22,
+          "baseline_expansions": 22,
+          "policy_seconds": 0.7556675999949221,
+          "baseline_seconds": 0.5919455999974161
+        },
+        {
+          "instance_id": "random-32-32-20/family-29/k16",
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 35876864,
+          "baseline_peak_bytes": 32462848,
+          "memory_ratio": 1.1051668664437575,
+          "policy_expansions": 8,
+          "baseline_expansions": 6,
+          "policy_seconds": 0.49182250000012573,
+          "baseline_seconds": 0.38616280000132974
+        },
+        {
+          "instance_id": "random-32-32-20/family-29/k24",
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 38494208,
+          "baseline_peak_bytes": 34951168,
+          "memory_ratio": 1.1013711473104417,
+          "policy_expansions": 124,
+          "baseline_expansions": 182,
+          "policy_seconds": 1.8038971999922069,
+          "baseline_seconds": 2.4560330500098644
+        },
+        {
+          "instance_id": "room-32-32-4/family-24/k16",
+          "family_id": "room-32-32-4/family-24",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 34973696,
+          "baseline_peak_bytes": 32114688,
+          "memory_ratio": 1.0890249346342709,
+          "policy_expansions": 32,
+          "baseline_expansions": 26,
+          "policy_seconds": 0.5624884499993641,
+          "baseline_seconds": 0.4842691000085324
+        },
+        {
+          "instance_id": "room-32-32-4/family-25/k16",
+          "family_id": "room-32-32-4/family-25",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 38750208,
+          "baseline_peak_bytes": 35753984,
+          "memory_ratio": 1.0838011226944668,
+          "policy_expansions": 256,
+          "baseline_expansions": 228,
+          "policy_seconds": 3.170214350000606,
+          "baseline_seconds": 2.8351155499985907
+        },
+        {
+          "instance_id": "room-32-32-4/family-26/k16",
+          "family_id": "room-32-32-4/family-26",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 37939200,
+          "baseline_peak_bytes": 34394112,
+          "memory_ratio": 1.103072525902108,
+          "policy_expansions": 258,
+          "baseline_expansions": 119,
+          "policy_seconds": 2.0820375500043156,
+          "baseline_seconds": 1.2321110499760835
+        },
+        {
+          "instance_id": "room-32-32-4/family-27/k16",
+          "family_id": "room-32-32-4/family-27",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 36325376,
+          "baseline_peak_bytes": 33372160,
+          "memory_ratio": 1.0884934028843203,
+          "policy_expansions": 88,
+          "baseline_expansions": 79,
+          "policy_seconds": 0.9914240500074811,
+          "baseline_seconds": 0.9149479999905452
+        },
+        {
+          "instance_id": "room-32-32-4/family-28/k16",
+          "family_id": "room-32-32-4/family-28",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 36052992,
+          "baseline_peak_bytes": 33058816,
+          "memory_ratio": 1.0905711807706604,
+          "policy_expansions": 27,
+          "baseline_expansions": 27,
+          "policy_seconds": 0.7188725000160048,
+          "baseline_seconds": 0.6406472000089707
+        },
+        {
+          "instance_id": "room-32-32-4/family-29/k16",
+          "family_id": "room-32-32-4/family-29",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 36116480,
+          "baseline_peak_bytes": 32937984,
+          "memory_ratio": 1.0964994093141827,
+          "policy_expansions": 57,
+          "baseline_expansions": 43,
+          "policy_seconds": 0.7159506500029238,
+          "baseline_seconds": 0.6950272499962011
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-24/k16",
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 33497088,
+          "baseline_peak_bytes": 31711232,
+          "memory_ratio": 1.056316197365022,
+          "policy_expansions": 5,
+          "baseline_expansions": 5,
+          "policy_seconds": 0.3787752000062028,
+          "baseline_seconds": 0.3949811000202317
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-24/k24",
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 36487168,
+          "baseline_peak_bytes": 33005568,
+          "memory_ratio": 1.1054852320675106,
+          "policy_expansions": 37,
+          "baseline_expansions": 37,
+          "policy_seconds": 0.7139095499878749,
+          "baseline_seconds": 0.7088956500083441
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-25/k16",
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 35254272,
+          "baseline_peak_bytes": 32294912,
+          "memory_ratio": 1.0916354873485954,
+          "policy_expansions": 21,
+          "baseline_expansions": 24,
+          "policy_seconds": 0.5297330999892438,
+          "baseline_seconds": 0.5295791999960784
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-25/k24",
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 37619712,
+          "baseline_peak_bytes": 34301952,
+          "memory_ratio": 1.0967221923696937,
+          "policy_expansions": 58,
+          "baseline_expansions": 61,
+          "policy_seconds": 1.3137598499888554,
+          "baseline_seconds": 1.230683300003875
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-26/k16",
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 34082816,
+          "baseline_peak_bytes": 32190464,
+          "memory_ratio": 1.0587861051024303,
+          "policy_expansions": 8,
+          "baseline_expansions": 8,
+          "policy_seconds": 0.40705209999578074,
+          "baseline_seconds": 0.4026974999869708
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-26/k24",
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 37300224,
+          "baseline_peak_bytes": 33579008,
+          "memory_ratio": 1.1108197121249086,
+          "policy_expansions": 45,
+          "baseline_expansions": 45,
+          "policy_seconds": 0.7889651500154287,
+          "baseline_seconds": 0.7115809499955503
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-27/k16",
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 33517568,
+          "baseline_peak_bytes": 31746048,
+          "memory_ratio": 1.0558028514289401,
+          "policy_expansions": 9,
+          "baseline_expansions": 9,
+          "policy_seconds": 0.40618420000828337,
+          "baseline_seconds": 0.39555094999377616
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-27/k24",
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 36059136,
+          "baseline_peak_bytes": 33112064,
+          "memory_ratio": 1.0890029688273133,
+          "policy_expansions": 25,
+          "baseline_expansions": 25,
+          "policy_seconds": 0.5817788499989547,
+          "baseline_seconds": 0.5344362999894656
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-29/k16",
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 35198976,
+          "baseline_peak_bytes": 32190464,
+          "memory_ratio": 1.0934597277007252,
+          "policy_expansions": 14,
+          "baseline_expansions": 14,
+          "policy_seconds": 0.4882934000052046,
+          "baseline_seconds": 0.44989910000003874
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-29/k24",
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 37877760,
+          "baseline_peak_bytes": 34426880,
+          "memory_ratio": 1.100237953599048,
+          "policy_expansions": 67,
+          "baseline_expansions": 71,
+          "policy_seconds": 1.4159667000058107,
+          "baseline_seconds": 1.1473916999966605
+        }
+      ],
+      "family_rows": [
+        {
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 0.6707844333335137,
+          "baseline_mean_capped_seconds": 0.6485765333297119,
+          "time_ratio": 1.0342409860094524,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 1.7702372166725884,
+          "baseline_mean_capped_seconds": 1.9194301666575484,
+          "time_ratio": 0.9222722698764492,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 10.357809883338632,
+          "baseline_mean_capped_seconds": 3.6700302499957616,
+          "time_ratio": 2.8222682587835872,
+          "solved_runs": 2,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 1.009162683330942,
+          "baseline_mean_capped_seconds": 1.0330832833375705,
+          "time_ratio": 0.9768454292190766,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 5.379354450002817,
+          "baseline_mean_capped_seconds": 0.7496289833215997,
+          "time_ratio": 7.1760224987125545,
+          "solved_runs": 4,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 5.765239899997444,
+          "baseline_mean_capped_seconds": 5.947398616670398,
+          "time_ratio": 0.9693716987184333,
+          "solved_runs": 4,
+          "baseline_solved_runs": 4
+        },
+        {
+          "family_id": "room-32-32-4/family-24",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.187496149999788,
+          "baseline_mean_capped_seconds": 10.161423033336177,
+          "time_ratio": 1.0025658922552554,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-25",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 11.05673811666687,
+          "baseline_mean_capped_seconds": 10.945038516666196,
+          "time_ratio": 1.0102055008605575,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-26",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.694012516668105,
+          "baseline_mean_capped_seconds": 10.41070368332536,
+          "time_ratio": 1.0272132261142457,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-27",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.330474683335828,
+          "baseline_mean_capped_seconds": 10.304982666663514,
+          "time_ratio": 1.002473756385324,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-28",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.239624166672002,
+          "baseline_mean_capped_seconds": 10.213549066669657,
+          "time_ratio": 1.0025529911132887,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-29",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.238650216667642,
+          "baseline_mean_capped_seconds": 10.231675749998734,
+          "time_ratio": 1.0006816543877388,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 1.0061243333281407,
+          "baseline_mean_capped_seconds": 5.367958916676192,
+          "time_ratio": 0.18743145186944293,
+          "solved_runs": 6,
+          "baseline_solved_runs": 4
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 5.6144976499927,
+          "baseline_mean_capped_seconds": 5.586754166666651,
+          "time_ratio": 1.004965939523808,
+          "solved_runs": 4,
+          "baseline_solved_runs": 4
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 5.398672416670403,
+          "baseline_mean_capped_seconds": 1.4190368166552314,
+          "time_ratio": 3.8044625434000015,
+          "solved_runs": 4,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 5.32932101666908,
+          "baseline_mean_capped_seconds": 3.801836549998067,
+          "time_ratio": 1.4017754173760546,
+          "solved_runs": 4,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-28",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 15,
+          "baseline_mean_capped_seconds": 13.87170066666537,
+          "time_ratio": 1.0813382122673687,
+          "solved_runs": 0,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 5.634753366670338,
+          "baseline_mean_capped_seconds": 5.532430266665567,
+          "time_ratio": 1.0184951450036879,
+          "solved_runs": 4,
+          "baseline_solved_runs": 4
+        }
+      ],
+      "subgroups": {
+        "map_name": {
+          "random-32-32-20": {
+            "runs": 36,
+            "solved_runs": 28,
+            "mean_capped_seconds": 4.158764761112656
+          },
+          "room-32-32-4": {
+            "runs": 36,
+            "solved_runs": 12,
+            "mean_capped_seconds": 10.457832641668372
+          },
+          "warehouse-32-32-aisles": {
+            "runs": 36,
+            "solved_runs": 22,
+            "mean_capped_seconds": 6.3305614638884435
+          }
+        },
+        "k": {
+          "16": {
+            "runs": 36,
+            "solved_runs": 34,
+            "mean_capped_seconds": 1.5875504305594303
+          },
+          "24": {
+            "runs": 36,
+            "solved_runs": 20,
+            "mean_capped_seconds": 7.194850783332691
+          },
+          "32": {
+            "runs": 36,
+            "solved_runs": 8,
+            "mean_capped_seconds": 12.16475765277735
+          }
+        }
+      },
+      "telemetry_runs": 62,
+      "selector_totals": {
+        "selector_calls": 1130,
+        "ml_calls": 1074,
+        "teacher_calls": 0,
+        "candidates_scored": 2846,
+        "pool_seconds": 0.05918029978056438,
+        "feature_seconds": 1.1602054003160447,
+        "inference_seconds": 0.04697169933933765,
+        "teacher_seconds": 0.0
+      }
+    },
+    "model_b": {
+      "runs": 108,
+      "families": 18,
+      "instances": 54,
+      "solved_runs": 74,
+      "solved_instances_both_repeats": 37,
+      "solved_instances_any_repeat": 37,
+      "status_counts": {
+        "SOLVED": 74,
+        "HARD_TIMEOUT": 34
+      },
+      "mean_capped_seconds": 6.219933933334552,
+      "arithmetic_capped_time_ratio": 1.0012840187918597,
+      "geometric_family_time_ratio": 1.0314570636700202,
+      "stratified_family_bootstrap_95_interval": [
+        0.9722083406327109,
+        1.1029474967319157
+      ],
+      "family_time_wins": 7,
+      "family_time_losses": 11,
+      "family_time_ties": 0,
+      "no_fewer_solved": true,
+      "speed_claim_rule_passed": false,
+      "median_all_run_peak_memory_mib": 37.15234375,
+      "matched_memory_families": 18,
+      "matched_memory_instances": 36,
+      "median_matched_family_memory_ratio": 1.0944287999896587,
+      "memory_family_rows": [
+        {
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "matched_instances": 3,
+          "memory_ratio": 1.0792532795156407
+        },
+        {
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "matched_instances": 3,
+          "memory_ratio": 1.1017478397486253
+        },
+        {
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "matched_instances": 3,
+          "memory_ratio": 1.1342651664540075
+        },
+        {
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "matched_instances": 3,
+          "memory_ratio": 1.1077298844821717
+        },
+        {
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "matched_instances": 3,
+          "memory_ratio": 1.10420692431562
+        },
+        {
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "matched_instances": 2,
+          "memory_ratio": 1.108120424096971
+        },
+        {
+          "family_id": "room-32-32-4/family-24",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0944455073018302
+        },
+        {
+          "family_id": "room-32-32-4/family-25",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0832283193951198
+        },
+        {
+          "family_id": "room-32-32-4/family-26",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.113492914136001
+        },
+        {
+          "family_id": "room-32-32-4/family-27",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0802700214789813
+        },
+        {
+          "family_id": "room-32-32-4/family-28",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0944120926774874
+        },
+        {
+          "family_id": "room-32-32-4/family-29",
+          "map_name": "room-32-32-4",
+          "matched_instances": 1,
+          "memory_ratio": 1.0861779518746502
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 1.0789240506329114
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 1.0965003997785843
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 3,
+          "memory_ratio": 1.0924480486568677
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 3,
+          "memory_ratio": 1.0849871107655795
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-28",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 1,
+          "memory_ratio": 0.8419479238288841
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "matched_instances": 2,
+          "memory_ratio": 1.0951487948844072
+        }
+      ],
+      "matched_instance_rows": [
+        {
+          "instance_id": "random-32-32-20/family-24/k16",
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 34191360,
+          "baseline_peak_bytes": 32399360,
+          "memory_ratio": 1.0553097345132743,
+          "policy_expansions": 15,
+          "baseline_expansions": 15,
+          "policy_seconds": 0.43988570000510663,
+          "baseline_seconds": 0.44336704998568166
+        },
+        {
+          "instance_id": "random-32-32-20/family-24/k24",
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 35852288,
+          "baseline_peak_bytes": 34070528,
+          "memory_ratio": 1.0522962250540995,
+          "policy_expansions": 20,
+          "baseline_expansions": 20,
+          "policy_seconds": 0.5397119500121335,
+          "baseline_seconds": 0.5794580000074347
+        },
+        {
+          "instance_id": "random-32-32-20/family-24/k32",
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 39477248,
+          "baseline_peak_bytes": 35008512,
+          "memory_ratio": 1.1276471276471276,
+          "policy_expansions": 39,
+          "baseline_expansions": 32,
+          "policy_seconds": 1.0010357999999542,
+          "baseline_seconds": 0.9229045499960193
+        },
+        {
+          "instance_id": "random-32-32-20/family-25/k16",
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 33945600,
+          "baseline_peak_bytes": 32204800,
+          "memory_ratio": 1.054054054054054,
+          "policy_expansions": 5,
+          "baseline_expansions": 5,
+          "policy_seconds": 0.3899999499990372,
+          "baseline_seconds": 0.40516604999720585
+        },
+        {
+          "instance_id": "random-32-32-20/family-25/k24",
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 37320704,
+          "baseline_peak_bytes": 33214464,
+          "memory_ratio": 1.123628067579233,
+          "policy_expansions": 17,
+          "baseline_expansions": 17,
+          "policy_seconds": 0.5285998999897856,
+          "baseline_seconds": 0.5052280999807408
+        },
+        {
+          "instance_id": "random-32-32-20/family-25/k32",
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 43628544,
+          "baseline_peak_bytes": 38864896,
+          "memory_ratio": 1.1225694261474417,
+          "policy_expansions": 76,
+          "baseline_expansions": 70,
+          "policy_seconds": 4.577230449998751,
+          "baseline_seconds": 4.8478963499946985
+        },
+        {
+          "instance_id": "random-32-32-20/family-26/k16",
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 37226496,
+          "baseline_peak_bytes": 33511424,
+          "memory_ratio": 1.1108598667725966,
+          "policy_expansions": 56,
+          "baseline_expansions": 46,
+          "policy_seconds": 0.8730338500172365,
+          "baseline_seconds": 0.778601099998923
+        },
+        {
+          "instance_id": "random-32-32-20/family-26/k24",
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 39751680,
+          "baseline_peak_bytes": 34697216,
+          "memory_ratio": 1.145673474206115,
+          "policy_expansions": 298,
+          "baseline_expansions": 188,
+          "policy_seconds": 3.636890650013811,
+          "baseline_seconds": 2.2909026499983156
+        },
+        {
+          "instance_id": "random-32-32-20/family-26/k32",
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 43180032,
+          "baseline_peak_bytes": 37726208,
+          "memory_ratio": 1.144563270180772,
+          "policy_expansions": 437,
+          "baseline_expansions": 284,
+          "policy_seconds": 14.603863199998159,
+          "baseline_seconds": 7.940586999990046
+        },
+        {
+          "instance_id": "random-32-32-20/family-27/k16",
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 34467840,
+          "baseline_peak_bytes": 32684032,
+          "memory_ratio": 1.0545773544708315,
+          "policy_expansions": 4,
+          "baseline_expansions": 4,
+          "policy_seconds": 0.3739091000024928,
+          "baseline_seconds": 0.3822731499967631
+        },
+        {
+          "instance_id": "random-32-32-20/family-27/k24",
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 38572032,
+          "baseline_peak_bytes": 34217984,
+          "memory_ratio": 1.1272444338041656,
+          "policy_expansions": 37,
+          "baseline_expansions": 49,
+          "policy_seconds": 1.1319530500040855,
+          "baseline_seconds": 1.0957118500082288
+        },
+        {
+          "instance_id": "random-32-32-20/family-27/k32",
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 40275968,
+          "baseline_peak_bytes": 35393536,
+          "memory_ratio": 1.1379469968753617,
+          "policy_expansions": 65,
+          "baseline_expansions": 61,
+          "policy_seconds": 1.8443850500189,
+          "baseline_seconds": 1.6212648500077194
+        },
+        {
+          "instance_id": "random-32-32-20/family-28/k16",
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 33939456,
+          "baseline_peak_bytes": 32139264,
+          "memory_ratio": 1.056012234754349,
+          "policy_expansions": 5,
+          "baseline_expansions": 5,
+          "policy_seconds": 0.4083972999942489,
+          "baseline_seconds": 0.3702369499806082
+        },
+        {
+          "instance_id": "random-32-32-20/family-28/k24",
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 38309888,
+          "baseline_peak_bytes": 34351104,
+          "memory_ratio": 1.1152447385679365,
+          "policy_expansions": 22,
+          "baseline_expansions": 22,
+          "policy_seconds": 0.6205030499986606,
+          "baseline_seconds": 0.5919455999974161
+        },
+        {
+          "instance_id": "random-32-32-20/family-28/k32",
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 40097792,
+          "baseline_peak_bytes": 35254272,
+          "memory_ratio": 1.1373881724177994,
+          "policy_expansions": 81,
+          "baseline_expansions": 56,
+          "policy_seconds": 2.0574535000050673,
+          "baseline_seconds": 1.2867043999867747
+        },
+        {
+          "instance_id": "random-32-32-20/family-29/k16",
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 35715072,
+          "baseline_peak_bytes": 32462848,
+          "memory_ratio": 1.1001829537568608,
+          "policy_expansions": 8,
+          "baseline_expansions": 6,
+          "policy_seconds": 0.45585455000400543,
+          "baseline_seconds": 0.38616280000132974
+        },
+        {
+          "instance_id": "random-32-32-20/family-29/k24",
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "policy_peak_bytes": 38987776,
+          "baseline_peak_bytes": 34951168,
+          "memory_ratio": 1.1154927926872142,
+          "policy_expansions": 86,
+          "baseline_expansions": 182,
+          "policy_seconds": 1.6136713499872712,
+          "baseline_seconds": 2.4560330500098644
+        },
+        {
+          "instance_id": "room-32-32-4/family-24/k16",
+          "family_id": "room-32-32-4/family-24",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 35147776,
+          "baseline_peak_bytes": 32114688,
+          "memory_ratio": 1.0944455073018302,
+          "policy_expansions": 66,
+          "baseline_expansions": 26,
+          "policy_seconds": 0.8973761000088416,
+          "baseline_seconds": 0.4842691000085324
+        },
+        {
+          "instance_id": "room-32-32-4/family-25/k16",
+          "family_id": "room-32-32-4/family-25",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 38729728,
+          "baseline_peak_bytes": 35753984,
+          "memory_ratio": 1.0832283193951198,
+          "policy_expansions": 235,
+          "baseline_expansions": 228,
+          "policy_seconds": 3.1361870500113582,
+          "baseline_seconds": 2.8351155499985907
+        },
+        {
+          "instance_id": "room-32-32-4/family-26/k16",
+          "family_id": "room-32-32-4/family-26",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 38297600,
+          "baseline_peak_bytes": 34394112,
+          "memory_ratio": 1.113492914136001,
+          "policy_expansions": 409,
+          "baseline_expansions": 119,
+          "policy_seconds": 2.847810999985086,
+          "baseline_seconds": 1.2321110499760835
+        },
+        {
+          "instance_id": "room-32-32-4/family-27/k16",
+          "family_id": "room-32-32-4/family-27",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 36050944,
+          "baseline_peak_bytes": 33372160,
+          "memory_ratio": 1.0802700214789813,
+          "policy_expansions": 64,
+          "baseline_expansions": 79,
+          "policy_seconds": 0.8113337999966461,
+          "baseline_seconds": 0.9149479999905452
+        },
+        {
+          "instance_id": "room-32-32-4/family-28/k16",
+          "family_id": "room-32-32-4/family-28",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 36179968,
+          "baseline_peak_bytes": 33058816,
+          "memory_ratio": 1.0944120926774874,
+          "policy_expansions": 27,
+          "baseline_expansions": 27,
+          "policy_seconds": 0.6997351000027265,
+          "baseline_seconds": 0.6406472000089707
+        },
+        {
+          "instance_id": "room-32-32-4/family-29/k16",
+          "family_id": "room-32-32-4/family-29",
+          "map_name": "room-32-32-4",
+          "policy_peak_bytes": 35776512,
+          "baseline_peak_bytes": 32937984,
+          "memory_ratio": 1.0861779518746502,
+          "policy_expansions": 43,
+          "baseline_expansions": 43,
+          "policy_seconds": 0.7165825999982189,
+          "baseline_seconds": 0.6950272499962011
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-24/k16",
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 33345536,
+          "baseline_peak_bytes": 31711232,
+          "memory_ratio": 1.0515370705244123,
+          "policy_expansions": 5,
+          "baseline_expansions": 5,
+          "policy_seconds": 0.375956749994657,
+          "baseline_seconds": 0.3949811000202317
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-24/k24",
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 36478976,
+          "baseline_peak_bytes": 33005568,
+          "memory_ratio": 1.1052370315214692,
+          "policy_expansions": 35,
+          "baseline_expansions": 37,
+          "policy_seconds": 0.6642588000104297,
+          "baseline_seconds": 0.7088956500083441
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-25/k16",
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 35315712,
+          "baseline_peak_bytes": 32294912,
+          "memory_ratio": 1.093537954213964,
+          "policy_expansions": 21,
+          "baseline_expansions": 24,
+          "policy_seconds": 0.4722978499921737,
+          "baseline_seconds": 0.5295791999960784
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-25/k24",
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 37707776,
+          "baseline_peak_bytes": 34301952,
+          "memory_ratio": 1.0992895098214819,
+          "policy_expansions": 58,
+          "baseline_expansions": 61,
+          "policy_seconds": 1.3353341500042006,
+          "baseline_seconds": 1.230683300003875
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-26/k16",
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 33951744,
+          "baseline_peak_bytes": 32190464,
+          "memory_ratio": 1.0547143402468508,
+          "policy_expansions": 8,
+          "baseline_expansions": 8,
+          "policy_seconds": 0.40624620000016876,
+          "baseline_seconds": 0.4026974999869708
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-26/k24",
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 37113856,
+          "baseline_peak_bytes": 33579008,
+          "memory_ratio": 1.1052695779458404,
+          "policy_expansions": 43,
+          "baseline_expansions": 45,
+          "policy_seconds": 0.7951864000206115,
+          "baseline_seconds": 0.7115809499955503
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-26/k32",
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 39290880,
+          "baseline_peak_bytes": 35248128,
+          "memory_ratio": 1.1146940909883214,
+          "policy_expansions": 170,
+          "baseline_expansions": 204,
+          "policy_seconds": 2.9651621999946656,
+          "baseline_seconds": 3.142831999983173
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-27/k16",
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 33497088,
+          "baseline_peak_bytes": 31746048,
+          "memory_ratio": 1.0551577317592413,
+          "policy_expansions": 9,
+          "baseline_expansions": 9,
+          "policy_seconds": 0.3658591499988688,
+          "baseline_seconds": 0.39555094999377616
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-27/k24",
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 36163584,
+          "baseline_peak_bytes": 33112064,
+          "memory_ratio": 1.0921573478476,
+          "policy_expansions": 38,
+          "baseline_expansions": 25,
+          "policy_seconds": 0.6972461999976076,
+          "baseline_seconds": 0.5344362999894656
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-27/k32",
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 38948864,
+          "baseline_peak_bytes": 35244032,
+          "memory_ratio": 1.1051194142599803,
+          "policy_expansions": 513,
+          "baseline_expansions": 579,
+          "policy_seconds": 8.729563499990036,
+          "baseline_seconds": 10.47552240001096
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-28/k16",
+          "family_id": "warehouse-32-32-aisles/family-28",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 57679872,
+          "baseline_peak_bytes": 68507648,
+          "memory_ratio": 0.8419479238288841,
+          "policy_expansions": 1132,
+          "baseline_expansions": 1651,
+          "policy_seconds": 6.9069356999971205,
+          "baseline_seconds": 11.615101999996114
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-29/k16",
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 35121152,
+          "baseline_peak_bytes": 32190464,
+          "memory_ratio": 1.091042117317725,
+          "policy_expansions": 14,
+          "baseline_expansions": 14,
+          "policy_seconds": 0.4893300499970792,
+          "baseline_seconds": 0.44989910000003874
+        },
+        {
+          "instance_id": "warehouse-32-32-aisles/family-29/k24",
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_peak_bytes": 37834752,
+          "baseline_peak_bytes": 34426880,
+          "memory_ratio": 1.0989886972040452,
+          "policy_expansions": 97,
+          "baseline_expansions": 71,
+          "policy_seconds": 1.4940938000072492,
+          "baseline_seconds": 1.1473916999966605
+        }
+      ],
+      "family_rows": [
+        {
+          "family_id": "random-32-32-20/family-24",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 0.6602111500057314,
+          "baseline_mean_capped_seconds": 0.6485765333297119,
+          "time_ratio": 1.0179386950932203,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-25",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 1.8319434333291913,
+          "baseline_mean_capped_seconds": 1.9194301666575484,
+          "time_ratio": 0.9544204655902098,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-26",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 6.3712625666764025,
+          "baseline_mean_capped_seconds": 3.6700302499957616,
+          "time_ratio": 1.7360245373137622,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-27",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 1.1167490666751594,
+          "baseline_mean_capped_seconds": 1.0330832833375705,
+          "time_ratio": 1.0809864845235815,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-28",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 1.0287846166659922,
+          "baseline_mean_capped_seconds": 0.7496289833215997,
+          "time_ratio": 1.3723917291824235,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "random-32-32-20/family-29",
+          "map_name": "random-32-32-20",
+          "policy_mean_capped_seconds": 5.689841966663759,
+          "baseline_mean_capped_seconds": 5.947398616670398,
+          "time_ratio": 0.9566942344700564,
+          "solved_runs": 4,
+          "baseline_solved_runs": 4
+        },
+        {
+          "family_id": "room-32-32-4/family-24",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.299125366669614,
+          "baseline_mean_capped_seconds": 10.161423033336177,
+          "time_ratio": 1.0135514812129838,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-25",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 11.04539568333712,
+          "baseline_mean_capped_seconds": 10.945038516666196,
+          "time_ratio": 1.0091691926454263,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-26",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.949270333328363,
+          "baseline_mean_capped_seconds": 10.41070368332536,
+          "time_ratio": 1.051732012204479,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-27",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.270444599998882,
+          "baseline_mean_capped_seconds": 10.304982666663514,
+          "time_ratio": 0.9966484109889517,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-28",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.233245033334242,
+          "baseline_mean_capped_seconds": 10.213549066669657,
+          "time_ratio": 1.0019284155327417,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "room-32-32-4/family-29",
+          "map_name": "room-32-32-4",
+          "policy_mean_capped_seconds": 10.238860866666073,
+          "baseline_mean_capped_seconds": 10.231675749998734,
+          "time_ratio": 1.0007022424129635,
+          "solved_runs": 2,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-24",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 5.3467385166683625,
+          "baseline_mean_capped_seconds": 5.367958916676192,
+          "time_ratio": 0.9960468400862932,
+          "solved_runs": 4,
+          "baseline_solved_runs": 4
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-25",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 5.602543999998791,
+          "baseline_mean_capped_seconds": 5.586754166666651,
+          "time_ratio": 1.0028262982155811,
+          "solved_runs": 4,
+          "baseline_solved_runs": 4
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-26",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 1.388864933338482,
+          "baseline_mean_capped_seconds": 1.4190368166552314,
+          "time_ratio": 0.9787377727183523,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-27",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 3.264222949995504,
+          "baseline_mean_capped_seconds": 3.801836549998067,
+          "time_ratio": 0.8585910801444538,
+          "solved_runs": 6,
+          "baseline_solved_runs": 6
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-28",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 10.960164433335498,
+          "baseline_mean_capped_seconds": 13.87170066666537,
+          "time_ratio": 0.7901096409666272,
+          "solved_runs": 4,
+          "baseline_solved_runs": 2
+        },
+        {
+          "family_id": "warehouse-32-32-aisles/family-29",
+          "map_name": "warehouse-32-32-aisles",
+          "policy_mean_capped_seconds": 5.661141283334776,
+          "baseline_mean_capped_seconds": 5.532430266665567,
+          "time_ratio": 1.0232648240403008,
+          "solved_runs": 4,
+          "baseline_solved_runs": 4
+        }
+      ],
+      "subgroups": {
+        "map_name": {
+          "random-32-32-20": {
+            "runs": 36,
+            "solved_runs": 34,
+            "mean_capped_seconds": 2.7831321333360393
+          },
+          "room-32-32-4": {
+            "runs": 36,
+            "solved_runs": 12,
+            "mean_capped_seconds": 10.506056980555716
+          },
+          "warehouse-32-32-aisles": {
+            "runs": 36,
+            "solved_runs": 28,
+            "mean_capped_seconds": 5.370612686111902
+          }
+        },
+        "k": {
+          "16": {
+            "runs": 36,
+            "solved_runs": 36,
+            "mean_capped_seconds": 1.1703739888891707
+          },
+          "24": {
+            "runs": 36,
+            "solved_runs": 24,
+            "mean_capped_seconds": 6.335055938891957
+          },
+          "32": {
+            "runs": 36,
+            "solved_runs": 14,
+            "mean_capped_seconds": 11.15437187222253
+          }
+        }
+      },
+      "telemetry_runs": 74,
+      "selector_totals": {
+        "selector_calls": 3196,
+        "ml_calls": 3196,
+        "teacher_calls": 0,
+        "candidates_scored": 11116,
+        "pool_seconds": 0.2883918000734411,
+        "feature_seconds": 1.8395394003600813,
+        "inference_seconds": 0.15122909969068132,
+        "teacher_seconds": 0.0
+      }
+    }
+  },
+  "primary_speed_claim_supported": false,
+  "inference_scope": "Frozen Python implementations on synthetic held-out scenario families from three known maps; not optimized published solvers or unseen maps",
+  "limitations": [
+    "Two repeats share algorithm seed and are timing observations, not independent samples",
+    "15-second censoring; two failures tie at cap despite unknown latent solve times",
+    "Family bootstrap has only six independent families per map; interval is approximate",
+    "Peak memory includes interpreter/imports; matched completion analysis is selected and conditional",
+    "Secondary policy comparisons are exploratory, without multiplicity adjustment",
+    "Hard-killed workers have missing telemetry, not zero inference cost"
+  ]
+}

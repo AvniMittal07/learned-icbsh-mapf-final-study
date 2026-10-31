@@ -1,0 +1,133 @@
+{
+  "dataset_rows": 6789,
+  "decision_queries": 2251,
+  "source_revision": "8f26ac31c372a8c4e5a6426fed4e74da997b9676",
+  "sha256": "9a9e963b2b89ac426a80d69fbb0d43059635c50c98e70fdaf90846677ce29d9c",
+  "aliases_identical": true,
+  "maps": {
+    "random-32-32-20": 2353,
+    "room-32-32-4": 2837,
+    "warehouse-32-32-aisles": 1158,
+    "Paris_1_256": 441
+  },
+  "issues": {
+    "tied_relevance_queries": 554
+  },
+  "missing_replay_or_censoring_fields": [
+    "state_hash",
+    "paths",
+    "constraints",
+    "map_sha256",
+    "scenario_sha256",
+    "rollout_status",
+    "label_budget",
+    "source_commit"
+  ],
+  "benchmark_test_instances": 60,
+  "overlap_train_and_benchmark_test": [
+    [
+      "random-32-32-20",
+      20,
+      16
+    ],
+    [
+      "random-32-32-20",
+      20,
+      17
+    ],
+    [
+      "random-32-32-20",
+      20,
+      18
+    ],
+    [
+      "random-32-32-20",
+      20,
+      19
+    ],
+    [
+      "random-32-32-20",
+      20,
+      20
+    ],
+    [
+      "random-32-32-20",
+      28,
+      16
+    ],
+    [
+      "random-32-32-20",
+      28,
+      17
+    ],
+    [
+      "random-32-32-20",
+      28,
+      18
+    ],
+    [
+      "random-32-32-20",
+      28,
+      19
+    ],
+    [
+      "random-32-32-20",
+      28,
+      20
+    ],
+    [
+      "room-32-32-4",
+      16,
+      16
+    ],
+    [
+      "room-32-32-4",
+      16,
+      17
+    ],
+    [
+      "room-32-32-4",
+      16,
+      18
+    ],
+    [
+      "room-32-32-4",
+      16,
+      19
+    ],
+    [
+      "room-32-32-4",
+      16,
+      20
+    ],
+    [
+      "room-32-32-4",
+      20,
+      16
+    ],
+    [
+      "room-32-32-4",
+      20,
+      17
+    ],
+    [
+      "room-32-32-4",
+      20,
+      18
+    ],
+    [
+      "room-32-32-4",
+      20,
+      19
+    ],
+    [
+      "room-32-32-4",
+      20,
+      20
+    ]
+  ],
+  "family_overlap_count": 10,
+  "scenario_files_available": 0,
+  "disposition": "Historical diagnostic data only; exact labels and held-out claims are not certified",
+  "nonfinite_numeric_cells": 0
+}

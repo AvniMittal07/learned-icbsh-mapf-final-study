@@ -1,0 +1,11 @@
+test_approved_source_and_models_unchanged (test_final_study.FinalStudyTests.test_approved_source_and_models_unchanged) ... ok
+test_family_average_precedes_ratio_and_bootstrap (test_final_study.FinalStudyTests.test_family_average_precedes_ratio_and_bootstrap) ... ok
+test_monitor_six_policies_on_independent_tiny_problem (test_final_study.FinalStudyTests.test_monitor_six_policies_on_independent_tiny_problem) ... ok
+test_timeout_is_explicit (test_final_study.FinalStudyTests.test_timeout_is_explicit) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 5.399s
+
+OK
+Worker CPU seconds (excluding subprocesses): 0.2812; affinity=[0]
+{"exit_code": 0, "wall_seconds": 5.695923100021901, "phase_reserved_cpu_hours": 0.025, "total_reserved_cpu_hours": 3.2583333333333333}

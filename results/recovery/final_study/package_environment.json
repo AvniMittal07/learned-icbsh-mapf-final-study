@@ -1,0 +1,22 @@
+{
+  "solver_packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.1",
+    "psutil": "7.2.2"
+  },
+  "plotting_packages": {
+    "matplotlib": "3.11.2"
+  },
+  "hardware": {
+    "processor": "Intel(R) Core(TM) Ultra 5 125H",
+    "physical_cores": 14,
+    "logical_processors": 18,
+    "ram_bytes": 16641941504,
+    "os": "Microsoft Windows 11 Home Single Language",
+    "os_version": "10.0.26200",
+    "benchmark_logical_cpu": 0,
+    "numerical_threads": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "queries": 106,
+  "replayed_feature_queries": 106,
+  "source_archive_verified": true,
+  "unique_state_hashes": 106,
+  "candidate_rollouts": 374,
+  "rollout_statuses": {
+    "SOLVED": 37,
+    "EXPANSION_CAP": 188,
+    "TIME_CAP": 149
+  },
+  "deeper_statuses": {
+    "SOLVED": 12,
+    "TIME_CAP": 40,
+    "EXPANSION_CAP": 35
+  },
+  "fully_observed_unequal_pairs": 25,
+  "sampled_candidate_pairs": 503,
+  "queries_with_observed_unequal_pair": 13,
+  "solved_vs_censored_strict_preference_pairs": 0,
+  "queries_with_any_observed_or_bounded_preference": 13,
+  "comparable_deeper_pairs": 10,
+  "stable_pairs": 10,
+  "changed_pairs": 0,
+  "mean_rollout_cpu_seconds": 0.16886697860962566,
+  "p95_rollout_cpu_seconds": 0.25,
+  "limitations": [
+    "Synthetic pilot; not held-out performance evidence",
+    "Solved-only pair count is diagnostic, not a censoring-aware production target",
+    "Deeper agreement on solved pairs is not evidence about capped pairs"
+  ]
+}

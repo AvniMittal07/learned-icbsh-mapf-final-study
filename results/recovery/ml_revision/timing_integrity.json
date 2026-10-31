@@ -1,0 +1,32 @@
+{
+  "rule": "wall_seconds > cap_seconds + 1; replace whole instance block once",
+  "initial_faults": [
+    {
+      "instance_id": "room-32-32-4/family-20/k24",
+      "policy": "residual",
+      "repeat": 0,
+      "status": "HARD_TIMEOUT",
+      "end_to_end_wall_seconds": 195.28677989999414,
+      "process_cpu_seconds": 4.90625
+    },
+    {
+      "instance_id": "warehouse-32-32-aisles/family-20/k32",
+      "policy": "teacher",
+      "repeat": 1,
+      "status": "HARD_TIMEOUT",
+      "end_to_end_wall_seconds": 150.60809980001068,
+      "process_cpu_seconds": 5.21875
+    }
+  ],
+  "affected_instance_ids": [
+    "room-32-32-4/family-20/k24",
+    "warehouse-32-32-aisles/family-20/k32"
+  ],
+  "replacement_runs": 24,
+  "remaining_faults": 0,
+  "cause": "Windows Modern Standby observed in Kernel-Power events 506/507; replacements use process-lifetime keep-awake request",
+  "raw_initial_file": "development_initial.jsonl",
+  "raw_replacements_file": "development_replacements.jsonl",
+  "canonical_file": "development.jsonl",
+  "canonical_is_derived": true
+}

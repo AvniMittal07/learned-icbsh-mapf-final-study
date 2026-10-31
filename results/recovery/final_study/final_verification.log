@@ -1,0 +1,12 @@
+{
+  "verified": true,
+  "final_runs": 648,
+  "independent_families": 18,
+  "solutions_revalidated": 366,
+  "all_policy_statistics_reproduced": true,
+  "source_and_models_unchanged": true,
+  "historical_failed_gate_preserved": true,
+  "packaged_files_checked": 0
+}
+Worker CPU seconds (excluding subprocesses): 1.1094; affinity=[0]
+{"exit_code": 0, "wall_seconds": 2.017179800022859, "phase_reserved_cpu_hours": 2.8361111111111112, "total_reserved_cpu_hours": 6.069444444444445}

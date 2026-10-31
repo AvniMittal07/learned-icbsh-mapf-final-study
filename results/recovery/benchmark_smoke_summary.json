@@ -1,0 +1,36 @@
+{
+  "runs": 36,
+  "cost_agreement": true,
+  "validated_solutions": 16,
+  "policies": {
+    "cbs": {
+      "statuses": {
+        "SOLVED": 3,
+        "HARD_TIMEOUT": 6
+      },
+      "cpu_seconds": 32.296875
+    },
+    "plain": {
+      "statuses": {
+        "SOLVED": 4,
+        "HARD_TIMEOUT": 5
+      },
+      "cpu_seconds": 25.0
+    },
+    "random": {
+      "statuses": {
+        "SOLVED": 4,
+        "HARD_TIMEOUT": 5
+      },
+      "cpu_seconds": 24.921875
+    },
+    "residual": {
+      "statuses": {
+        "SOLVED": 5,
+        "HARD_TIMEOUT": 4
+      },
+      "cpu_seconds": 21.921875
+    }
+  },
+  "scope": "Runner smoke test only; one repetition, nine synthetic instances, no learned model"
+}

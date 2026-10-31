@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "win32",
+  "logical_cpu_count": 18,
+  "controller_affinity": [
+    0
+  ],
+  "source_sha256": "3c638b8edee05ef3643edf29ffc68308b6c85a271e0edfb32e944c8992a0b8a2",
+  "frozen_utc": "2026-10-31T11:20:58.292223+00:00"
+}

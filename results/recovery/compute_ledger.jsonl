@@ -1,0 +1,46 @@
+{"command": ["unittest", "-v", "mapf.test_recovery"], "reserved_cpu_seconds": 240.0, "allocated_logical_cpus": 2, "wall_cap_seconds": 120.0}
+{"command": ["unittest", "-v", "mapf.test_recovery"], "reserved_cpu_seconds": 240.0, "allocated_logical_cpus": 2, "wall_cap_seconds": 120.0}
+{"command": ["mapf.recovery_audit"], "reserved_cpu_seconds": 60.0, "allocated_logical_cpus": 2, "wall_cap_seconds": 30.0}
+{"command": ["mapf.recovery_pilot", "--queries-per-instance", "10"], "reserved_cpu_seconds": 720.0, "allocated_logical_cpus": 2, "wall_cap_seconds": 360.0}
+{"command": ["mapf.recovery_pilot", "--output", "results/recovery/pilot_dense", "--queries-per-instance", "20", "--agent-counts", "20", "28", "36"], "reserved_cpu_seconds": 720.0, "allocated_logical_cpus": 2, "wall_cap_seconds": 360.0}
+{"command": ["mapf.verify_pilot", "results/recovery/pilot_dense"], "reserved_cpu_seconds": 360.0, "allocated_logical_cpus": 2, "wall_cap_seconds": 180.0}
+{"command": ["unittest", "-v", "mapf.test_recovery"], "reserved_cpu_seconds": 360.0, "allocated_logical_cpus": 2, "wall_cap_seconds": 180.0}
+{"command": ["mapf.verify_pilot", "results/recovery/pilot_dense"], "reserved_cpu_seconds": 360.0, "allocated_logical_cpus": 2, "wall_cap_seconds": 180.0}
+{"command": ["mapf.recovery_benchmark", "results/recovery/pilot_dense/manifest.json", "--timeout", "5", "--output", "results/recovery/pilot_benchmark.jsonl"], "reserved_cpu_seconds": 480.0, "allocated_logical_cpus": 2, "wall_cap_seconds": 240.0}
+{"command": ["mapf.test_features"], "reserved_cpu_seconds": 60.0, "allocated_logical_cpus": 2, "wall_cap_seconds": 30.0}
+{"command": ["mapf.day3_protocol"], "reserved_cpu_seconds": 30.0, "phase": "day3", "allocated_logical_cpus": 1, "wall_cap_seconds": 30.0}
+{"command": ["mapf.day3_calibration", "harvest"], "reserved_cpu_seconds": 150.0, "phase": "day3", "allocated_logical_cpus": 1, "wall_cap_seconds": 150.0}
+{"command": ["mapf.day3_calibration", "calibrate"], "reserved_cpu_seconds": 1500.0, "phase": "day3", "allocated_logical_cpus": 1, "wall_cap_seconds": 1500.0}
+{"command": ["unittest", "-v", "mapf.test_day3"], "reserved_cpu_seconds": 60.0, "phase": "day3", "allocated_logical_cpus": 1, "wall_cap_seconds": 60.0}
+{"command": ["mapf.day3_analysis"], "reserved_cpu_seconds": 120.0, "phase": "day3", "allocated_logical_cpus": 1, "wall_cap_seconds": 120.0}
+{"command": ["unittest", "-v", "mapf.test_recovery", "mapf.test_day3"], "reserved_cpu_seconds": 90.0, "phase": "day3", "allocated_logical_cpus": 1, "wall_cap_seconds": 90.0}
+{"command": ["unittest", "-v", "mapf.test_recovery", "mapf.test_day3", "mapf.test_repair"], "reserved_cpu_seconds": 120.0, "phase": "repair-pilot", "allocated_logical_cpus": 1, "wall_cap_seconds": 120.0}
+{"command": ["unittest", "-v", "mapf.test_repair"], "reserved_cpu_seconds": 60.0, "phase": "repair-pilot", "allocated_logical_cpus": 1, "wall_cap_seconds": 60.0}
+{"command": ["mapf.repair_protocol"], "reserved_cpu_seconds": 30.0, "phase": "repair-pilot", "allocated_logical_cpus": 1, "wall_cap_seconds": 30.0}
+{"command": ["mapf.repair_pilot", "harvest"], "reserved_cpu_seconds": 240.0, "phase": "repair-pilot", "allocated_logical_cpus": 1, "wall_cap_seconds": 240.0}
+{"command": ["mapf.repair_pilot", "calibrate"], "reserved_cpu_seconds": 1800.0, "phase": "repair-pilot", "allocated_logical_cpus": 1, "wall_cap_seconds": 1800.0}
+{"command": ["mapf.repair_analysis", "analyze"], "reserved_cpu_seconds": 120.0, "phase": "repair-pilot", "allocated_logical_cpus": 1, "wall_cap_seconds": 120.0}
+{"command": ["mapf.repair_analysis", "train"], "reserved_cpu_seconds": 60.0, "phase": "repair-pilot", "allocated_logical_cpus": 1, "wall_cap_seconds": 60.0}
+{"command": ["unittest", "-v", "mapf.test_recovery", "mapf.test_day3", "mapf.test_repair"], "reserved_cpu_seconds": 120.0, "phase": "repair-pilot", "allocated_logical_cpus": 1, "wall_cap_seconds": 120.0}
+{"command": ["unittest", "mapf.test_recovery", "mapf.test_day3", "mapf.test_repair", "mapf.test_ml_revision", "-v"], "reserved_cpu_seconds": 120.0, "phase": "ml-revision", "allocated_logical_cpus": 1, "wall_cap_seconds": 120.0}
+{"command": ["unittest", "mapf.test_ml_revision", "-v"], "reserved_cpu_seconds": 90.0, "phase": "ml-revision", "allocated_logical_cpus": 1, "wall_cap_seconds": 90.0}
+{"command": ["unittest", "mapf.test_ml_revision", "-v"], "reserved_cpu_seconds": 45.0, "phase": "ml-revision", "allocated_logical_cpus": 1, "wall_cap_seconds": 45.0}
+{"command": ["mapf.ml_revision", "freeze"], "reserved_cpu_seconds": 15.0, "phase": "ml-revision", "allocated_logical_cpus": 1, "wall_cap_seconds": 15.0}
+{"command": ["mapf.ml_revision", "train-a"], "reserved_cpu_seconds": 60.0, "phase": "ml-revision", "allocated_logical_cpus": 1, "wall_cap_seconds": 60.0}
+{"command": ["mapf.ml_revision", "train-a"], "reserved_cpu_seconds": 60.0, "phase": "ml-revision", "allocated_logical_cpus": 1, "wall_cap_seconds": 60.0}
+{"command": ["mapf.ml_revision", "audit"], "reserved_cpu_seconds": 600.0, "phase": "ml-revision", "allocated_logical_cpus": 1, "wall_cap_seconds": 600.0}
+{"command": ["mapf.ml_revision", "bulk"], "reserved_cpu_seconds": 600.0, "phase": "ml-revision", "allocated_logical_cpus": 1, "wall_cap_seconds": 600.0}
+{"command": ["mapf.ml_revision", "train-b"], "reserved_cpu_seconds": 120.0, "phase": "ml-revision", "allocated_logical_cpus": 1, "wall_cap_seconds": 120.0}
+{"command": ["mapf.ml_revision", "evaluate"], "reserved_cpu_seconds": 1260.0, "phase": "ml-revision", "allocated_logical_cpus": 1, "wall_cap_seconds": 1260.0}
+{"command": ["repair_development_timing"], "reserved_cpu_seconds": 240.0, "phase": "ml-revision", "allocated_logical_cpus": 1, "wall_cap_seconds": 240.0}
+{"command": ["verify_ml_revision"], "reserved_cpu_seconds": 180.0, "phase": "ml-revision", "allocated_logical_cpus": 1, "wall_cap_seconds": 180.0}
+{"command": ["unittest", "-v", "mapf.test_recovery", "mapf.test_day3", "mapf.test_repair", "mapf.test_ml_revision"], "reserved_cpu_seconds": 120.0, "phase": "ml-revision", "allocated_logical_cpus": 1, "wall_cap_seconds": 120.0}
+{"command": ["mapf.ml_revision", "summarize"], "reserved_cpu_seconds": 30.0, "phase": "ml-revision", "allocated_logical_cpus": 1, "wall_cap_seconds": 30.0}
+{"command": ["unittest", "-v", "test_final_study"], "phase": "final-study", "allocated_logical_cpus": 1, "reserved_cpu_seconds": 90.0, "wall_cap_seconds": 90.0, "standby_prevention": "system and display request, released on controller exit"}
+{"command": ["final_study", "freeze"], "phase": "final-study", "allocated_logical_cpus": 1, "reserved_cpu_seconds": 15.0, "wall_cap_seconds": 15.0, "standby_prevention": "system and display request, released on controller exit"}
+{"command": ["final_study", "run"], "phase": "final-study", "allocated_logical_cpus": 1, "reserved_cpu_seconds": 9850.0, "wall_cap_seconds": 9850.0, "standby_prevention": "system and display request, released on controller exit"}
+{"command": ["final_study", "timing-plan"], "phase": "final-study", "allocated_logical_cpus": 1, "reserved_cpu_seconds": 15.0, "wall_cap_seconds": 15.0, "standby_prevention": "system and display request, released on controller exit"}
+{"command": ["final_study", "analyze"], "phase": "final-study", "allocated_logical_cpus": 1, "reserved_cpu_seconds": 120.0, "wall_cap_seconds": 120.0, "standby_prevention": "system and display request, released on controller exit"}
+{"command": ["verify_submission", "--skip-package"], "phase": "final-study", "allocated_logical_cpus": 1, "reserved_cpu_seconds": 120.0, "wall_cap_seconds": 120.0, "standby_prevention": "system and display request, released on controller exit"}
+{"command": ["demo_solver", "--policy", "model_b", "--output", "results/recovery/final_study/demo_model_b.json"], "phase": "final-study", "allocated_logical_cpus": 1, "reserved_cpu_seconds": 15.0, "wall_cap_seconds": 15.0, "standby_prevention": "system and display request, released on controller exit"}
+{"command": ["final_figures"], "phase": "final-study", "allocated_logical_cpus": 1, "reserved_cpu_seconds": 30.0, "wall_cap_seconds": 30.0, "standby_prevention": "system and display request, released on controller exit"}

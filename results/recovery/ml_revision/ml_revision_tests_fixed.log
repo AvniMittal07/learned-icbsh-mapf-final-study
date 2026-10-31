@@ -1,0 +1,21 @@
+test_model_inference_has_no_child_teacher (mapf.test_ml_revision.RevisionTests.test_model_inference_has_no_child_teacher) ... ok
+test_pool_always_contains_residual_winner_and_is_deterministic (mapf.test_ml_revision.RevisionTests.test_pool_always_contains_residual_winner_and_is_deterministic) ... ok
+test_revised_policies_preserve_tiny_independent_optima (mapf.test_ml_revision.RevisionTests.test_revised_policies_preserve_tiny_independent_optima) ... ok
+test_teacher_matches_actual_root_children (mapf.test_ml_revision.RevisionTests.test_teacher_matches_actual_root_children) ... ok
+test_three_agent_choices_match_independent_optima (mapf.test_ml_revision.RevisionTests.test_three_agent_choices_match_independent_optima) ... FAIL
+test_unknown_and_infeasibility_are_not_finite_penalties (mapf.test_ml_revision.RevisionTests.test_unknown_and_infeasibility_are_not_finite_penalties) ... ok
+
+======================================================================
+FAIL: test_three_agent_choices_match_independent_optima (mapf.test_ml_revision.RevisionTests.test_three_agent_choices_match_independent_optima)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\nidhi\Documents\Codex\2026-10-30\thi\work\phase3-final-review\mapf\test_ml_revision.py", line 107, in test_three_agent_choices_match_independent_optima
+    self.assertGreater(calls,0)
+AssertionError: 0 not greater than 0
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.109s
+
+FAILED (failures=1)
+Worker CPU seconds (excluding subprocesses): 0.2188; affinity=[0]
+{"exit_code": 1, "wall_seconds": 0.46097039998858236, "total_reserved_cpu_hours": 2.308333333333333}

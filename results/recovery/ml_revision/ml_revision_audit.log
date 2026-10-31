@@ -1,0 +1,51 @@
+harvest {'instance_id': 'random-32-32-20/family-08/k16', 'status': 'SOLVED', 'queries': 2, 'wall_seconds': 0.06715210000402294}
+harvest {'instance_id': 'room-32-32-4/family-08/k24', 'status': 'STATE_QUOTA', 'queries': 8, 'wall_seconds': 0.45839709998108447}
+harvest {'instance_id': 'warehouse-32-32-aisles/family-08/k32', 'status': 'STATE_QUOTA', 'queries': 8, 'wall_seconds': 0.5609168000228237}
+harvest {'instance_id': 'random-32-32-20/family-09/k24', 'status': 'STATE_QUOTA', 'queries': 8, 'wall_seconds': 0.6504604000074323}
+harvest {'instance_id': 'room-32-32-4/family-09/k32', 'status': 'STATE_QUOTA', 'queries': 8, 'wall_seconds': 0.9064660999865737}
+harvest {'instance_id': 'warehouse-32-32-aisles/family-09/k16', 'status': 'SOLVED', 'queries': 0, 'wall_seconds': 0.0453638999897521}
+harvest {'instance_id': 'random-32-32-20/family-10/k32', 'status': 'STATE_QUOTA', 'queries': 8, 'wall_seconds': 0.8140011000214145}
+harvest {'instance_id': 'room-32-32-4/family-10/k16', 'status': 'SOLVED', 'queries': 4, 'wall_seconds': 0.19873699999880046}
+harvest {'instance_id': 'warehouse-32-32-aisles/family-10/k24', 'status': 'SOLVED', 'queries': 0, 'wall_seconds': 0.10641639999812469}
+harvest {'instance_id': 'random-32-32-20/family-11/k16', 'status': 'STATE_QUOTA', 'queries': 8, 'wall_seconds': 0.11036520000197925}
+harvest {'instance_id': 'room-32-32-4/family-11/k24', 'status': 'STATE_QUOTA', 'queries': 8, 'wall_seconds': 0.3252156999951694}
+harvest {'instance_id': 'warehouse-32-32-aisles/family-11/k32', 'status': 'STATE_QUOTA', 'queries': 8, 'wall_seconds': 0.5700132000201847}
+harvest {'instance_id': 'random-32-32-20/family-12/k24', 'status': 'STATE_QUOTA', 'queries': 8, 'wall_seconds': 0.2443152000196278}
+harvest {'instance_id': 'room-32-32-4/family-12/k32', 'status': 'STATE_QUOTA', 'queries': 8, 'wall_seconds': 0.9058936999936122}
+harvest {'instance_id': 'warehouse-32-32-aisles/family-12/k16', 'status': 'SOLVED', 'queries': 0, 'wall_seconds': 0.020719299995107576}
+harvest {'instance_id': 'random-32-32-20/family-13/k32', 'status': 'STATE_QUOTA', 'queries': 8, 'wall_seconds': 0.9161985999962781}
+harvest {'instance_id': 'room-32-32-4/family-13/k16', 'status': 'STATE_QUOTA', 'queries': 8, 'wall_seconds': 0.14169960000435822}
+harvest {'instance_id': 'warehouse-32-32-aisles/family-13/k24', 'status': 'STATE_QUOTA', 'queries': 8, 'wall_seconds': 0.20209380000596866}
+label random-32-32-20/family-08/k16/pool-q0 ['COMPLETE', 'COMPLETE']
+label random-32-32-20/family-08/k16/pool-q1 ['COMPLETE', 'COMPLETE']
+label room-32-32-4/family-08/k24/pool-q0 ['COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE']
+label room-32-32-4/family-08/k24/pool-q1 ['COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE']
+label warehouse-32-32-aisles/family-08/k32/pool-q0 ['COMPLETE', 'COMPLETE']
+label warehouse-32-32-aisles/family-08/k32/pool-q1 ['COMPLETE', 'COMPLETE']
+label random-32-32-20/family-09/k24/pool-q0 ['COMPLETE', 'COMPLETE']
+label random-32-32-20/family-09/k24/pool-q1 ['COMPLETE', 'COMPLETE']
+label room-32-32-4/family-09/k32/pool-q0 ['COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE']
+label room-32-32-4/family-09/k32/pool-q1 ['COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE']
+label random-32-32-20/family-10/k32/pool-q0 ['COMPLETE', 'COMPLETE']
+label random-32-32-20/family-10/k32/pool-q1 ['COMPLETE', 'COMPLETE']
+label room-32-32-4/family-10/k16/pool-q0 ['COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE']
+label room-32-32-4/family-10/k16/pool-q1 ['COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE']
+label random-32-32-20/family-11/k16/pool-q0 ['COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE']
+label random-32-32-20/family-11/k16/pool-q1 ['COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE']
+label room-32-32-4/family-11/k24/pool-q0 ['COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE']
+label room-32-32-4/family-11/k24/pool-q1 ['COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE']
+label warehouse-32-32-aisles/family-11/k32/pool-q0 ['COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE']
+label warehouse-32-32-aisles/family-11/k32/pool-q1 ['COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE']
+label random-32-32-20/family-12/k24/pool-q0 ['COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE']
+label random-32-32-20/family-12/k24/pool-q1 ['COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE']
+label room-32-32-4/family-12/k32/pool-q0 ['COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE']
+label room-32-32-4/family-12/k32/pool-q1 ['COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE']
+label random-32-32-20/family-13/k32/pool-q0 ['COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE']
+label random-32-32-20/family-13/k32/pool-q1 ['COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE']
+label room-32-32-4/family-13/k16/pool-q0 ['COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE']
+label room-32-32-4/family-13/k16/pool-q1 ['COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'COMPLETE']
+label warehouse-32-32-aisles/family-13/k24/pool-q0 ['COMPLETE', 'COMPLETE']
+label warehouse-32-32-aisles/family-13/k24/pool-q1 ['COMPLETE', 'COMPLETE']
+{"queries": 30, "families": 15, "candidates": 132, "status_counts": {"COMPLETE": 132}, "fully_ranked_queries": 30, "fully_ranked_all_tied": 2, "residual_strictly_worse_queries": ["random-32-32-20/family-08/k16/pool-q0", "random-32-32-20/family-08/k16/pool-q1", "room-32-32-4/family-08/k24/pool-q1", "warehouse-32-32-aisles/family-08/k32/pool-q1", "room-32-32-4/family-09/k32/pool-q1", "room-32-32-4/family-10/k16/pool-q0", "random-32-32-20/family-11/k16/pool-q1", "room-32-32-4/family-11/k24/pool-q0", "warehouse-32-32-aisles/family-11/k32/pool-q0", "warehouse-32-32-aisles/family-11/k32/pool-q1", "random-32-32-20/family-12/k24/pool-q1", "random-32-32-20/family-13/k32/pool-q0", "random-32-32-20/family-13/k32/pool-q1", "room-32-32-4/family-13/k16/pool-q1", "warehouse-32-32-aisles/family-13/k24/pool-q1"], "informative_queries": 28, "informative_families": 15, "strict_pairs": 171, "identical_feature_strict_pairs": 0, "teacher_cpu_seconds": 5.46875, "verified_child_paths": 264, "bulk_allowed": true, "audit_query_ids": ["random-32-32-20/family-08/k16/pool-q0", "random-32-32-20/family-08/k16/pool-q1", "random-32-32-20/family-09/k24/pool-q0", "random-32-32-20/family-09/k24/pool-q1", "random-32-32-20/family-10/k32/pool-q0", "random-32-32-20/family-10/k32/pool-q1", "random-32-32-20/family-11/k16/pool-q0", "random-32-32-20/family-11/k16/pool-q1", "random-32-32-20/family-12/k24/pool-q0", "random-32-32-20/family-12/k24/pool-q1", "random-32-32-20/family-13/k32/pool-q0", "random-32-32-20/family-13/k32/pool-q1", "room-32-32-4/family-08/k24/pool-q0", "room-32-32-4/family-08/k24/pool-q1", "room-32-32-4/family-09/k32/pool-q0", "room-32-32-4/family-09/k32/pool-q1", "room-32-32-4/family-10/k16/pool-q0", "room-32-32-4/family-10/k16/pool-q1", "room-32-32-4/family-11/k24/pool-q0", "room-32-32-4/family-11/k24/pool-q1", "room-32-32-4/family-12/k32/pool-q0", "room-32-32-4/family-12/k32/pool-q1", "room-32-32-4/family-13/k16/pool-q0", "room-32-32-4/family-13/k16/pool-q1", "warehouse-32-32-aisles/family-08/k32/pool-q0", "warehouse-32-32-aisles/family-08/k32/pool-q1", "warehouse-32-32-aisles/family-11/k32/pool-q0", "warehouse-32-32-aisles/family-11/k32/pool-q1", "warehouse-32-32-aisles/family-13/k24/pool-q0", "warehouse-32-32-aisles/family-13/k24/pool-q1"]}
+Worker CPU seconds (excluding subprocesses): 15.4062; affinity=[0]
+{"exit_code": 0, "wall_seconds": 16.983793599996716, "total_reserved_cpu_hours": 2.525}

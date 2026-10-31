@@ -1,0 +1,38 @@
+{
+  "random-32-32-20": {
+    "residual": {
+      "runs": 8,
+      "solved": 8,
+      "mean_capped_seconds": 1.216416212504555
+    },
+    "model_b": {
+      "runs": 8,
+      "solved": 8,
+      "mean_capped_seconds": 2.0251888999991934
+    }
+  },
+  "room-32-32-4": {
+    "residual": {
+      "runs": 8,
+      "solved": 2,
+      "mean_capped_seconds": 6.760656437498255
+    },
+    "model_b": {
+      "runs": 8,
+      "solved": 2,
+      "mean_capped_seconds": 7.04273432500122
+    }
+  },
+  "warehouse-32-32-aisles": {
+    "residual": {
+      "runs": 8,
+      "solved": 4,
+      "mean_capped_seconds": 4.197970937500941
+    },
+    "model_b": {
+      "runs": 8,
+      "solved": 4,
+      "mean_capped_seconds": 4.2021427625040815
+    }
+  }
+}

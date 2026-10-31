@@ -1,0 +1,4 @@
+Matplotlib is building the font cache; this may take a moment.
+{"png": "results\\recovery\\final_study\\figures\\final_runtime.png", "svg": "results\\recovery\\final_study\\figures\\final_runtime.svg", "matplotlib": "3.11.2"}
+Worker CPU seconds (excluding subprocesses): 4.2188; affinity=[0]
+{"exit_code": 0, "wall_seconds": 18.260078600025736, "phase_reserved_cpu_hours": 2.848611111111111, "total_reserved_cpu_hours": 6.081944444444445}

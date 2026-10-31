@@ -1,0 +1,22 @@
+test_exhaustive_two_agent_optimality (mapf.test_recovery.RecoveryTests.test_exhaustive_two_agent_optimality) ... ok
+test_full_and_single_agent_detection (mapf.test_recovery.RecoveryTests.test_full_and_single_agent_detection) ... ok
+test_incremental_detector_matches_full (mapf.test_recovery.RecoveryTests.test_incremental_detector_matches_full) ... ok
+test_initial_collisions_and_invalid_instances (mapf.test_recovery.RecoveryTests.test_initial_collisions_and_invalid_instances) ... ok
+test_initial_constraints_not_truncated (mapf.test_recovery.RecoveryTests.test_initial_constraints_not_truncated) ... ok
+test_invalid_ranker_fails (mapf.test_recovery.RecoveryTests.test_invalid_ranker_fails) ... ok
+test_isolated_runner_and_hard_timeout (mapf.test_recovery.RecoveryTests.test_isolated_runner_and_hard_timeout) ... ok
+test_late_constraints_and_explicit_horizon (mapf.test_recovery.RecoveryTests.test_late_constraints_and_explicit_horizon) ... ok
+test_missing_model_is_explicit (mapf.test_recovery.RecoveryTests.test_missing_model_is_explicit) ... ok
+test_mvc_all_five_vertex_graphs (mapf.test_recovery.RecoveryTests.test_mvc_all_five_vertex_graphs) ... ok
+test_native_model_roundtrip (mapf.test_recovery.RecoveryTests.test_native_model_roundtrip) ... ok
+test_residual_is_lower_bound_on_child_progress (mapf.test_recovery.RecoveryTests.test_residual_is_lower_bound_on_child_progress) ... ok
+test_seeded_three_agent_and_guarded_selection (mapf.test_recovery.RecoveryTests.test_seeded_three_agent_and_guarded_selection) ... ok
+test_subset_and_child_context_counts (mapf.test_recovery.RecoveryTests.test_subset_and_child_context_counts) ... ok
+test_undefined_correlation_and_target_direction (mapf.test_recovery.RecoveryTests.test_undefined_correlation_and_target_direction) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 17.508s
+
+OK
+Worker CPU seconds (excluding subprocesses): 2.2969; affinity=[0, 1]
+{"exit_code": 0, "wall_seconds": 19.32448629999999, "total_reserved_cpu_hours": 0.75}

@@ -1,0 +1,4 @@
+[PASS] Extracted 24 features across 2 conflicts successfully.
+[PASS] Optimality invariant verified: Cost=20 (PlainCBS nodes=34, PlainICBSh nodes=13)
+Worker CPU seconds (excluding subprocesses): 0.1094; affinity=[0, 1]
+{"exit_code": 0, "wall_seconds": 0.2593213000218384, "total_reserved_cpu_hours": 1.0}

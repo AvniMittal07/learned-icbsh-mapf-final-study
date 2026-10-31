@@ -1,0 +1,13 @@
+test_component_sampling_excludes_disconnected_cells (mapf.test_day3.Day3Tests.test_component_sampling_excludes_disconnected_cells) ... ok
+test_frozen_family_splits_and_integrity (mapf.test_day3.Day3Tests.test_frozen_family_splits_and_integrity) ... ok
+test_gate_boundaries_and_no_training_after_failure (mapf.test_day3.Day3Tests.test_gate_boundaries_and_no_training_after_failure) ... ok
+test_no_invented_censored_preferences (mapf.test_day3.Day3Tests.test_no_invented_censored_preferences) ... ok
+test_partial_order_sign_and_antisymmetry (mapf.test_day3.Day3Tests.test_partial_order_sign_and_antisymmetry) ... ok
+test_query_metrics_ignore_unobserved_and_half_credit_ties (mapf.test_day3.Day3Tests.test_query_metrics_ignore_unobserved_and_half_credit_ties) ... ok
+Worker CPU seconds (excluding subprocesses): 0.2812; affinity=[0]
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.078s
+
+OK
+{"exit_code": 0, "wall_seconds": 0.66886710000108, "total_reserved_cpu_hours": 1.4833333333333334}

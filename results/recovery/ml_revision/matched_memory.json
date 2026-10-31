@@ -1,0 +1,70 @@
+{
+  "model_a": {
+    "jointly_solved_families": 7,
+    "median_family_peak_memory_ratio": 1.1007378689344671,
+    "rows": [
+      {
+        "instance_id": "random-32-32-20/family-20/k16",
+        "ratio": 1.1050892686955969
+      },
+      {
+        "instance_id": "random-32-32-20/family-21/k24",
+        "ratio": 1.1110564573427337
+      },
+      {
+        "instance_id": "random-32-32-20/family-22/k32",
+        "ratio": 1.1627865961199295
+      },
+      {
+        "instance_id": "random-32-32-20/family-23/k16",
+        "ratio": 1.0515860503247778
+      },
+      {
+        "instance_id": "room-32-32-4/family-22/k16",
+        "ratio": 1.0875513766116773
+      },
+      {
+        "instance_id": "warehouse-32-32-aisles/family-21/k16",
+        "ratio": 1.0887859244881348
+      },
+      {
+        "instance_id": "warehouse-32-32-aisles/family-22/k24",
+        "ratio": 1.1007378689344671
+      }
+    ]
+  },
+  "model_b": {
+    "jointly_solved_families": 7,
+    "median_family_peak_memory_ratio": 1.1054069508863333,
+    "rows": [
+      {
+        "instance_id": "random-32-32-20/family-20/k16",
+        "ratio": 1.1054069508863333
+      },
+      {
+        "instance_id": "random-32-32-20/family-21/k24",
+        "ratio": 1.1810132808657157
+      },
+      {
+        "instance_id": "random-32-32-20/family-22/k32",
+        "ratio": 1.150734861845973
+      },
+      {
+        "instance_id": "random-32-32-20/family-23/k16",
+        "ratio": 1.0516491139559816
+      },
+      {
+        "instance_id": "room-32-32-4/family-22/k16",
+        "ratio": 1.1088339620516863
+      },
+      {
+        "instance_id": "warehouse-32-32-aisles/family-21/k16",
+        "ratio": 1.0880345626447936
+      },
+      {
+        "instance_id": "warehouse-32-32-aisles/family-22/k24",
+        "ratio": 1.1033641820910456
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+test_forced_action_and_cap_are_explicit (mapf.test_repair.RepairTests.test_forced_action_and_cap_are_explicit) ... ok
+test_forced_continuations_match_independent_optima (mapf.test_repair.RepairTests.test_forced_continuations_match_independent_optima) ... ok
+test_guard_order_unique_and_model_input (mapf.test_repair.RepairTests.test_guard_order_unique_and_model_input) ... ok
+test_invalid_saved_paths_and_goal_constraints_rejected (mapf.test_repair.RepairTests.test_invalid_saved_paths_and_goal_constraints_rejected) ... ok
+test_nonroot_continuation_matches_constrained_solve (mapf.test_repair.RepairTests.test_nonroot_continuation_matches_constrained_solve) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.032s
+
+OK
+Worker CPU seconds (excluding subprocesses): 0.2031; affinity=[0]
+{"exit_code": 0, "wall_seconds": 0.6122059000190347, "total_reserved_cpu_hours": 1.5916666666666666}

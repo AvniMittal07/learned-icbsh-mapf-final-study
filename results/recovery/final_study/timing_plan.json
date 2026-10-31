@@ -1,0 +1,9 @@
+{
+  "affected_instance_ids": [],
+  "fault_job_ids": [],
+  "replacement_jobs": [],
+  "replacement_count": 0,
+  "nominal_seconds": 0,
+  "rule": "wall > cap + 1 second; preserve initial attempt and rerun all 12 runs for that instance once within remaining phase budget, otherwise report invalid timing",
+  "created_utc": "2026-10-31T17:00:51.634074+00:00"
+}

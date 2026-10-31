@@ -1,0 +1,22 @@
+{
+  "trained": true,
+  "model_path": "results/recovery/ml_revision/model_a.json",
+  "training_pairs": 27,
+  "informative_training_queries": 10,
+  "informative_training_families": 6,
+  "serialization_max_abs_error": 0.0,
+  "evaluations": {
+    "train": {
+      "queries": 10,
+      "families": 6,
+      "pairs": 27,
+      "family_macro_pair_accuracy": 0.8194444444444444
+    },
+    "validation": {
+      "queries": 9,
+      "families": 4,
+      "pairs": 21,
+      "family_macro_pair_accuracy": 0.611111111111111
+    }
+  }
+}

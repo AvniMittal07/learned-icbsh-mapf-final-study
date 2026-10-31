@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\nidhi\Documents\Codex\2026-10-30\thi\work\phase3-final-review\mapf\budget_worker.py", line 15, in <module>
+    runpy.run_module(module, run_name='__main__', alter_sys=True)
+  File "<frozen runpy>", line 226, in run_module
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\nidhi\Documents\Codex\2026-10-30\thi\work\phase3-final-review\mapf\ml_revision.py", line 393, in <module>
+    else:{'train-a':train_a,'audit':audit_stage,'bulk':bulk,'train-b':train_b,'evaluate':evaluate,'summarize':summarize}[stage](protocol())
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nidhi\Documents\Codex\2026-10-30\thi\work\phase3-final-review\mapf\ml_revision.py", line 289, in train_a
+    validate_solution(grid,starts,goals,label['solution_paths'],label['solution_cost'])
+  File "C:\Users\nidhi\Documents\Codex\2026-10-30\thi\work\phase3-final-review\mapf\validation.py", line 17, in validate_solution
+    raise ValueError('Path endpoints do not match instance')
+ValueError: Path endpoints do not match instance
+Worker CPU seconds (excluding subprocesses): 0.2812; affinity=[0]
+{"exit_code": 1, "wall_seconds": 0.6538836000254378, "total_reserved_cpu_hours": 2.341666666666667}

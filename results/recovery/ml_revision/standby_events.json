@@ -1,0 +1,42 @@
+[
+  {
+    "time_utc": "2026-10-31T06:56:37.3772940Z",
+    "Id": 507,
+    "Message": "The system is exiting Modern Standby \r\n\r\nReason: Input Touchpad."
+  },
+  {
+    "time_utc": "2026-10-31T06:53:13.4192436Z",
+    "Id": 506,
+    "Message": "The system is entering Modern Standby \r\n\r\nReason: Idle Timeout."
+  },
+  {
+    "time_utc": "2026-10-31T06:47:44.1684387Z",
+    "Id": 507,
+    "Message": "The system is exiting Modern Standby \r\n\r\nReason: Input Touchpad."
+  },
+  {
+    "time_utc": "2026-10-31T06:44:13.4432831Z",
+    "Id": 506,
+    "Message": "The system is entering Modern Standby \r\n\r\nReason: Idle Timeout."
+  },
+  {
+    "time_utc": "2026-10-31T06:28:55.4933050Z",
+    "Id": 507,
+    "Message": "The system is exiting Modern Standby \r\n\r\nReason: Input Touchpad."
+  },
+  {
+    "time_utc": "2026-10-31T06:13:50.1432281Z",
+    "Id": 506,
+    "Message": "The system is entering Modern Standby \r\n\r\nReason: User Display Burst."
+  },
+  {
+    "time_utc": "2026-10-31T06:13:24.1057949Z",
+    "Id": 507,
+    "Message": "The system is exiting Modern Standby \r\n\r\nReason: User Display Burst."
+  },
+  {
+    "time_utc": "2026-10-31T06:13:08.5484921Z",
+    "Id": 506,
+    "Message": "The system is entering Modern Standby \r\n\r\nReason: 16777220."
+  }
+]

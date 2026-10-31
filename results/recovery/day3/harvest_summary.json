@@ -1,0 +1,128 @@
+[
+  {
+    "instance_id": "random-32-32-20/family-00/k24",
+    "status": "SOLVED",
+    "captured": 7,
+    "selected": 2,
+    "wall_seconds": 0.26735439998446964
+  },
+  {
+    "instance_id": "random-32-32-20/family-01/k32",
+    "status": "STATE_QUOTA",
+    "captured": 8,
+    "selected": 2,
+    "wall_seconds": 0.4661989999876823
+  },
+  {
+    "instance_id": "random-32-32-20/family-02/k24",
+    "status": "STATE_QUOTA",
+    "captured": 8,
+    "selected": 2,
+    "wall_seconds": 0.15627249999670312
+  },
+  {
+    "instance_id": "random-32-32-20/family-03/k32",
+    "status": "SOLVED",
+    "captured": 5,
+    "selected": 2,
+    "wall_seconds": 0.4277801999996882
+  },
+  {
+    "instance_id": "random-32-32-20/family-20/k24",
+    "status": "SOLVED",
+    "captured": 7,
+    "selected": 2,
+    "wall_seconds": 0.24852940000710078
+  },
+  {
+    "instance_id": "random-32-32-20/family-21/k32",
+    "status": "STATE_QUOTA",
+    "captured": 8,
+    "selected": 2,
+    "wall_seconds": 0.34592069999780506
+  },
+  {
+    "instance_id": "room-32-32-4/family-00/k24",
+    "status": "STATE_QUOTA",
+    "captured": 8,
+    "selected": 2,
+    "wall_seconds": 0.27465720000327565
+  },
+  {
+    "instance_id": "room-32-32-4/family-01/k32",
+    "status": "STATE_QUOTA",
+    "captured": 8,
+    "selected": 2,
+    "wall_seconds": 0.8952218000194989
+  },
+  {
+    "instance_id": "room-32-32-4/family-02/k24",
+    "status": "STATE_QUOTA",
+    "captured": 8,
+    "selected": 2,
+    "wall_seconds": 0.4976254000212066
+  },
+  {
+    "instance_id": "room-32-32-4/family-03/k32",
+    "status": "STATE_QUOTA",
+    "captured": 8,
+    "selected": 2,
+    "wall_seconds": 0.41105789999710396
+  },
+  {
+    "instance_id": "room-32-32-4/family-20/k24",
+    "status": "STATE_QUOTA",
+    "captured": 8,
+    "selected": 2,
+    "wall_seconds": 0.3109843000129331
+  },
+  {
+    "instance_id": "room-32-32-4/family-21/k32",
+    "status": "STATE_QUOTA",
+    "captured": 8,
+    "selected": 2,
+    "wall_seconds": 0.7611401999893133
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-00/k24",
+    "status": "STATE_QUOTA",
+    "captured": 8,
+    "selected": 2,
+    "wall_seconds": 0.3483406000013929
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-01/k32",
+    "status": "STATE_QUOTA",
+    "captured": 8,
+    "selected": 2,
+    "wall_seconds": 0.47306639997987077
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-02/k24",
+    "status": "SOLVED",
+    "captured": 1,
+    "selected": 1,
+    "wall_seconds": 0.24657090002438053
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-03/k32",
+    "status": "STATE_QUOTA",
+    "captured": 8,
+    "selected": 2,
+    "wall_seconds": 0.5303302000102121
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-20/k24",
+    "status": "SOLVED",
+    "captured": 2,
+    "selected": 2,
+    "wall_seconds": 0.11453620000975206
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/family-21/k32",
+    "status": "STATE_QUOTA",
+    "captured": 8,
+    "selected": 2,
+    "wall_seconds": 0.5003549999964889
+  }
+]

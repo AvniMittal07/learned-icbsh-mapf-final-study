@@ -1,0 +1,10 @@
+{
+  "processor": "Intel(R) Core(TM) Ultra 5 125H",
+  "physical_cores": 14,
+  "logical_processors": 18,
+  "ram_bytes": 16641941504,
+  "os": "Microsoft Windows 11 Home Single Language",
+  "os_version": "10.0.26200",
+  "benchmark_logical_cpu": 0,
+  "numerical_threads": 1
+}

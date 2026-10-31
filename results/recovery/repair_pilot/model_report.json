@@ -1,0 +1,38 @@
+{
+  "trained": false,
+  "reason": "Frozen label-quality gate failed; no model fit or model selection performed",
+  "gate": {
+    "passed": false,
+    "metrics": {
+      "train_informative_queries": 10,
+      "train_families": 6,
+      "validation_informative_queries": 9,
+      "validation_families": 4,
+      "maps_with_informative_queries": 3,
+      "informative_fraction": 0.3584905660377358,
+      "replay_mismatches": 0
+    },
+    "failed_checks": [
+      {
+        "metric": "train_informative_queries",
+        "observed": 10,
+        "required_minimum": 12
+      },
+      {
+        "metric": "informative_fraction",
+        "observed": 0.3584905660377358,
+        "required_minimum": 0.4
+      }
+    ],
+    "thresholds": {
+      "min_train_informative_queries": 12,
+      "min_train_families": 6,
+      "min_validation_informative_queries": 6,
+      "min_validation_families": 3,
+      "min_maps_with_informative_queries": 2,
+      "min_informative_fraction": 0.4,
+      "replay_mismatches_allowed": 0
+    }
+  },
+  "test_evaluated": false
+}

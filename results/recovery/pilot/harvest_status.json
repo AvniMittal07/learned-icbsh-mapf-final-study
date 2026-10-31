@@ -1,0 +1,56 @@
+[
+  {
+    "instance_id": "random-32-32-20/pilot-0",
+    "queries": 0,
+    "status": "SOLVED",
+    "wall_seconds": 0.0015641999780200422
+  },
+  {
+    "instance_id": "random-32-32-20/pilot-1",
+    "queries": 0,
+    "status": "SOLVED",
+    "wall_seconds": 0.05746389998239465
+  },
+  {
+    "instance_id": "random-32-32-20/pilot-2",
+    "queries": 0,
+    "status": "SOLVED",
+    "wall_seconds": 0.024087300000246614
+  },
+  {
+    "instance_id": "room-32-32-4/pilot-0",
+    "queries": 5,
+    "status": "SOLVED",
+    "wall_seconds": 1.1354821000131778
+  },
+  {
+    "instance_id": "room-32-32-4/pilot-1",
+    "queries": 6,
+    "status": "SOLVED",
+    "wall_seconds": 1.549438599991845
+  },
+  {
+    "instance_id": "room-32-32-4/pilot-2",
+    "queries": 10,
+    "status": "QUERY_QUOTA",
+    "wall_seconds": 4.968474900000729
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/pilot-0",
+    "queries": 0,
+    "status": "SOLVED",
+    "wall_seconds": 0.0009472999954596162
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/pilot-1",
+    "queries": 0,
+    "status": "SOLVED",
+    "wall_seconds": 0.030499200016492978
+  },
+  {
+    "instance_id": "warehouse-32-32-aisles/pilot-2",
+    "queries": 2,
+    "status": "MAX_EXPANSIONS",
+    "wall_seconds": 1.4619595000112895
+  }
+]

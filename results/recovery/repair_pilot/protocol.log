@@ -1,0 +1,3 @@
+{"instances": 18, "protocol_sha256": "5127e81046ac4361644524f6939daeb60d2922a571b784a0bad6dabac66f9fca", "thresholds_unchanged": true, "test_evaluated": false}
+Worker CPU seconds (excluding subprocesses): 0.1875; affinity=[0]
+{"exit_code": 0, "wall_seconds": 0.3843168999883346, "total_reserved_cpu_hours": 1.6}
