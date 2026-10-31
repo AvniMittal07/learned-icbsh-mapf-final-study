@@ -1,11 +1,11 @@
 # Final Research Report: Machine-Learned Conflict Prioritization for ICBS-h in Multi-Agent Path Finding (CL-ICBS-h)
 
-**Project:** DAC 203 Artificial Intelligence — Project 6  
+**Project:** DAC 203 Artificial Intelligence 
 **Repository:** `learned-icbsh-mapf`  
 **Branch:** `phase3-cl-icbsh`  
 **Artifact:** `results/FINAL_REPORT.md`  
 **Date:** October 2026  
-**Target Environment:** 8–16 logical core CPU workstation (AMD Ryzen / Intel Core i7 class), CPU-bound tree search.  
+*
 
 ---
 
